@@ -32,3 +32,12 @@ if(myInfo.country==="kanada"||myInfo.country==="Afghanistan"){
      
     console.log('you are from afghanistan')
 }
+// function whit argument and parametr
+let info = "my name is Shikeba ";
+let info2 = "my father's name is Asadullah";
+function AllInfo(name,fatherName){
+    console.log(name+fatherName);
+}
+AllInfo(info, info2);
+AllInfo(34,78);
+ AllInfo("Hello everyone " ,"how are you");

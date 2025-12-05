@@ -92,4 +92,16 @@ if(numberget==="array numbers"){
      popNumbr.pop();
     console.log(popNumbr)
 }
+// array method SLICE and FINDs
+const listStudents = ["fatima","fahima","ferishta","shikeba","amir","mohammad","simir"];
+const  partStudents = listStudents.slice(1,5);
+const students = partStudents.find(student=>{
+    return student =="shikeba"
+})
+console.log(students);
+// method includs and filter
+const studentName = listStudents.filter((nams)=>{
+    return nams.includes("a");
+})
+console.log(studentName);
 
