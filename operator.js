@@ -122,10 +122,13 @@ else{
     alert("you both have the same choice")
 }
 
-// Number 
-function(number1, number2){
-    
-}
+// Number ParseInt
+let Number = "12";
+let number2 = 30;
+parseInt.Number
+let numbers = Number*number2;
+console.log(numbers);
+
 
 
 
