@@ -128,7 +128,7 @@ else if(player===Rock&&randomNumber==="Sissores"||(player===Paper&&randomNumber=
     alert("you won")
 }
 else{
-    alert("computer won")
+    alert("ypu both have the same choice")
 }
 
 
