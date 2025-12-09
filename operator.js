@@ -104,4 +104,5 @@
 //     return nams.includes("a");
 // })
 // console.log(studentName);
+let computer = Math.random();
 
