@@ -73,35 +73,35 @@
 // }
 // adding(2,45,1,12,13,14)
 
-// method push
+// // method push
 
-const mainNumber =[12,45,32];
-const interNumber = Number(prompt("enter a number that you eant to collect togrther"));
-mainNumber.push(interNumber);
-let AllNumbers =0;
-for(let sum =0; sum<mainNumber.length ; sum++){
+// const mainNumber =[12,45,32];
+// const interNumber = Number(prompt("enter a number that you eant to collect togrther"));
+// mainNumber.push(interNumber);
+// let AllNumbers =0;
+// for(let sum =0; sum<mainNumber.length ; sum++){
 
-AllNumbers = AllNumbers+ mainNumber[sum];
-console.log(AllNumbers);
-};
+// AllNumbers = AllNumbers+ mainNumber[sum];
+// console.log(AllNumbers);
+// };
 
-// method pop
-const numberget = "array numbers"
-const popNumbr = [12,45,2,45,677,78,78,64,87,87];
-if(numberget==="array numbers"){
-     popNumbr.pop();
-    console.log(popNumbr)
-}
-// array method SLICE and FINDs
-const listStudents = ["fatima","fahima","ferishta","shikeba","amir","mohammad","simir"];
-const  partStudents = listStudents.slice(1,5);
-const students = partStudents.find(student=>{
-    return student =="shikeba"
-})
-console.log(students);
-// method includs and filter
-const studentName = listStudents.filter((nams)=>{
-    return nams.includes("a");
-})
-console.log(studentName);
+// // method pop
+// const numberget = "array numbers"
+// const popNumbr = [12,45,2,45,677,78,78,64,87,87];
+// if(numberget==="array numbers"){
+//      popNumbr.pop();
+//     console.log(popNumbr)
+// }
+// // array method SLICE and FINDs
+// const listStudents = ["fatima","fahima","ferishta","shikeba","amir","mohammad","simir"];
+// const  partStudents = listStudents.slice(1,5);
+// const students = partStudents.find(student=>{
+//     return student =="shikeba"
+// })
+// console.log(students);
+// // method includs and filter
+// const studentName = listStudents.filter((nams)=>{
+//     return nams.includes("a");
+// })
+// console.log(studentName);
 
