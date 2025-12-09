@@ -104,5 +104,7 @@
 //     return nams.includes("a");
 // })
 // console.log(studentName);
-let computer = Math.random();
+let randomNumber = Math.random();
+let computer = "";
+let player = prompt("chooce Rock Paper or Sissores")
 
