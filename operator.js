@@ -124,7 +124,9 @@ else{
 if(randomNumber>60&&player===Paper||(randomNumber>30&&player===Sissores)||randomNumber<30&&player===Rock){
     alert("computer won");
 }
-else if(player===Rock&&randomNumber==="Sissores"||(player===Paper&&randomNumber==="Rock")||(player===Sissores&&randomNumber==="Paper"))
+else if(player===Rock&&randomNumber==="Sissores"||(player===Paper&&randomNumber==="Rock")||(player===Sissores&&randomNumber==="Paper")){
+    alert("you won")
+}
 else{
     alert("computer won")
 }
