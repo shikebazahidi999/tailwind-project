@@ -119,7 +119,7 @@ else if((player===Rock&&randomNumber>60)||(player===Paper&&randomNumber>30)||(pl
     alert("you won")
 }
 else{
-    ("you both have the same choice")
+    alert("you both have the same choice")
 }
 
 
