@@ -104,8 +104,9 @@
 //     return nams.includes("a");
 // })
 // console.log(studentName);
+let computer ="";
 let randomNumber = Math.random()*100;
-let computer = "";
+
 let player = prompt("chooce Rock Paper or Sissores");
 const Sissores = "Sissores";
 const Paper = "Paper";
@@ -114,6 +115,7 @@ const Rock = "Rock";
 if(randomNumber>60&&player===Sissores||(randomNumber>30&&player===Paper)||randomNumber<30&&player===Rock){
     alert("You won");
 }
+else if()
 else{
     alert("computer won")
 }
