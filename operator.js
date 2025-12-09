@@ -111,24 +111,15 @@ let player = prompt("chooce Rock Paper or Sissores");
 const Sissores = "Sissores";
 const Paper = "Paper";
 const Rock = "Rock";
-if(randomNumber>60){
-    randomNumber+="Sissores"
-}
-else if(randomNumber>30){
-    randomNumber+="Rock";
 
-}
-else{
-    randomNumber+="Paper"
-}
-if(randomNumber>60&&player===Paper||(randomNumber>30&&player===Sissores)||randomNumber<30&&player===Rock){
+if((randomNumber>60&&player===Paper)||(randomNumber>30&&player===Sissores)||(randomNumber<30&&player===Rock)){
     alert("computer won");
 }
-else if(player===Rock&&randomNumber==="Sissores"||(player===Paper&&randomNumber==="Rock")||(player===Sissores&&randomNumber==="Paper")){
+else if((player===Rock&&randomNumber>60)||(player===Paper&&randomNumber>30)||(player===Sissores&&randomNumber<30)){
     alert("you won")
 }
 else{
-    alert("ypu both have the same choice")
+    ("you both have the same choice")
 }
 
 
