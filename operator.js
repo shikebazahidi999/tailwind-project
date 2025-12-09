@@ -111,7 +111,11 @@ const Sissores = "Sissores";
 const Paper = "Paper";
 const Rock = "Rock";
 
-if((randomNumber>60&&player===Sissores)||(randomNumber>30&&player===Paper)||randomNumber<30&&player===Rock{
-    alert("You won")
-})
+if(randomNumber>60&&player===Sissores||(randomNumber>30&&player===Paper)||randomNumber<30&&player===Rock){
+    alert("You won");
+}
+else{
+    alert("computer won")
+}
+
 
