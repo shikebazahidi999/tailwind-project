@@ -107,6 +107,9 @@
 let randomNumber = Math.random()*100;
 let computer = "";
 let player = prompt("chooce Rock Paper or Sissores");
+const Sissores = "Sissores";
+const Paper = "Paper";
+const Rock = "Rock";
 
 if(randomNumber>80)
 
