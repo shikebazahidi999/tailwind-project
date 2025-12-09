@@ -128,6 +128,12 @@ let number2 = 30;
 parseInt.Number
 let numbers = Number*number2;
 console.log(numbers);
+// another ways for changing string to number
+const num = "13";
+console.log(-num);
+console.log(+num)
+
+
 
 
 
