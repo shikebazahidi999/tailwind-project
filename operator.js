@@ -122,4 +122,10 @@ else{
     alert("you both have the same choice")
 }
 
+// Number 
+function(number1, number2){
+    
+}
+
+
 
