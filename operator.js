@@ -104,6 +104,8 @@
 //     return nams.includes("a");
 // })
 // console.log(studentName);
+
+// بازی سنگ کاغذ قیچی توسط random
 let computer ="";
 let randomNumber = Math.random()*100;
 
@@ -131,10 +133,8 @@ console.log(numbers);
 // another ways for changing string to number
 const num = "13";
 console.log(-num);
-console.log(+num)
-
-
-
-
-
-
+console.log(+num);
+// the way to change the double number to integer/or integer to double or flout
+let Changer = 90.3;
+parseInt.Changer
+console.log(Changer)
