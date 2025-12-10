@@ -380,6 +380,9 @@
   .resize {
     resize: both;
   }
+  .items-baseline-last {
+    align-items: last baseline;
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
