@@ -383,6 +383,9 @@
   .items-baseline-last {
     align-items: last baseline;
   }
+  .items-center {
+    align-items: center;
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
