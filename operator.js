@@ -105,36 +105,68 @@
 // })
 // console.log(studentName);
 
-// بازی سنگ کاغذ قیچی توسط random
-let computer ="";
-let randomNumber = Math.random()*100;
+// // بازی سنگ کاغذ قیچی توسط random
+// let computer ="";
+// let randomNumber = Math.random()*100;
 
-let player = prompt("chooce Rock Paper or Sissores");
-const Sissores = "Sissores";
-const Paper = "Paper";
-const Rock = "Rock";
+// let player = prompt("chooce Rock Paper or Sissores");
+// const Sissores = "Sissores";
+// const Paper = "Paper";
+// const Rock = "Rock";
 
-if((randomNumber>60&&player===Paper)||(randomNumber>30&&player===Sissores)||(randomNumber<30&&player===Rock)){
-    alert("computer won");
-}
-else if((player===Rock&&randomNumber>60)||(player===Paper&&randomNumber>30)||(player===Sissores&&randomNumber<30)){
-    alert("you won")
+// if((randomNumber>60&&player===Paper)||(randomNumber>30&&player===Sissores)||(randomNumber<30&&player===Rock)){
+//     alert("computer won");
+// }
+// else if((player===Rock&&randomNumber>60)||(player===Paper&&randomNumber>30)||(player===Sissores&&randomNumber<30)){
+//     alert("you won")
+// }
+// else{
+//     alert("you both have the same choice")
+// }
+
+// // Number ParseInt
+// let Number = "12";
+// let number2 = 30;
+// parseInt.Number
+// let numbers = Number*number2;
+// console.log(numbers);
+// // another ways for changing string to number
+// const num = "13";
+// console.log(-num);
+// console.log(+num);
+// // the way to change the double number to integer/or integer to double or flout
+// let Changer = 90.3;
+// parseInt.Changer
+// console.log(Changer)
+
+// trim
+
+const name = prompt("inter your name and your number to show in wich group are you in");
+const trimedname = name.trim();
+if(trimedname.lenght>2&&trimedname.lenght<15||trimedname.includes("a")){
+    console.log("you have a valid name")
 }
 else{
-    alert("you both have the same choice")
-}
+    console.log("your name is not valid")
+};
+// truthy and falsy values
+ const text = "hello";
+ if(text){
+    console.log("this is a texts")
+ }
+ else{
+    console.log("this is not a text")
+ };
+ const number = 0;
+ const  resuiltNumber = number?"this is a number":"this is not a number";
+ console.log(resuiltNumber);
+//  rediuce function 
 
-// Number ParseInt
-let Number = "12";
-let number2 = 30;
-parseInt.Number
-let numbers = Number*number2;
-console.log(numbers);
-// another ways for changing string to number
-const num = "13";
-console.log(-num);
-console.log(+num);
-// the way to change the double number to integer/or integer to double or flout
-let Changer = 90.3;
-parseInt.Changer
-console.log(Changer)
+function add(...a){
+   return a.reduce((intialvalu,mainnumber)=>{
+        return intialvalu+mainnumber
+    },0)
+}
+const total = add(4,3,2);
+console.log(total)
+// function map
