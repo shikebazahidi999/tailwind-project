@@ -139,7 +139,7 @@
 // parseInt.Changer
 // console.log(Changer)
 
-// trim
+// trim for text
 
 const name = prompt("inter your name and your number to show in wich group are you in");
 const trimedname = name.trim();
