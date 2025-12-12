@@ -170,3 +170,4 @@ function add(...a){
 const total = add(4,3,2);
 console.log(total)
 // function map
+263
