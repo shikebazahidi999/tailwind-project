@@ -300,17 +300,29 @@
   .ml-40 {
     margin-left: calc(var(--spacing) * 40);
   }
+  .ml-64 {
+    margin-left: calc(var(--spacing) * 64);
+  }
   .ml-96 {
     margin-left: calc(var(--spacing) * 96);
   }
   .ml-\[400px\] {
     margin-left: 400px;
   }
+  .ml-\[500px\] {
+    margin-left: 500px;
+  }
   .ml-\[600px\] {
     margin-left: 600px;
   }
   .ml-\[700px\] {
     margin-left: 700px;
+  }
+  .ml-\[750px\] {
+    margin-left: 750px;
+  }
+  .ml-\[800px\] {
+    margin-left: 800px;
   }
   .inline-block {
     display: inline-block;
