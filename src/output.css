@@ -303,6 +303,12 @@
   .ml-64 {
     margin-left: calc(var(--spacing) * 64);
   }
+  .ml-72 {
+    margin-left: calc(var(--spacing) * 72);
+  }
+  .ml-80 {
+    margin-left: calc(var(--spacing) * 80);
+  }
   .ml-96 {
     margin-left: calc(var(--spacing) * 96);
   }
