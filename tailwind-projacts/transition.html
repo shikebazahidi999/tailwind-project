@@ -4,8 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../src/output.css">
+    <script src="transition.js" defer></script>
 </head>
 <body class="bg-black">
+    <!-- first div -->
     <div class=" inline-block mt-7">
         <img class="h-[450px] rounded-2xl rounded-r-none border-2 border-r-0 border-white ml-11 inline-block" src="../imgs/picture1.jpg" alt="">
         <div class="inline-block border-2 border-l-0 border-white h-[450px] mt-0 w-[900px] absolute rounded-2xl rounded-l-none text-white">
@@ -13,20 +15,89 @@
             <p class=" mt-9 w-[870px] text-center ">لامین یامال یکی از بهترین بازیکن تیم بارسولنا و تیم ملی اسپانیا پدیده 18 ساله که با تیکنیک فوق العاده سرعت و دریبل زن درخشان است  که در سین بسیار پایین به شهرت جهانی رسید و رکورد جوان ترین بازیکن  تاریخ یورو 2024 و دیگر رقلبت ها را شکست و جوایز  متعدد بهترین بازیکن جوان را کسب کرده است. او به  سرعت به یکی از گران ترین و تاثیر گذار ترین بازیکنان جوان دنیا تبدیل شده و در فصل 2024-25 در تمام بازی هایش برای بارسولنا و اسپانیا یا گل زده یا پاس گل داده است.
                 مین یامال یکی از بهترین بازیکن تیم بارسولنا و تیم ملی اسپانیا پدیده 18 ساله که با تیکنیک فوق العاده سرعت و دریبل زن درخشان است  که در سین بسیار پایین به شهرت جهانی رسید و رکورد جوان ترین بازیکن  تاریخ یورو 2024 و دیگر رقلبت ها را شکست و جوایز  متعدد بهترین بازیکن جوان را کسب کرده است. او به  سرعت به یکی از گران ترین و تاثیر گذار ترین بازیکنان جوان دنیا تبدیل شده و در فصل 2024-25 در تمام بازی هایش برای بارسولنا و اسپانیا یا گل زده یا پاس گل داده است.
             </p>
-           <button class="border border-white h-12 w-44 bg-white text-black font-bold rounded-md transition-all duration-600 hover:bg-black hover:text-white hover:rounded-[10px] hover:shadow-[0px_0px_40px] hover:shadow-white hover:border-none hover:translate-y-1 ml-7 mt-20">دیدن اطلاعات بیشتر</button>
+           <button id="btn" class="border border-white h-12 w-44 bg-white text-black font-bold rounded-md transition-all duration-600 hover:bg-black hover:text-white hover:rounded-[10px] hover:shadow-[0px_0px_40px] hover:shadow-white hover:border-none hover:translate-y-1 ml-7 mt-20">دیدن اطلاعات بیشتر</button>
         </div>
     </div>
-    <div class="mt-32">
-        <div class="inline-block">
-        <img class="h-60 rounded-md m-4 hover:shadow-[1px_1px_20px] transition-all duration-300 hover:shadow-gray-500" src="../imgs/picture2.jpg" alt="">
-        <img class="h-60 rounded-md m-4 hover:shadow-[1px_1px_20px] transition-all duration-300 hover:shadow-gray-500" src="../imgs/picture3.jpg" alt="">
-        <img class="h-60 rounded-md m-4 hover:shadow-[1px_1px_20px] transition-all duration-300 hover:shadow-gray-500" src="../imgs/picture4.jpg" alt="">
-        <img class="h-60 rounded-md m-4 hover:shadow-[1px_1px_20px] transition-all duration-300 hover:shadow-gray-500" src="../imgs/picture5.jpg" alt="">
+    <!-- all information -->
+    <div id="allDiv" class="mt-20 hidden transition-all duration-500 ease-linear ">
+        <!-- pictures with information -->
+        <div class="inline-block ">
+        <img class="border-2 border-white border-r-0 inline-block h-60 rounded-md rounded-r-none m-4 hover:shadow-[1px_1px_20px] transition-all duration-300 hover:shadow-gray-500" src="../imgs/picture2.jpg" alt="">
+        <div class="inline-block border-2 border-white border-l-0 mt-4 h-60 absolute -ml-4 rounded-r-md">
+            <h1 class="text-white  font-bold w-fit ">LAMINE YAMAL'S MOM</h1>
+            <p class="w-60 ml-2 text-white ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsum omnis, odit accusantium perferendis eum, odio adipisci consequatur dolorum obcaecati totam, 
+            </p>
+        </div>
+        <div>
+        <img class="border-2 border-white border-r-0 rounded-r-none h-60 rounded-md m-4 inline-block hover:shadow-[1px_1px_20px] transition-all duration-300 hover:shadow-gray-500" src="../imgs/picture3.jpg" alt="">
+         <div class="inline-block border-2 mt-4 border-white absolute border-l-0  h-60  -ml-4 rounded-r-md">
+            <h1 class="text-white  font-bold w-fit ">LAMINE YAMAL</h1>
+            <p class="w-60 ml-2 text-white ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsum omnis, odit accusantium perferendis eum, odio adipisci consequatur dolorum obcaecati totam, 
+            </p>
+        </div>
+        </div>
+        <div>
+        <img class="border-2 border-white border-r-0 rounded-r-none h-60 rounded-md m-4 inline-block hover:shadow-[1px_1px_20px] transition-all duration-300 hover:shadow-gray-500" src="../imgs/picture4.jpg" alt="">
+         <div class="inline-block border-2 mt-4 border-white absolute border-l-0  h-60  -ml-4 rounded-r-md">
+            <h1 class="text-white  font-bold w-fit ">LAMINE YAMAL</h1>
+            <p class="w-60 ml-2 text-white ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsum omnis, odit accusantium perferendis eum, odio adipisci consequatur dolorum obcaecati totam, 
+            </p>
+        </div>
+        </div>
+        <div>
+        <img class="border-2 border-white border-r-0 rounded-r-none h-60 rounded-md m-4 inline-block hover:shadow-[1px_1px_20px] transition-all duration-300 hover:shadow-gray-500" src="../imgs/picture5.jpg" alt="">
+         <div class="inline-block border-2 mt-4 border-white absolute border-l-0  h-60  -ml-4 rounded-r-md">
+            <h1 class="text-white  font-bold w-fit ">LAMINE YAMAL</h1>
+            <p class="w-60 ml-2 text-white ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsum omnis, odit accusantium perferendis eum, odio adipisci consequatur dolorum obcaecati totam, 
+            </p>
+        </div>
+        </div>
+
 </div>
-<div class="inline-block align-top ml-96 text-white">
-        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit">اسم کامل</h1>
-        <p class="ml-72 h-fit">(LAMINE YAMAL NASRAOUI EBANA) لامبن یامال نصراللله ایبانا</p>
-        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit">اسم کامل</h1>
+<!-- information -->
+<div class="inline-block align-top ml-64 text-white h-fit">
+        <h1 class="font-bold text-2xl text-white ml-[750px]  h-fit">:اسم کامل</h1>
+        <p class="ml-72 h-fit -mt-5">(LAMINE YAMAL NASRAOUI EBANA) لامبن یامال نصراللله ایبانا</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:تاریخ تولد</h1>
+        <p class="ml-[425px] h-fit -mt-5">ژوییه 13 2007 در سال 2025 18 ساله هست</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:محل تولد</h1>
+        <p class="ml-[490px] h-fit -mt-5">اسپلوگس دیبرگات کاتالونیا اسپانیا</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:ملیت</h1>
+        <p class="ml-[400px] h-fit -mt-5">اسپانیای مادر اهل گینه استوایی پدر اهل مراکش.</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:پست</h1>
+        <p class="ml-[640px] h-fit -mt-5">بال یا وینگر</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:باشگاه</h1>
+        <p class="ml-[495px]  h-fit -mt-5">اف سی بارسلونا از آکادمی لاماسیا</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:تیم ملی</h1>
+        <p class="ml-[665px]  h-fit -mt-5">بارسولنا</p>
+         <h1 class="font-bold text-2xl text-green-400 ml-[600px] h-fit mt-5">مسیر حرفه ای و دستاوردها</h1>
+          <h1 class="font-bold text-2xl text-white ml-[750px]  h-fit">:اسم کامل</h1>
+        <p class="ml-72 h-fit -mt-5">(LAMINE YAMAL NASRAOUI EBANA) لامبن یامال نصراللله ایبانا</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:تاریخ تولد</h1>
+        <p class="ml-[425px] h-fit -mt-5">ژوییه 13 2007 در سال 2025 18 ساله هست</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:محل تولد</h1>
+        <p class="ml-[490px] h-fit -mt-5">اسپلوگس دیبرگات کاتالونیا اسپانیا</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:ملیت</h1>
+        <p class="ml-[400px] h-fit -mt-5">اسپانیای مادر اهل گینه استوایی پدر اهل مراکش.</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:پست</h1>
+        <p class="ml-[640px] h-fit -mt-5">بال یا وینگر</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:باشگاه</h1>
+        <p class="ml-[495px]  h-fit -mt-5">اف سی بارسلونا از آکادمی لاماسیا</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:تیم ملی</h1>
+        <p class="ml-[665px]  h-fit -mt-5">بارسولنا</p>
+        <h1 class="font-bold text-2xl text-green-400 ml-[650px] h-fit mt-5">سبک بازی و ویژگی</h1>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:ملیت</h1>
+        <p class="ml-[400px] h-fit -mt-5">اسپانیای مادر اهل گینه استوایی پدر اهل مراکش.</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:پست</h1>
+        <p class="ml-[640px] h-fit -mt-5">بال یا وینگر</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:باشگاه</h1>
+        <p class="ml-[495px]  h-fit -mt-5">اف سی بارسلونا از آکادمی لاماسیا</p>
+        <h1 class="font-bold text-2xl text-white ml-[750px] h-fit mt-5">:تیم ملی</h1>
+        <p class="ml-[665px]  h-fit -mt-5">بارسولنا</p>
         </div>
     </div>
     
