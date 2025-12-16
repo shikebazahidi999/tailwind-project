@@ -26,8 +26,9 @@ h1.classList.add("from-gray-800");
 h1.classList.add("to-black");
 h1.classList.add(" text-transparent");
 h1.classList.add("mt-12");
+
 // another divs will add by map function
-const divsBymap = document.getElementsByClassName("Divs");
-const mapdivs = divsBymap.map((createdDivs)=>{
-    return createdDivs.classList.add("class","styles")
+const divsBymap = document.getElementsByClassName("a")
+const mapdivs = divsBymap.map((creteddivs)=>{
+   return creteddivs.classList.add("styles")
 })
