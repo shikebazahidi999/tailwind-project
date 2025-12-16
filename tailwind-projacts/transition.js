@@ -34,5 +34,5 @@ h1.classList.add("mt-12");
 // }
 const divsBymap = document.getElementsByClassName("a")
 const mapdivs = divsBymap.map((creteddivs)=>{
-   return creteddivs.classList.add("styles")
+   return creteddivs.setatri("styles")
 })
