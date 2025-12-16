@@ -28,10 +28,11 @@ h1.classList.add(" text-transparent");
 h1.classList.add("mt-12");
 
 // another divs will add by map function
+
+// for(let i= 0 ; i< divsBymap.length; i++){
+//     divsBymap[i].classList.add("styles")
+// }
 const divsBymap = document.getElementsByClassName("a")
-for(let i= 0 ; i< divsBymap.length; i++){
-    divsBymap[i].classList.add("styles")
-}
-// const mapdivs = divsBymap.map((creteddivs)=>{
-//    return creteddivs.classList.add("styles")
-// })
+const mapdivs = divsBymap.map((creteddivs)=>{
+   return creteddivs.classList.add("styles")
+})
