@@ -60,3 +60,8 @@ const image2 = document.createElement("img");
 image2.setAttribute("src","../imgs/Screenshot_20250924_083622.jpg");
 image2.setAttribute("alt","your intertent has promlem");
 image2.classList.add("imageStyle");
+
+// h1
+const h1 = document.createElement("h1");
+h1.innerHTML = "FC BARCELONA";
+h1.classList.add("h1Style");
