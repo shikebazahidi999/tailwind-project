@@ -50,3 +50,8 @@ div.append(image,h1,p1);
 const div1 = document.createElement("div");
 div.classList.add("div")
 body.appendChild(div1);
+// button
+const btn3 = document.createElement("button");
+btn.innerText= "Hide Shadow";
+btn.classList.add("btnStyle");
+body.appendChild(btn);
