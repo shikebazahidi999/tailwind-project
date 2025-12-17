@@ -57,6 +57,6 @@ btn3.classList.add("btnStyle");
 body.appendChild(btn3);
 // image2
 const image2 = document.createElement("img");
-image.setAttribute("src","../imgs/Screenshot_20250924_083622.jpg");
-image.setAttribute("alt","your intertent has promlem");
-image.classList.add("imageStyle");
+image2.setAttribute("src","../imgs/Screenshot_20250924_083622.jpg");
+image2.setAttribute("alt","your intertent has promlem");
+image2.classList.add("imageStyle");
