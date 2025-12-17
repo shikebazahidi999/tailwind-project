@@ -62,6 +62,6 @@ image2.setAttribute("alt","your intertent has promlem");
 image2.classList.add("imageStyle");
 
 // h1
-const h1 = document.createElement("h1");
-h1.innerHTML = "FC BARCELONA";
-h1.classList.add("h1Style");
+const h12 = document.createElement("h1");
+h12.innerHTML = "FC BARCELONA";
+h12.classList.add("h1Style");
