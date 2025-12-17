@@ -43,10 +43,10 @@ btn2.addEventListener("click",()=>{
     btn.classList.remove("hide");
     btn2.classList.add("hide")
 })
-
-
 div.append(image,h1,p1);
-// secound div
+
+
+// secound div/////////////////////////////////////////////
 const div1 = document.createElement("div");
 div.classList.add("div")
 body.appendChild(div1);
