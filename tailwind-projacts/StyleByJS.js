@@ -66,6 +66,6 @@ const h12 = document.createElement("h1");
 h12.innerHTML = "FC BARCELONA";
 h12.classList.add("h1Style");
 // p2
-const p1 = document.createElement("p");
-p1.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi omnis cumque impedit vel laboriosam enim neque dicta et at? Facilis, nobis. Vero numquam deleniti dolore aut deserunt? Molestiae, ut nostrum!";
-p1.classList.add("p1Style");
+const p2 = document.createElement("p");
+p2.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi omnis cumque impedit vel laboriosam enim neque dicta et at? Facilis, nobis. Vero numquam deleniti dolore aut deserunt? Molestiae, ut nostrum!";
+p2.classList.add("p1Style");
