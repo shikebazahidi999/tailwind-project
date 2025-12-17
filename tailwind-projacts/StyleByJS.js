@@ -46,7 +46,7 @@ btn2.addEventListener("click",()=>{
 
 
 div.append(image,h1,p1);
-
+// secound div
 const div1 = document.createElement("div");
 div.classList.add("div")
 body.appendChild(div1);
