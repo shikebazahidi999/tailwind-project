@@ -54,4 +54,4 @@ body.appendChild(div1);
 const btn3 = document.createElement("button");
 btn.innerText= "Hide Shadow";
 btn.classList.add("btnStyle");
-body.appendChild(btn);
+body.appendChild(btn3);
