@@ -61,7 +61,11 @@ image2.setAttribute("src","../imgs/Screenshot_20250924_083622.jpg");
 image2.setAttribute("alt","your intertent has promlem");
 image2.classList.add("imageStyle");
 
-// h1
+// h12
 const h12 = document.createElement("h1");
 h12.innerHTML = "FC BARCELONA";
 h12.classList.add("h1Style");
+// p2
+const p1 = document.createElement("p");
+p1.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi omnis cumque impedit vel laboriosam enim neque dicta et at? Facilis, nobis. Vero numquam deleniti dolore aut deserunt? Molestiae, ut nostrum!";
+p1.classList.add("p1Style");
