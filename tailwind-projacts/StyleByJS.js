@@ -69,3 +69,10 @@ h12.classList.add("h1Style");
 const p2 = document.createElement("p");
 p2.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi omnis cumque impedit vel laboriosam enim neque dicta et at? Facilis, nobis. Vero numquam deleniti dolore aut deserunt? Molestiae, ut nostrum!";
 p2.classList.add("p1Style");
+
+// secound btn
+const btn4 = document.createElement("button");
+btn4.innerText= "Reshow Shadow";
+btn4.classList.add("btnStyle");
+btn4.classList.add("hide")
+body.appendChild(btn4);
