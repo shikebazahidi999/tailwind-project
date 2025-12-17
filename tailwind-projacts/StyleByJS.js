@@ -50,8 +50,13 @@ div.append(image,h1,p1);
 const div1 = document.createElement("div");
 div.classList.add("div")
 body.appendChild(div1);
-// button
+// button3
 const btn3 = document.createElement("button");
-btn.innerText= "Hide Shadow";
-btn.classList.add("btnStyle");
+btn3.innerText= "Hide Shadow";
+btn3.classList.add("btnStyle");
 body.appendChild(btn3);
+// image2
+const image2 = document.createElement("img");
+image.setAttribute("src","../imgs/Screenshot_20250924_083622.jpg");
+image.setAttribute("alt","your intertent has promlem");
+image.classList.add("imageStyle");
