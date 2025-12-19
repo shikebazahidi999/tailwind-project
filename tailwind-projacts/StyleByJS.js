@@ -1,6 +1,5 @@
 const body = document.body;
-const lists = document.querySelectorAll("li:nth-child(2)");
-lists.classList.add(listStyle);
+
 // div
 const div = document.createElement("div");
 div.classList.add("div")
