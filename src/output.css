@@ -489,8 +489,14 @@
   .resize {
     resize: both;
   }
+  .content-between {
+    align-content: space-between;
+  }
   .items-center {
     align-items: center;
+  }
+  .self-center {
+    align-self: center;
   }
   .overflow-scroll {
     overflow: scroll;
