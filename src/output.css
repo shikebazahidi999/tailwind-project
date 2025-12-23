@@ -492,6 +492,9 @@
   .overflow-scroll {
     overflow: scroll;
   }
+  .overflow-y-scroll {
+    overflow-y: scroll;
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
