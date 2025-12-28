@@ -266,6 +266,9 @@
   .left-80 {
     left: calc(var(--spacing) * 80);
   }
+  .left-96 {
+    left: calc(var(--spacing) * 96);
+  }
   .left-\[500px\] {
     left: 500px;
   }
