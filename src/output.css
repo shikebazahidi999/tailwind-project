@@ -662,6 +662,9 @@
   .gap-x-36 {
     column-gap: calc(var(--spacing) * 36);
   }
+  .gap-x-40 {
+    column-gap: calc(var(--spacing) * 40);
+  }
   .gap-x-\[72px\] {
     column-gap: 72px;
   }
