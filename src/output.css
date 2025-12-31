@@ -665,11 +665,29 @@
   .gap-x-40 {
     column-gap: calc(var(--spacing) * 40);
   }
+  .gap-x-48 {
+    column-gap: calc(var(--spacing) * 48);
+  }
+  .gap-x-52 {
+    column-gap: calc(var(--spacing) * 52);
+  }
   .gap-x-\[72px\] {
     column-gap: 72px;
   }
   .gap-x-\[142px\] {
     column-gap: 142px;
+  }
+  .gap-x-\[205px\] {
+    column-gap: 205px;
+  }
+  .gap-x-\[206px\] {
+    column-gap: 206px;
+  }
+  .gap-x-\[245\] {
+    column-gap: 245;
+  }
+  .gap-x-\[245px\] {
+    column-gap: 245px;
   }
   .overflow-y-scroll {
     overflow-y: scroll;
