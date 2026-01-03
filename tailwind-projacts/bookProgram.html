@@ -8,6 +8,14 @@
     <script src="bookProgram.js" defer></script>
     <link rel="stylesheet" href="../src/output.css">
     <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <style>
+        .text{
+            font-weight: bold;
+            color: rgb(5, 107, 5);
+            padding: 30px;
+
+        }
+    </style>
 </head>
 <body>
     <!-- navbar -->
@@ -26,6 +34,7 @@
     <li class="h-8 hover:border-b w-fit hover:cursor-pointer hover:bg-green-600"><span class="fas fa-book-open"></span>لیست کتاب های عاشقانه</li>
     <li class="h-8 hover:border-b w-fit hover:cursor-pointer hover:bg-green-600"> <span class="fas fa-book-open"></span>لیست کتاب های رومان</li>
         <li class="h-8 hover:border-b w-fit hover:cursor-pointer hover:bg-green-600"><span class="fas fa-book-open"></span>لیست همه ی کتاب ها</li>
+        <li id="newlist" class="h-8 hover:border-b w-fit hover:cursor-pointer hover:bg-green-600"><span class="fas fa-book-open"></span>لیست کتاب های جدید</li>
 
     <li id="showform" class="h-8 hover:border-b w-fit hover:cursor-pointer hover:bg-green-600"><span class="fas fa-book "></span>اضافه کردن کتاب های جدید</li>
 </ul>
@@ -45,17 +54,26 @@
         </div>
         <div>
             <h1 class="text-green-900">عکس کتاب</h1>
-            <input id="bookimg" class="h-9 w-full border border-green-600 focus:outline-green-800 placeholder:text-green-700" type="file" accept="image/*" placeholder="عکس کتاب را وارد نمایید">
+            <input id="bookimg" class="h-9 w-full border border-green-600 focus:outline-green-800 placeholder:text-green-700" type="text" placeholder="عکس کتاب را وارد نمایید">
             </div>
             <div>
                 <h1 class="text-green-900">توضیحات کتاب</h1>
-                <textarea class="border border-green-600 h-20 w-full resize-none focus:outline-green-800" name="" id=""></textarea>
+                <textarea  class="border border-green-600 h-20 w-full resize-none focus:outline-green-800" name="" id="info"></textarea>
             </div>
-            <button id="addbtn" class="bg-linear-90 from-green-950 to-green-950 via-green-600 text-2xl text-gray-300 text-center font-bold p-2 rounded-md transition-all duration-300 hover:shadow-md hover:shadow-green-400 hover:-translate-1">اضافه کردن</button>
+            <button id="addbtn" onclick="addbook()" class="bg-linear-90 from-green-950 to-green-950 via-green-600 text-2xl text-gray-300 text-center font-bold p-2 rounded-md transition-all duration-300 hover:shadow-md hover:shadow-green-400 hover:-translate-1">اضافه کردن</button>
             </form>
 </div>
+</div>
+<div id="newadded" class="h-screen w-full bg-gray-300   flex-row items-center hidden transition-all duration-300">
+    <ul class="mr-10 h-fit w-fit border border-white bg-white rounded-2xl" id="booklist">
+      
+    </ul>
+</div>
+<!-- لیست کتاب های رومان  -->
+ <div class="h-screen w-full bg-gray-300 flex justify-center">
 
-    </div>
+ </div>
+     
 
 
 </body>
