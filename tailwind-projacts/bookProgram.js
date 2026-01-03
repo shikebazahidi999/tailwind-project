@@ -29,8 +29,8 @@ showform.addEventListener("click",()=>{
     }
 
     else{
-        izafakardan.classList.remove("flex")
-        izafakardan.classList.add("hidden")
+        izafakardan.classList.remove("flex");
+        izafakardan.classList.add("hidden");
     }
     
 })
