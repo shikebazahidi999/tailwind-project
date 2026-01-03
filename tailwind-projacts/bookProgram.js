@@ -26,11 +26,13 @@ showform.addEventListener("click",()=>{
     if(izafakardan.classList.contains("hidden")){
     izafakardan.classList.remove("hidden");
     izafakardan.classList.add("flex");
+    showform.classList.add("bg-green-600")
     }
 
     else{
         izafakardan.classList.remove("flex");
         izafakardan.classList.add("hidden");
+        showform.classList.remove("bg-green-600")
     }
     
 })
