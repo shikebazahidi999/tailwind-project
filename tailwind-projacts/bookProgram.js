@@ -77,7 +77,12 @@ bookinfo.forEach(book=>{
     const maindiv = document.createElement("div");
     maindiv.classList.add("bookdivstyle");
     showbook.appendChild(maindiv);
-    const divinfo = document.createComment("div")
+    const divinfo = document.createComment("div");
+    maindiv.appendChild(divinfo);
+    const h1 = document.createComment("h1");
+    const p = document.createElement("p");
+    
+    
 })
 
 bookname = "";
