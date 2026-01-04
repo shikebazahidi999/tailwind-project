@@ -84,8 +84,13 @@ bookinfo.forEach(book=>{
    divinfo.appendChild(h1);
     const h2 = document.createComment("h1");
     h2.textContent= Allinfo.nameb;
+    divinfo.appendChild(h2);
     const p = document.createElement("p");
     p.textContent=Allinfo.infob;
+    divinfo.appendChild(p);
+    const image = document.createElement("img");
+    image.setAttribute("src",Allinfo.imgb);
+    divinfo.appendChild(image);
     
 
     
