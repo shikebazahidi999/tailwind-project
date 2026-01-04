@@ -62,11 +62,18 @@ addbtns.addEventListener("click",(event)=>{
 })
 
 
-function addbook(){
+
 let bookname = document.getElementById("bookname").value;
 let booktype = document.getElementById("booktype").value;
 let bookimg = document.getElementById("bookimg").value;
 let info = document.getElementById("info").value;
+
+let Allinfo = {
+nameb: bookname,
+typeb: booktype,
+imgb: bookimg,
+infob:info,
+}
 
 let li = document.createElement("li");
 li.innerHTML= `${name} ${bookname}<br>
@@ -82,7 +89,7 @@ document.getElementById("bookname").value = "";
   document.getElementById("booktype").value = "";
  document.getElementById("bookimg").value = "";
  document.getElementById("info").value = "";
-}
+
 
 newlist.addEventListener("click",()=>{
     if(izafakardan.classList.contains("flex")){
