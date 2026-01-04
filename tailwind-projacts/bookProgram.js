@@ -75,16 +75,9 @@ imgb: bookimg,
 infob:info,
 }
 
-let li = document.createElement("li");
-li.innerHTML= `${name} ${bookname}<br>
-${type} ${booktype}<br>
- ${img} ${bookimg}<br>
- ${information} ${info}
 
-`;
 
-li.classList.add("text")
-document.getElementById("booklist").appendChild(li);
+
 document.getElementById("bookname").value = "";
   document.getElementById("booktype").value = "";
  document.getElementById("bookimg").value = "";
