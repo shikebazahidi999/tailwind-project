@@ -60,11 +60,10 @@ const information = "اطلاعات کتاب :";
 
 addbtn.addEventListener("click",(event)=>{
     event.preventDefault();
-    let showbook = document.getElementById("showbook");
-    let bookname = document.getElementById("bookname").value;
-let booktype = document.getElementById("booktype").value;
-let bookimg =  document.getElementById("bookimg").value;
-let info =     document.getElementById("info").value;
+bookname = "";
+booktype = "";
+bookimg = "";
+info = "";
     
     
 let Allinfo = {
@@ -76,6 +75,11 @@ infob:info,
 const bookinfo = [];
 bookinfo.push(Allinfo);
 bookinfo.forEach(book=>{
+        let showbook = document.getElementById("showbook");
+    let bookname = document.getElementById("bookname").value;
+let booktype = document.getElementById("booktype").value;
+let bookimg =  document.getElementById("bookimg").value;
+let info =     document.getElementById("info").value;
     const maindiv = document.createElement("div");
     maindiv.classList.add("bookdivstyle");
     showbook.appendChild(maindiv);
@@ -95,10 +99,7 @@ bookinfo.forEach(book=>{
     image.setAttribute("src",Allinfo.imgb);
     maindiv.appendChild(image);
 
-        bookname = "";
-booktype = "";
- bookimg = "";
-info = "";
+
 
 })
    
