@@ -54,13 +54,11 @@ const type = "نوعیت کتاب :";
 const img = "عکس کتاب :";
 const information = "اطلاعات کتاب :";
 
-
 const addbtns = document.getElementById("addbtn");
 addbtns.addEventListener("click",(event)=>{
     event.preventDefault();
     
-})
-
+    const bookinfo = [];
 
 
 let bookname = document.getElementById("bookname").value;
@@ -74,6 +72,8 @@ typeb: booktype,
 imgb: bookimg,
 infob:info,
 }
+bookinfo.push(Allinfo)
+})
 
 
 
