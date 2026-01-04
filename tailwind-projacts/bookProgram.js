@@ -6,7 +6,9 @@ const izafakardan = document.getElementById("izafakardan");
 const nav = document.getElementById("nav");
 const newlist = document.getElementById("newlist");
 const newadded =document.getElementById("newadded");
-let showbook = document.getElementById("showbook")
+const addbtn = document.getElementById("addbtn");
+
+
 
 // bars part
 bars.addEventListener("click",()=>{
@@ -55,23 +57,23 @@ const type = "نوعیت کتاب :";
 const img = "عکس کتاب :";
 const information = "اطلاعات کتاب :";
 
-const addbtns = document.getElementById("addbtn");
-addbtns.addEventListener("click",(event)=>{
+
+addbtn.addEventListener("click",(event)=>{
     event.preventDefault();
-    
-    const bookinfo = [];
-
-let bookname = document.getElementById("bookname").value;
+    let showbook = document.getElementById("showbook");
+    let bookname = document.getElementById("bookname").value;
 let booktype = document.getElementById("booktype").value;
-let bookimg = document.getElementById("bookimg").value;
-let info = document.getElementById("info").value;
-
+let bookimg =  document.getElementById("bookimg").value;
+let info =     document.getElementById("info").value;
+    
+    
 let Allinfo = {
 nameb: bookname,
 typeb: booktype,
 imgb: bookimg,
 infob:info,
-}
+};
+const bookinfo = [];
 bookinfo.push(Allinfo);
 bookinfo.forEach(book=>{
     const maindiv = document.createElement("div");
@@ -79,29 +81,30 @@ bookinfo.forEach(book=>{
     showbook.appendChild(maindiv);
 
     const divinfo = document.createComment("div");
+    maindiv.appendChild(divinfo);
    const h1 = document.createElement("h1");
-   h1.textContent= Allinfo.typeb;
+   h1.innerHTML = Allinfo.typeb;
    divinfo.appendChild(h1);
     const h2 = document.createComment("h1");
-    h2.textContent= Allinfo.nameb;
+    h2.innerHTML = Allinfo.nameb;
     divinfo.appendChild(h2);
     const p = document.createElement("p");
-    p.textContent=Allinfo.infob;
+    p.innerHTML = Allinfo.infob;
     divinfo.appendChild(p);
     const image = document.createElement("img");
     image.setAttribute("src",Allinfo.imgb);
-    divinfo.appendChild(image);
-    
+    maindiv.appendChild(image);
 
-    
-    
-})
-
-bookname = "";
+        bookname = "";
 booktype = "";
  bookimg = "";
 info = "";
+
 })
+   
+})
+
+
 
 
 
