@@ -5,7 +5,8 @@ const showform = document.getElementById("showform");
 const izafakardan = document.getElementById("izafakardan");
 const nav = document.getElementById("nav");
 const newlist = document.getElementById("newlist");
-const newadded =document.getElementById("newadded")
+const newadded =document.getElementById("newadded");
+let showbook = document.getElementById("showbook")
 
 // bars part
 bars.addEventListener("click",()=>{
@@ -60,7 +61,6 @@ addbtns.addEventListener("click",(event)=>{
     
     const bookinfo = [];
 
-
 let bookname = document.getElementById("bookname").value;
 let booktype = document.getElementById("booktype").value;
 let bookimg = document.getElementById("bookimg").value;
@@ -72,16 +72,24 @@ typeb: booktype,
 imgb: bookimg,
 infob:info,
 }
-bookinfo.push(Allinfo)
+bookinfo.push(Allinfo);
+bookinfo.forEach(book=>{
+    const maindiv = document.createElement("div");
+    maindiv.classList.add("bookdivstyle");
+    showbook.appendChild(maindiv);
+    const divinfo = document.createComment("div")
+})
+
+bookname = "";
+booktype = "";
+ bookimg = "";
+info = "";
 })
 
 
 
 
-document.getElementById("bookname").value = "";
-  document.getElementById("booktype").value = "";
- document.getElementById("bookimg").value = "";
- document.getElementById("info").value = "";
+
 
 
 newlist.addEventListener("click",()=>{
