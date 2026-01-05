@@ -4,5 +4,6 @@
         display: grid;
         grid-column: 2;
         height: fit-content;
+        width: 50%;
     }
 }
