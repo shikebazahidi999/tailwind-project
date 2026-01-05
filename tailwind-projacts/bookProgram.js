@@ -18,7 +18,7 @@ bars.addEventListener("click",()=>{
         nav.classList.remove("w-full");
         nav.classList.add("w-[85%]");
         newadded.classList.remove("flex");
-        newadded.classList.add("hidded")
+        newadded.classList.add("hidded");
     
  }
  
@@ -28,7 +28,9 @@ bars.addEventListener("click",()=>{
             nav.classList.remove("w-[85%]");
             nav.classList.add("w-full");
              izafakardan.classList.remove("flex")
-        izafakardan.classList.add("hidden")
+        izafakardan.classList.add("hidden");
+                newadded.classList.remove("hidded");
+        newadded.classList.add("flex");
         }
 });
 showform.addEventListener("click",()=>{
@@ -52,18 +54,14 @@ showform.addEventListener("click",()=>{
 
 
 // input part
-const name = 'اسم کتاب:';
-const type = "نوعیت کتاب :";
-const img = "عکس کتاب :";
-const information = "اطلاعات کتاب :";
 
-
+let bookinfo = [];
 addbtn.addEventListener("click",(event)=>{
     event.preventDefault();
-bookname = "";
-booktype = "";
-bookimg = "";
-info = "";
+let bookname = document.getElementById("bookname").value;
+let booktype = document.getElementById("booktype").value;
+let bookimg = document.getElementById("bookimg").value;
+let info = document.getElementById("info").value;
     
     
 let Allinfo = {
@@ -72,24 +70,22 @@ typeb: booktype,
 imgb: bookimg,
 infob:info,
 };
-const bookinfo = [];
+
 bookinfo.push(Allinfo);
 bookinfo.forEach(book=>{
-        let showbook = document.getElementById("showbook");
-    let bookname = document.getElementById("bookname").value;
-let booktype = document.getElementById("booktype").value;
-let bookimg =  document.getElementById("bookimg").value;
-let info =     document.getElementById("info").value;
-    const maindiv = document.createElement("div");
-    maindiv.classList.add("bookdivstyle");
-    showbook.appendChild(maindiv);
 
-    const divinfo = document.createComment("div");
+
+
+    const maindiv = document.createElement("div");
+   
+    newadded.appendChild(maindiv);
+
+    const divinfo = document.createElement("div");
     maindiv.appendChild(divinfo);
    const h1 = document.createElement("h1");
    h1.innerHTML = Allinfo.typeb;
    divinfo.appendChild(h1);
-    const h2 = document.createComment("h1");
+    const h2 = document.createElement("h1");
     h2.innerHTML = Allinfo.nameb;
     divinfo.appendChild(h2);
     const p = document.createElement("p");
@@ -102,15 +98,9 @@ let info =     document.getElementById("info").value;
 
 
 })
+
    
-})
-
-
-
-
-
-
-
+});
 
 
 newlist.addEventListener("click",()=>{
