@@ -79,7 +79,7 @@ bookinfo.forEach(book=>{
     const maindiv = document.createElement("div");
    
     newadded.appendChild(maindiv);
-maindiv.classList.add("di")
+maindiv.classList.add("div")
     const divinfo = document.createElement("div");
     maindiv.appendChild(divinfo);
    const h1 = document.createElement("h1");
