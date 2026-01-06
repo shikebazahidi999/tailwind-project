@@ -95,6 +95,7 @@ maindiv.classList.add("divstyle")
     divinfo.appendChild(p);
     const image = document.createElement("img");
     image.setAttribute("src",Allinfo.imgb);
+    image.classList.add("img")
     maindiv.appendChild(image);
 
  document.getElementById("bookname").value = "";
