@@ -83,19 +83,24 @@ maindiv.classList.add("divstyle")
     const divinfo = document.createElement("div");
     maindiv.appendChild(divinfo);
    const h1 = document.createElement("h1");
-   h1.innerHTML = Allinfo.typeb;
+   h1.innerHTML = "اسم کتاب:"+Allinfo.nameb;
+   h1.classList.add("h1");
    divinfo.appendChild(h1);
     const h2 = document.createElement("h1");
-    h2.innerHTML = Allinfo.nameb;
+    h2.innerHTML = "نوع کتاب:"+Allinfo.typeb;
+    h2.classList.add("h2");
     divinfo.appendChild(h2);
     const p = document.createElement("p");
-    p.innerHTML = Allinfo.infob;
+    p.innerHTML = "معلومات کتاب:"+Allinfo.infob;
     divinfo.appendChild(p);
     const image = document.createElement("img");
     image.setAttribute("src",Allinfo.imgb);
     maindiv.appendChild(image);
 
-
+ document.getElementById("bookname").value = "";
+ document.getElementById("booktype").value = "";
+ document.getElementById("bookimg").value = "";
+ document.getElementById("info").value = "";
 
 })
 
