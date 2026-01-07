@@ -72,8 +72,8 @@ infob:info,
 };
 
 bookinfo.push(Allinfo);
+newadded.innerHTML = "";
 bookinfo.forEach(book=>{
-
 
 
     const maindiv = document.createElement("div");
