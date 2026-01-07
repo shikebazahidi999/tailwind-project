@@ -83,6 +83,11 @@ maindiv.classList.add("divstyle")
     const divinfo = document.createElement("div");
     divinfo.classList.add("divinfostyle")
     maindiv.appendChild(divinfo);
+
+    const image = document.createElement("img");
+    image.setAttribute("src",Allinfo.imgb);
+    image.classList.add("img")
+    maindiv.appendChild(image);
    const h1 = document.createElement("h1");
    h1.innerHTML = "اسم کتاب:"+Allinfo.nameb;
    h1.classList.add("h1");
@@ -94,10 +99,7 @@ maindiv.classList.add("divstyle")
     const p = document.createElement("p");
     p.innerHTML = "معلومات کتاب:"+Allinfo.infob;
     divinfo.appendChild(p);
-    const image = document.createElement("img");
-    image.setAttribute("src",Allinfo.imgb);
-    image.classList.add("img")
-    maindiv.appendChild(image);
+    
 
  document.getElementById("bookname").value = "";
  document.getElementById("booktype").value = "";
