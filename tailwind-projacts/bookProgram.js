@@ -73,7 +73,7 @@ infob:info,
 
 bookinfo.push(Allinfo);
 newadded.innerHTML = "";
-bookinfo.forEach(book=>{
+bookinfo.forEach((book,index)=>{
 
 
     const maindiv = document.createElement("div");
@@ -101,7 +101,11 @@ maindiv.classList.add("divstyle")
     divinfo.appendChild(p);
     const deletbtn = document.createElement("button");
     deletbtn.innerText = "Delet";
-    deletbtn.classList.add("btn")
+    deletbtn.classList.add("btn");
+    maindiv.appendChild(deletbtn);
+    deletbtn.addEventListener("click",()=>{
+        bookinfo.splice(index,1)
+    })
     
 
  document.getElementById("bookname").value = "";
