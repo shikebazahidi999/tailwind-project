@@ -101,7 +101,7 @@ maindiv.classList.add("divstyle")
     divinfo.appendChild(p);
     const deletbtn = document.createElement("button");
     deletbtn.innerText = "Delet";
-    deletbtn.classList.add("")
+    deletbtn.classList.add("btn")
     
 
  document.getElementById("bookname").value = "";
