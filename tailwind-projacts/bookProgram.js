@@ -81,6 +81,7 @@ bookinfo.forEach(book=>{
     newadded.appendChild(maindiv);
 maindiv.classList.add("divstyle")
     const divinfo = document.createElement("div");
+    divinfo
     maindiv.appendChild(divinfo);
    const h1 = document.createElement("h1");
    h1.innerHTML = "اسم کتاب:"+Allinfo.nameb;
