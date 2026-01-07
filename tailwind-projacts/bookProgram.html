@@ -16,9 +16,10 @@
            border: 1px groove rgb(5, 73, 5);
            box-shadow: 1px 1px 15px rgb(19, 211, 19);
            display: grid;
-           grid-row: 2;
+           grid-column: 2;
            padding: 20px;
            margin: 20px;
+           background:white;
  }
  .divinfostyle{
     display: inline-block;
@@ -34,8 +35,8 @@
     color: rgb(70, 3, 3);
  }
  .img{
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     border:1px solid green;
     border-radius: 4px;
     box-shadow: 1px 1px 10px green;
@@ -44,7 +45,7 @@
 </head>
 <body>
     <!-- navbar -->
-  <nav id="nav" class="bg-linear-60 from-green-950 to-green-950 via-green-600 h-28 w-full fixed flex justify-between px-4 transition-all duration-300">
+  <nav id="nav" class="bg-linear-60 from-green-950 to-green-950 via-green-600 h-28 w-full  flex justify-between px-4 transition-all duration-300">
 <h1 class="text-white text-4xl font-bold pt-7 inline-block "><span class="fas fa-book "> </span>بهترین کتاب ها </h1>
 <span>
 <span id="bars" class="fas fa-bars text-white text-4xl pt-7 font-bold h-fit hover:text-green-300 transition-all duration-300 "></span>
@@ -52,7 +53,7 @@
 </span>
   </nav>
   <!-- book lists -->
-  <div id="listbook" class="h-full w-60  fixed left-0 bg-linear-0 from-green-950 to-green-950 via-green-600 hidden flex-col transition-all duration-300">
+  <div id="listbook" class="h-full w-60  fixed top-0 left-0 bg-linear-0 from-green-950 to-green-950 via-green-600 hidden flex-col transition-all duration-300">
     <h1 class="text-transparent bg-linear-60 from-green-400 to-green-400 via-green-200 bg-clip-text font-extrabold text-xl m-3 " >لیست کتاب های موجود در سایت</h1>
 <ul class="text-white p-4 ">
     <li class="h-8 hover:border-b w-fit hover:cursor-pointer hover:bg-green-600"><span class="fas fa-book-open"></span>لیست کتاب های روانشناسی</li>
@@ -89,7 +90,7 @@
             </form>
 </div>
 </div>
-<div id="newadded" class="h-screen w-full bg-gray-300 p-4 hidden  flex-col justify-center items-center  transition-all duration-300">
+<div id="newadded" class=" w-full  p-4 hidden  flex-col justify-center items-center  transition-all duration-300">
     
 </div>
 <!-- لیست کتاب های رومان  -->
