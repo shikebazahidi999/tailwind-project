@@ -104,10 +104,48 @@ maindiv.classList.add("divstyle")
     deletbtn.classList.add("btn");
     maindiv.appendChild(deletbtn);
     deletbtn.addEventListener("click",()=>{
-        bookinfo.splice(index,1)
+        bookinfo.splice(index,1);
+
+newadded.innerHTML = "";
+bookinfo.forEach((book,index)=>{
+
+
+    const maindiv = document.createElement("div");
+   
+    newadded.appendChild(maindiv);
+maindiv.classList.add("divstyle")
+    const divinfo = document.createElement("div");
+    divinfo.classList.add("divinfostyle")
+    maindiv.appendChild(divinfo);
+
+    const image = document.createElement("img");
+    image.setAttribute("src",Allinfo.imgb);
+    image.classList.add("img")
+    maindiv.appendChild(image);
+   const h1 = document.createElement("h1");
+   h1.innerHTML = "اسم کتاب:"+Allinfo.nameb;
+   h1.classList.add("h1");
+   divinfo.appendChild(h1);
+    const h2 = document.createElement("h1");
+    h2.innerHTML = "نوع کتاب:"+Allinfo.typeb;
+    h2.classList.add("h2");
+    divinfo.appendChild(h2);
+    const p = document.createElement("p");
+    p.innerHTML = "معلومات کتاب:"+Allinfo.infob;
+    divinfo.appendChild(p);
+    const deletbtn = document.createElement("button");
+    deletbtn.innerText = "Delet";
+    deletbtn.classList.add("btn");
+    maindiv.appendChild(deletbtn);
+   
+
+})
+
+   
+})
     })
     
-
+// 
  document.getElementById("bookname").value = "";
  document.getElementById("booktype").value = "";
  document.getElementById("bookimg").value = "";
@@ -116,7 +154,7 @@ maindiv.classList.add("divstyle")
 })
 
    
-});
+
 
 
 newlist.addEventListener("click",()=>{
