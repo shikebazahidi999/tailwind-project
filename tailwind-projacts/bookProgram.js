@@ -145,7 +145,7 @@ maindiv.classList.add("divstyle")
 })
     })
     
-// one attrib
+// one attribu
  document.getElementById("bookname").value = "";
  document.getElementById("booktype").value = "";
  document.getElementById("bookimg").value = "";
