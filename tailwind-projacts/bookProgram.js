@@ -103,7 +103,7 @@ maindiv.classList.add("divstyle")
     deletbtn.innerText = "Delet";
     deletbtn.classList.add("btn");
     maindiv.appendChild(deletbtn);
-    // remove buttun for bookb
+    // remove buttun for bookbo
     deletbtn.addEventListener("click",()=>{
         bookinfo.splice(index,1);
 
