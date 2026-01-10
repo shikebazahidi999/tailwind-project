@@ -103,6 +103,7 @@ maindiv.classList.add("divstyle")
     deletbtn.innerText = "Delet";
     deletbtn.classList.add("btn");
     maindiv.appendChild(deletbtn);
+    // 
     deletbtn.addEventListener("click",()=>{
         bookinfo.splice(index,1);
 
@@ -146,6 +147,7 @@ maindiv.classList.add("divstyle")
     })
     
 // one attribute added;
+
  document.getElementById("bookname").value = "";
  document.getElementById("booktype").value = "";
  document.getElementById("bookimg").value = "";
