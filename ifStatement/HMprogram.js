@@ -163,7 +163,7 @@ else{
 // }
 // else if (opretor==="/"){
 //     let resuilt1 = firstnum/secoundnum
-//     console.log(firstnum+"/"+secoundnum+"="+resuilt1)
+//     console.log(firstnum+"/"+secoundnum+"="+resuilt1);
 // }
 // else if (opretor==="-"){
 //     let resuilt1 = firstnum-secoundnum
