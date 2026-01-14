@@ -112,7 +112,7 @@ else{
 //     console.log("you can go")
 // }
 // else{
-//     console.log("you didn't enter the right color of trafic")
+//     console.log("you didn't enter the right color of trafic");
 // }
             9
 // // nineth program 9
