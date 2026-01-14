@@ -106,7 +106,7 @@ else{
 //     console.log("stop")
 // }
 // else if (trafic1==="yellow"){
-//     console.log("drive slow")
+//     console.log("drive slow");
 // }
 // else if(trafic1==="green"){
 //     console.log("you can go");
