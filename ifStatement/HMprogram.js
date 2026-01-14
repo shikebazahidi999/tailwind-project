@@ -186,8 +186,8 @@ if((randomNumber>60&&player===Paper)||(randomNumber>30&&player===Sissores)||(ran
     alert("computer won");
 }
 else if((player===Rock&&randomNumber>60)||(player===Paper&&randomNumber>30)||(player===Sissores&&randomNumber<30)){
-    alert("you won")
+    alert("you won");
 }
 else{
-    alert("you both have the same choice")
+    alert("you both have the same choice");
 }
