@@ -170,7 +170,7 @@ else{
 //     console.log(firstnum+"-"+secoundnum+"="+resuilt1);
 // }
 // else{
-//     console.log("sorry we coudn't understand try again")
+//     console.log("sorry we coudn't understand try again");
 // }
            13
 // thiteenth program 13
