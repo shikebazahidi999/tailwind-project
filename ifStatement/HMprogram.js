@@ -136,7 +136,7 @@ else{
 //     console.log("the number is in the limitted area")
 // }
 // else{
-    // console.log("the number is not in the limitted area")
+    // console.log("the number is not in the limitted area");
 // }
                 11
 // // eleventh program 11
