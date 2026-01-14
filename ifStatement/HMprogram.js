@@ -118,7 +118,7 @@ else{
 // // nineth program 9
 // let weather = prompt("inter the weather score to know how is the weather");
 // if(weather>=35){
-//     console.log("the weather is too hot")
+//     console.log("the weather is too hot");
 // }
 // else if(weather<34&&weather>20){
 //     console.log("the weather is good");
