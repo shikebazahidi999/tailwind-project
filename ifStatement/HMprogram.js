@@ -84,7 +84,7 @@ else{
 // // seventh program 7
 // let score = prompt("enter your score to know in which group are you in");
 // if(score<=100&&score>=90){
-//     console.log("you are in group (A)")
+//     console.log("you are in group (A)");
 // }
 // else if (score>=80&&score<90){
 //     console.log("you are in group (B)");
