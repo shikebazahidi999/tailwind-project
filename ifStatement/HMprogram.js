@@ -87,7 +87,7 @@ else{
 //     console.log("you are in group (A)")
 // }
 // else if (score>=80&&score<90){
-//     console.log("you are in group (B)")
+//     console.log("you are in group (B)");
 // }
 // else if(score>=70&&score<80){
 //     console.log("you are in group (C)");
