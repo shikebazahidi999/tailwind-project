@@ -146,7 +146,7 @@ else{
 //     console.log(`the number ${taqsim} is full able to divide on number ${adad}`)
 // }
 // else{
-//     console.log(`the number ${taqsim} is not able to divide on ${adad}`)
+//     console.log(`the number ${taqsim} is not able to divide on ${adad}`);
 // }
               12
 // // twelvth program 12
