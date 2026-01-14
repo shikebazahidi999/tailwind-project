@@ -109,7 +109,7 @@ else{
 //     console.log("drive slow")
 // }
 // else if(trafic1==="green"){
-//     console.log("you can go")
+//     console.log("you can go");
 // }
 // else{
 //     console.log("you didn't enter the right color of trafic");
