@@ -143,7 +143,7 @@ else{
 // let taqsim = prompt("enter a number that you want to divide");
 // let adad = prompt("enter a number that you want to divide the ex number on");
 // if(taqsim%adad===0){
-//     console.log(`the number ${taqsim} is full able to divide on number ${adad}`)
+//     console.log(`the number ${taqsim} is full able to divide on number ${adad}`);
 // }
 // else{
 //     console.log(`the number ${taqsim} is not able to divide on ${adad}`);
