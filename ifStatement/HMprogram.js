@@ -131,7 +131,7 @@ else{
 // }
            10
 // // thinth program 10
-// const numbers = prompt("enter a number")
+// const numbers = prompt("enter a number");
 // if(numbers<=100&&numbers>=1){
 //     console.log("the number is in the limitted area");
 // }
