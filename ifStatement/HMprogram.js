@@ -127,7 +127,7 @@ else{
 //     console.log("the weather is a littel cold")
 // }
 // else{
-//     console.log("the weather is too cold")
+//     console.log("the weather is too cold");
 // }
            10
 // // thinth program 10
