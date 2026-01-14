@@ -121,10 +121,10 @@ else{
 //     console.log("the weather is too hot")
 // }
 // else if(weather<34&&weather>20){
-//     console.log("the weather is good")
+//     console.log("the weather is good");
 // }
 // else if (weather<20&&weather>10){
-//     console.log("the weather is a littel cold")
+//     console.log("the weather is a littel cold");
 // }
 // else{
 //     console.log("the weather is too cold");
