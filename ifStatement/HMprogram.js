@@ -90,13 +90,13 @@ else{
 //     console.log("you are in group (B)")
 // }
 // else if(score>=70&&score<80){
-//     console.log("you are in group (C)")
+//     console.log("you are in group (C)");
 // }
 // else if(score>=60&&score<70){
-//     console.log("you are in group (D)")
+//     console.log("you are in group (D)");
 // }
 // else{
-//     console.log("ummmm sorry you faild the exam try more")
+//     console.log("ummmm sorry you faild the exam try more");
 // }
               8
 // // eighteth program 8
