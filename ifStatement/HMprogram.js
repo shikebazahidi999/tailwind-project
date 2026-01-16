@@ -67,7 +67,7 @@ else{
 // // sixed program 6
 let num1 = prompt("enter a number");
 let num2 = prompt("enter a number");
-let num3 = prompt("enter a number")
+let num3 = prompt("enter a number");
 if(num1>num2&&num1>num3){
     console.log(`the number (${num1}) is bigger then (${num2}) and (${num3})`)
 }
