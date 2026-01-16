@@ -61,7 +61,7 @@ else if(time>18&&time<=24){
     console.log("good night")
 }
 else{
-    console.log("i don't know what time is it now")
+    console.log("i don't know what time is it now");
 }
         6
 // // sixed program 6
