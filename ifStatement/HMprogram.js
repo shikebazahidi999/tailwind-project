@@ -38,7 +38,7 @@ let letters = prompt("enter a letter to check is voul or no");
 let lowercase = letters.toLowerCase()
 if(lowercase==="a"||lowercase==="e"||lowercase==="i"||lowercase==="o"||lowercase==="u"){
 
-    console.log(`the letter (${letters}) you intered is a vaoul letter`)
+    console.log(`the letter (${letters}) you intered is a vaoul letter`);
     
 }
 else{
