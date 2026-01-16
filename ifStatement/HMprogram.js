@@ -49,7 +49,7 @@ else{
 // am morning pm afternoon
 let time = 14;
 if(time>=1&&time<12){
-    console.log("good morning")
+    console.log("good morning");
 }
 else if(time>=12&&time<15){
     console.log("good afternoon")
