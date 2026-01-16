@@ -5,7 +5,7 @@ const showform = document.getElementById("showform");
 const izafakardan = document.getElementById("izafakardan");
 const nav = document.getElementById("nav");
 const newlist = document.getElementById("newlist");
-const newadded =document.getElementById("newadded");
+const newadded = document.getElementById("newadded");
 const addbtn = document.getElementById("addbtn");
 
 
@@ -61,9 +61,7 @@ addbtn.addEventListener("click",(event)=>{
 let bookname = document.getElementById("bookname").value;
 let booktype = document.getElementById("booktype").value;
 let bookimg = document.getElementById("bookimg").value;
-let info = document.getElementById("info").value;
-    
-    
+let info = document.getElementById("info").value;    
 let Allinfo = {
 nameb: bookname,
 typeb: booktype,
@@ -77,76 +75,33 @@ bookinfo.forEach((book,index)=>{
 
 
     const maindiv = document.createElement("div");
-   
     newadded.appendChild(maindiv);
-maindiv.classList.add("divstyle")
-    const divinfo = document.createElement("div");
-    divinfo.classList.add("divinfostyle")
-    maindiv.appendChild(divinfo);
-
-    const image = document.createElement("img");
-    image.setAttribute("src",Allinfo.imgb);
-    image.classList.add("img")
-    maindiv.appendChild(image);
+    maindiv.classList.add("divstyle");
+ 
    const h1 = document.createElement("h1");
-   h1.innerHTML = "اسم کتاب:"+Allinfo.nameb;
+   h1.textContent = "اسم کتاب:"+Allinfo.nameb;
    h1.classList.add("h1");
-   divinfo.appendChild(h1);
+  
     const h2 = document.createElement("h1");
-    h2.innerHTML = "نوع کتاب:"+Allinfo.typeb;
+    h2.textContent= "نوع کتاب:"+Allinfo.typeb;
     h2.classList.add("h2");
-    divinfo.appendChild(h2);
+  
     const p = document.createElement("p");
-    p.innerHTML = "معلومات کتاب:"+Allinfo.infob;
-    divinfo.appendChild(p);
+    p.textContent = "معلومات کتاب:"+Allinfo.infob;
+  
     const deletbtn = document.createElement("button");
-    deletbtn.innerText = "Delet";
+    deletbtn.textContent = "Delet";
     deletbtn.classList.add("btn");
-    maindiv.appendChild(deletbtn);
-    // remove buttun for bookbox
     deletbtn.addEventListener("click",()=>{
-        bookinfo.splice(index,1);
-
-newadded.innerHTML = "";
-bookinfo.forEach((book,index)=>{
-
-
-    const maindiv = document.createElement("div");
-   
-    newadded.appendChild(maindiv);
-maindiv.classList.add("divstyle")
-    const divinfo = document.createElement("div");
-    divinfo.classList.add("divinfostyle")
-    maindiv.appendChild(divinfo);
+        bookinfo.splice(index,1)
+    })
+    maindiv.append(h1,h2,p,deletbtn);
 
     const image = document.createElement("img");
     image.setAttribute("src",Allinfo.imgb);
     image.classList.add("img")
     maindiv.appendChild(image);
-   const h1 = document.createElement("h1");
-   h1.innerHTML = "اسم کتاب:"+Allinfo.nameb;
-   h1.classList.add("h1");
-   divinfo.appendChild(h1);
-    const h2 = document.createElement("h1");
-    h2.innerHTML = "نوع کتاب:"+Allinfo.typeb;
-    h2.classList.add("h2");
-    divinfo.appendChild(h2);
-    const p = document.createElement("p");
-    p.innerHTML = "معلومات کتاب:"+Allinfo.infob;
-    divinfo.appendChild(p);
-    const deletbtn = document.createElement("button");
-    deletbtn.innerText = "Delet";
-    deletbtn.classList.add("btn");
-    maindiv.appendChild(deletbtn);
-   
 
-})
-
-   
-})
-    })
-    
-// one attribute added;
 
  document.getElementById("bookname").value = "";
  document.getElementById("booktype").value = "";
@@ -154,11 +109,8 @@ maindiv.classList.add("divstyle")
  document.getElementById("info").value = "";
 
 })
-
-   
-
-
-
+})// book info condition ended
+//    new list's style & condition
 newlist.addEventListener("click",()=>{
     if(izafakardan.classList.contains("flex")){
         izafakardan.classList.remove("flex");
