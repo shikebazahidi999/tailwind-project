@@ -55,7 +55,7 @@ else if(time>=12&&time<15){
     console.log("good afternoon");
 }
 else if(time>=15 &&time<=18){
-    console.log("good evening")
+    console.log("good evening");
 }
 else if(time>18&&time<=24){
     console.log("good night")
