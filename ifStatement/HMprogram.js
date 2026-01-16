@@ -16,7 +16,7 @@ if(evenNum%2===0){
     console.log(`the number ${evenNum} is even`);
 }
 else{
-    console.log(`the number ${evenNum} is an odd number`)
+    console.log(`the number ${evenNum} is an odd number`);
 }
 
 // third program 3
