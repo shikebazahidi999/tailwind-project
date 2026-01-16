@@ -30,7 +30,7 @@ if(adult.age>=18){
     console.log(`MR ${adult.name}  you can enter your vote`);
 }
 else{
-    console.log(`Sorry baybe you can not enter vote becouse the age ${adult.age} not legal`)
+    console.log(`Sorry baybe you can not enter vote becouse the age ${adult.age} not legal`);
 }
          4
 // fourth program 4
