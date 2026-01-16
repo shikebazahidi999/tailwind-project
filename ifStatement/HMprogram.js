@@ -58,7 +58,7 @@ else if(time>=15 &&time<=18){
     console.log("good evening");
 }
 else if(time>18&&time<=24){
-    console.log("good night")
+    console.log("good night");
 }
 else{
     console.log("i don't know what time is it now");
