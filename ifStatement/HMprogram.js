@@ -42,7 +42,7 @@ if(lowercase==="a"||lowercase==="e"||lowercase==="i"||lowercase==="o"||lowercase
     
 }
 else{
-    console.log(`the letter (${letters}) you entered is not a vaoul letter`)
+    console.log(`the letter (${letters}) you entered is not a vaoul letter`);
 }
             5
 // fivth program 5
