@@ -500,4 +500,4 @@ switch(weekDays){
     break;    
 };
 let adad10 = [];
-for(let i = 0 ; i<adad10.length)
+for(let i = 0 ; i<adad10.length;i++)
