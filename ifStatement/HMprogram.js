@@ -498,4 +498,4 @@ switch(weekDays){
     case "friday":
         console.log("free");
     break;    
-}
+};
