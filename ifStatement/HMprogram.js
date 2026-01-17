@@ -499,5 +499,5 @@ switch(weekDays){
         console.log("free");
     break;    
 };
-let adad10 = 1;
-for(let i = 0 ;)
+let adad10 = [];
+for(let i = 0 ; i<adad10.length)
