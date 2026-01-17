@@ -499,4 +499,4 @@ switch(weekDays){
         console.log("free");
     break;    
 };
-for
+for(let )
