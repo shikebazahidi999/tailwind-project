@@ -78,7 +78,7 @@ else if (num3>num1&&num3>num2){
     console.log(`the number (${num3}) is bigger then number (${num1}) and number (${num2})`);
 }
 else{
-    console.log(`you didn't enter number`)
+    console.log(`you didn't enter number`);
 }
           7
 // seventh program 7
