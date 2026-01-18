@@ -539,7 +539,7 @@
 // // seventh one 7
 // let factoryal = 1;
 // for(let d = 1;d<=8;d++){
-//  let resuilt =factoryal*=d
+//  let resuilt =factoryal*=d;
 //     console.log(d+'x'+resuilt+'='+factoryal);
 // };
 // // TEWLVWTH ONE 12
