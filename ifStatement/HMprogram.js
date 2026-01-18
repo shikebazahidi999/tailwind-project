@@ -540,7 +540,7 @@
 // let factoryal = 1;
 // for(let d = 1;d<=8;d++){
 //  let resuilt =factoryal*=d
-//     console.log(d+'x'+resuilt+'='+factoryal)
+//     console.log(d+'x'+resuilt+'='+factoryal);
 // };
 // // TEWLVWTH ONE 12
 // let tagsim = 90;
