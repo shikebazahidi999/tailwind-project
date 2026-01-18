@@ -524,7 +524,7 @@
 // // fourth one 4
 // let multiply= 7;
 // for(let v = 1; v<=10;v++){
-//     console.log(v+"*"+7+"="+v*multiply)
+//     console.log(v+"*"+7+"="+v*multiply);
 // };
 // // fivth one 5
 // for(let b = 20;b>=1;b--){
