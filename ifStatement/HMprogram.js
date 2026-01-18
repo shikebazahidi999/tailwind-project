@@ -528,7 +528,7 @@
 // };
 // // fivth one 5
 // for(let b = 20;b>=1;b--){
-//    console.log(b)
+//    console.log(b);
 // };
 // // sixed one 6
 // for(let c = 1 ; c<=50; c++){
