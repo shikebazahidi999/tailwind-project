@@ -533,7 +533,7 @@
 // // sixed one 6
 // for(let c = 1 ; c<=50; c++){
 //     if(c%5===0){
-//         console.log(c)
+//         console.log(c);
 //     }
 // };
 // // seventh one 7
