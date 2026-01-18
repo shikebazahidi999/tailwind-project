@@ -506,7 +506,7 @@
 // for(let i = 1 ; i<=10;i++){
 //     console.log(i);
 // };
-// // seacound one2
+// // seacound one2;
 
 
 // for(let n = 1;n<=20;n++){
@@ -521,7 +521,7 @@
    
 // };
 //  console.log(sum);
-// // fourth one 4
+// // fourth one 4;
 // let multiply= 7;
 // for(let v = 1; v<=10;v++){
 //     console.log(v+"*"+7+"="+v*multiply);
