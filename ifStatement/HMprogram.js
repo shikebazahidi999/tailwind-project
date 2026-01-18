@@ -546,7 +546,7 @@
 // let tagsim = 90;
 // for(let h =5;h<=90;h++){
 //     if(h%9===0){
-//         console.log(h)
+//         console.log(h);
 //     }
 // };
 // 14
