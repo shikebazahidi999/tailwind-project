@@ -501,7 +501,7 @@
 // };
 
 // loop program
-// first one
+// first one;
 
 // for(let i = 1 ; i<=10;i++){
 //     console.log(i);
