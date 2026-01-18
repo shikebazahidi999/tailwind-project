@@ -520,7 +520,7 @@
 //     sum +=m;
    
 // };
-//  console.log(sum)
+//  console.log(sum);
 // // fourth one 4
 // let multiply= 7;
 // for(let v = 1; v<=10;v++){
