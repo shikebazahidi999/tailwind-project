@@ -576,7 +576,7 @@ for(let f = 1; f<=10;f++){
 //         console.log(h);
 //     }
 // };
-// //fourteenth one  14
+// //fourteenth one  14;
 // let manfi = [15,-19,8,3,-0,-12,7,-4];
 // for(let g= 0; g<=manfi.length;g++){
 //     if(manfi[g]>0){
