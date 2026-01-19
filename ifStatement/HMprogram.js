@@ -569,7 +569,7 @@ for(let f = 1; f<=10;f++){
 
    console.log(main);
 }
-// // TEWLVWTH ONE 12
+// // TEWLVWTH ONE 12;
 // let tagsim = 90;
 // for(let h =5;h<=90;h++){
 //     if(h%9===0){
