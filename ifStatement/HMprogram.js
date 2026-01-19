@@ -556,7 +556,7 @@
 //     for(let f = 1;f<=j;f++){    
 //       console.log('*');;
 //     }
-//      console.log("\n"); 
+//      console.log("\n"); ;
 // }
 // tenth one 10;
 
