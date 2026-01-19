@@ -547,7 +547,7 @@
 // // eight one 8
 // for(let i = 0; i<=5;i++){ 
 //     for(let b = 0; b<i; b++){
-//       console.log("*")
+//       console.log("*");
 //     }
 //     console.log('\n');  
 // };
