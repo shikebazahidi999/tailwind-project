@@ -513,12 +513,12 @@
 // if(n% 2===0){
 //     console.log(n);
 // } 
-// }
+// }2w22222222w23ee3eeeeee
+
 // // third one 3
 // let sum = 0;
 // for(let m =1;m<=100;m++){
-//     sum +=m;
-   
+//     sum +=m; 
 // };
 //  console.log(sum);
 // // fourth one 4;
@@ -536,12 +536,39 @@
 //         console.log(c);
 //     }
 // };
+
 // // seventh one 7
 // let factoryal = 1;
 // for(let d = 1;d<=8;d++){
 //  let resuilt =factoryal*=d;
 //     console.log(d+'x'+resuilt+'='+factoryal);
 // };
+
+// // eight one 8
+// for(let i = 0; i<=5;i++){ 
+//     for(let b = 0; b<i; b++){
+//       console.log("*")
+//     }
+//     console.log('\n')  
+// };
+// // ninth one 9
+// for(let j =4;j>=1;j--){
+//     for(let f = 1;f<=j;f++){    
+//       console.log('*')
+//     }
+//      console.log("\n"); 
+// }
+// tenth one 10
+
+
+// }
+// eleventh 11
+
+for(let f = 1; f<=10;f++){
+   main += f**2
+
+   console.log(main)
+}
 // // TEWLVWTH ONE 12
 // let tagsim = 90;
 // for(let h =5;h<=90;h++){
@@ -549,11 +576,17 @@
 //         console.log(h);
 //     }
 // };
-// 14
-let manfi = [15,-19,8,3,-0,-12,7,-4];
-for(let g= 0; g<=manfi.length;g++){
-    if(manfi[g]>0){
-        console.log(manfi[g]);
+// //fourteenth one  14
+// let manfi = [15,-19,8,3,-0,-12,7,-4];
+// for(let g= 0; g<=manfi.length;g++){
+//     if(manfi[g]>0){
+//         console.log(manfi[g]);
+//     }
+// };
+// // fivteenth one 15
+for(let r = 1; r<=10; r++){
+    for(let n = 1;n<r;n++){
+        console.log(r+"*"+n+'='+r*n)
     }
-};
+}
 // 8,9,11,13,
