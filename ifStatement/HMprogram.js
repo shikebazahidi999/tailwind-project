@@ -567,7 +567,7 @@
 for(let f = 1; f<=10;f++){
    main += f**2
 
-   console.log(main)
+   console.log(main);
 }
 // // TEWLVWTH ONE 12
 // let tagsim = 90;
