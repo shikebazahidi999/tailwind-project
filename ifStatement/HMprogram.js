@@ -583,7 +583,7 @@ for(let f = 1; f<=10;f++){
 //         console.log(manfi[g]);
 //     }
 // };
-// // fivteenth one 15
+// // fivteenth one 15;
 for(let r = 1; r<=10; r++){
     for(let n = 1;n<r;n++){
         console.log(r+"*"+n+'='+r*n);
