@@ -549,7 +549,7 @@
 //     for(let b = 0; b<i; b++){
 //       console.log("*")
 //     }
-//     console.log('\n')  
+//     console.log('\n');  
 // };
 // // ninth one 9
 // for(let j =4;j>=1;j--){
