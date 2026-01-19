@@ -562,7 +562,7 @@
 
 
 // }
-// eleventh 11
+// eleventh 11;
 
 for(let f = 1; f<=10;f++){
    main += f**2;
