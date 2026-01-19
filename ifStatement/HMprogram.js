@@ -554,7 +554,7 @@
 // // ninth one 9
 // for(let j =4;j>=1;j--){
 //     for(let f = 1;f<=j;f++){    
-//       console.log('*')
+//       console.log('*');
 //     }
 //      console.log("\n"); 
 // }
