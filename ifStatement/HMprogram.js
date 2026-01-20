@@ -610,7 +610,7 @@
 //    evennums++;
 //     }
 //     else{
-//      oddnums++
+//      oddnums++;
 //     }
 //     getnum= Number(prompt('enter the last number');
 
