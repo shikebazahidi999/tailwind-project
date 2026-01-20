@@ -616,7 +616,7 @@
 
 // };
 // for loop
-// console.log(evennums+'عدد جفت')
+// console.log(evennums+'عدد جفت');
 //  console.log(oddnums+"عدد تاق")
 // let arr = [1,2,3,4,5,6,7];
 // let oddnums = 0;
