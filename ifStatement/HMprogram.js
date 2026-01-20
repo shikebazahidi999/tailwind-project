@@ -627,7 +627,7 @@
 //     console.log(oddnums);
 // }
 // else if (arr[i]%2!=0){
-//     evennums=arr[i]
+//     evennums=arr[i];
 //     console.log(evennums)
 // }
 // }
