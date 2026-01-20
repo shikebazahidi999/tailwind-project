@@ -611,7 +611,7 @@
 //     }
 //     else{
 //      oddnums++;
-//     }
+//     };
 //     getnum= Number(prompt('enter the last number');
 
 // };
