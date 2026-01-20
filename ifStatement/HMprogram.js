@@ -607,7 +607,7 @@
 // let oddnums = 0;
 // while(getnum!==0){
 //     if(getnum%2===0){
-//    evennums++
+//    evennums++;
 //     }
 //     else{
 //      oddnums++
