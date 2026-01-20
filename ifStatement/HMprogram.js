@@ -564,11 +564,11 @@
 // }
 // eleventh 11;;;;;
 
-for(let f = 1; f<=10;f++){
-   main += f**2;
+// for(let f = 1; f<=10;f++){
+//    main += f**2;
 
-   console.log(main);
-}
+//    console.log(main);
+// }
 // // TEWLVWTH ONE 12;
 // let tagsim = 90;
 // for(let h =5;h<=90;h++){
@@ -584,9 +584,50 @@ for(let f = 1; f<=10;f++){
 //     }
 // };
 // // fivteenth one 15;
-for(let r = 1; r<=10; r++){
-    for(let n = 1;n<r;n++){
-        console.log(r+"*"+n+'='+r*n);
-    }
-}
-// 8,9,11,13,
+// for(let r = 1; r<=10; r++){
+//     for(let n = 1;n<r;n++){
+//         console.log(r+"*"+n+'='+r*n);
+//     }
+// }
+
+
+// whilte loop program
+// // first one 1
+// let i = 1;
+
+// while(i<1000000000){
+
+// console.log(i);
+// i = i*2;
+// };
+// // secound one 2
+// let getnum = Number(prompt('enter a number'));
+
+// let evennums = 0;
+// let oddnums = 0;
+// while(getnum!==0){
+//     if(getnum%2===0){
+//    evennums++
+//     }
+//     else{
+//      oddnums++
+//     }
+//     getnum= Number(prompt('enter the last number'))
+
+// };
+// for loop
+// console.log(evennums+'عدد جفت')
+//  console.log(oddnums+"عدد تاق")
+// let arr = [1,2,3,4,5,6,7];
+// let oddnums = 0;
+// let evennums = 0;
+// for(let i = 0; i<arr.length;i++){
+// if(arr[i]%2===0){
+//     oddnums = arr[i]
+//     console.log(oddnums)
+// }
+// else if (arr[i]%2!=0){
+//     evennums=arr[i]
+//     console.log(evennums)
+// }
+// }
