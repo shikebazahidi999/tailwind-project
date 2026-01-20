@@ -628,6 +628,6 @@
 // }
 // else if (arr[i]%2!=0){
 //     evennums=arr[i];
-//     console.log(evennums)
+//     console.log(evennums);
 // }
 // }
