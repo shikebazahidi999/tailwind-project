@@ -624,7 +624,7 @@
 // for(let i = 0; i<arr.length;i++){
 // if(arr[i]%2===0){
 //     oddnums = arr[i]
-//     console.log(oddnums)
+//     console.log(oddnums);
 // }
 // else if (arr[i]%2!=0){
 //     evennums=arr[i]
