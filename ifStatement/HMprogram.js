@@ -612,7 +612,7 @@
 //     else{
 //      oddnums++
 //     }
-//     getnum= Number(prompt('enter the last number'))
+//     getnum= Number(prompt('enter the last number');
 
 // };
 // for loop
