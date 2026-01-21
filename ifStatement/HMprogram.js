@@ -782,7 +782,7 @@ else{
 }
 q++
 // number while end
-    }while(q<numbers.length)
+    }while(q<numbers.length);
         // string while end     
 w++
 }while(w<srring.length) ; 
