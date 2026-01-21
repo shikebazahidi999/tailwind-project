@@ -773,7 +773,7 @@ do{
     do{
         password.toLowerCase
    if(password.includes(srring[w])&&password.includes(numbers[q])&&password.length>8){
-    console.log('your password is correct')
+    console.log('your password is correct');
     break
 }
 else{
