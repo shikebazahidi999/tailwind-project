@@ -787,7 +787,7 @@ q++
 w++
 }while(w<srring.length) ; 
 r++
-}while(r<1)
+}while(r<1);
 
 // // tenth one 10
 // let strings = "shikeba";
