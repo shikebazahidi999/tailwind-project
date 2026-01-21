@@ -749,7 +749,7 @@ let problem = ''
 //     else if (i===4){
 //          while(a<4){
 //         console.log(i)
-//         a++
+//         a++;
 //     }}
 //     else if (i===5){
 //          while(w<5){
