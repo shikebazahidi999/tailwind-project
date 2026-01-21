@@ -794,7 +794,7 @@ r++
 // let lists = [];
 // let t = 0;
 // while(t<strings.length){
-//     lists.push(strings[t])
+//     lists.push(strings[t]);
 //     t++
 // }
 // console.log(strings)
