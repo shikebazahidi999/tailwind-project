@@ -802,7 +802,7 @@ let promlep3 = ''
 let s = 0;
 while(s<1000){
   if(s%2===0&&s%3===0){
-console.log(s)
+console.log(s);
   }
   s++
 }
