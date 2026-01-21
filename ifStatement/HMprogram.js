@@ -743,8 +743,8 @@ let problem = ''
 //     }}
 //     else if (i===3){
 //          while(s<3){
-//         console.log(i)
-//         s++
+//         console.log(i);
+//         s++;
 //     }}
 //     else if (i===4){
 //          while(a<4){
