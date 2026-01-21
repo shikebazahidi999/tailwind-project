@@ -756,7 +756,7 @@ let problem = ''
 //         console.log(i)
 //         w++
 //     }}
-//     i++ 
+//     i++ ;
 // };
 
 // // ninth one 9
