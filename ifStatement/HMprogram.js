@@ -760,34 +760,34 @@ let problem = ''
 // };
 
 // // ninth one 9
-// let promlep3 = ''
-let password = prompt('enter your password to sign in');
-let r = 0;
-let numbers = [1,2,3,4,5,6,7,8,9,0];
-let srring = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','r','s','t','u','v','w','x','y','z'];
-let string = [];
-let w = 0;
-let q = 0;
-do{
-  do{
-    do{
-        password.toLowerCase
-   if(password.includes(srring[w])&&password.includes(numbers[q])&&password.length>8){
-    console.log('your password is correct');
-    break;
-}
-else{
-   console.log('your password is not correct') ;
-   break;
-}
-q++
-// number while end
-    }while(q<numbers.length);
-        // string while end     
-w++
-}while(w<srring.length) ; 
-r++
-}while(r<1);
+let promlep3 = ''
+// let password = prompt('enter your password to sign in');
+// let r = 0;
+// let numbers = [1,2,3,4,5,6,7,8,9,0];
+// let srring = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','r','s','t','u','v','w','x','y','z'];
+// let string = [];
+// let w = 0;
+// let q = 0;
+// do{
+//   do{
+//     do{
+//         password.toLowerCase
+//    if(password.includes(srring[w])&&password.includes(numbers[q])&&password.length>8){
+//     console.log('your password is correct');
+//     break;
+// }
+// else{
+//    console.log('your password is not correct') ;
+//    break;
+// }
+// q++
+// // number while end
+//     }while(q<numbers.length);
+//         // string while end     
+// w++
+// }while(w<srring.length) ; 
+// r++
+// }while(r<1);
 
 // // tenth one 10
 // let strings = "shikeba";
