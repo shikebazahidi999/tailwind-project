@@ -799,3 +799,7 @@ let promlep3 = ''
 // }
 // console.log(strings);
 // console.log(lists);
+let s = 0;
+while(s<1000){
+  s++
+}
