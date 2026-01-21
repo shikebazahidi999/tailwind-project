@@ -753,7 +753,7 @@ let problem = ''
 //     }}
 //     else if (i===5){
 //          while(w<5){
-//         console.log(i)
+//         console.log(i);
 //         w++
 //     }}
 //     i++ ;
