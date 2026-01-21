@@ -778,7 +778,7 @@ do{
 }
 else{
    console.log('your password is not correct') ;
-   break
+   break;
 }
 q++
 // number while end
