@@ -597,27 +597,33 @@
 
 // while(i<1000000000){
 
-// console.log(i);
-// i = i*2;
+// console.log(i**2);
+// i++
 // };
 // // secound one 2
-// let getnum = Number(prompt('enter a number'));
-
 // let evennums = 0;
 // let oddnums = 0;
-// while(getnum!==0){
-//     if(getnum%2===0){
-//    evennums++;
+// let hi = 0;
+// let list = [];
+// while(true){
+// let getnum = Number(prompt('enter a number'));
+// if(getnum===0){
+//     break
+// }
+// list.push(getnum)
+// while(hi<=list.length){
+//     if(list[hi]%2===0){
+//         evennums++
 //     }
-//     else{
-//      oddnums++;
-//     };
-//     getnum= Number(prompt('enter the last number');
-
-// };
-// for loop
+//     else if (list[hi]%2!==0) {
+//         oddnums ++
+//     }
+//     hi++
+// }
+// }
 // console.log(evennums+'عدد جفت');
 //  console.log(oddnums+"عدد تاق");
+// for loop
 // let arr = [1,2,3,4,5,6,7];
 // let oddnums = 0;
 // let evennums = 0;
@@ -630,4 +636,166 @@
 //     evennums=arr[i];
 //     console.log(evennums);
 // };
-// };;;
+// };
+// third one 3
+ let problem1 = ''
+// whith lenght 3
+let resuilt = ""
+let lenghts = 12356789
+ lenghts = lenghts.toString
+let i = 0;
+while(i<=lenghts.length){
+  resuilt = i+'عدد وارد شده '+i+'رقم است';
+i++
+}
+console.log(resuilt)
+
+// // fourth one 4
+// let i = 0;
+// let p = 0;
+// let textlist = []
+// let text = "12345";
+// let text2 = "";
+// while(i<text.length){
+//     textlist.push(text[i]);
+//     i++
+// }
+//     while(p<text.length){
+//         text2 += textlist.pop();
+//         p++
+//     }
+// console.log(text2)
+
+let problem = ''
+// // fivth one 5
+// let num = 2;
+// let sum = 0
+// let num4 = 1000;
+// while(num<=1000){
+//     let nuber = 2;
+//     let prim = true
+//  while(nuber< num){
+//     if(num%nuber===0){
+//        prim = false;
+//        break;
+//     }
+//     nuber++; 
+//  }
+//    if(prim){
+//         console.log(num)
+//     }
+// num++
+
+// }
+
+
+// // sixed one 6
+// let numlist = 20;
+// let savenum = [];
+// let p = 0;
+// let g = 0;
+// while(p<=numlist){
+//    savenum.push(p);
+//     p++
+// }
+// console.log(savenum);
+
+// // seventh one 7
+// let list1 = [1,2,3,4,5,6,7,8,9,0];
+// let totext = "";
+// let f = 0
+// while(f <10){
+//     totext += list1.shift()
+//     f++
+// }
+// console.log(totext)
+
+// // eight one 8
+// let d = 1;
+
+// while(d<=5){
+//   let s = 0;
+//   let nums = ""; 
+//   while(s<d){
+//     nums+= d
+//     s++
+//   } 
+// console.log(nums)
+//     d++   
+// }
+// 
+// let i = 0;
+// let b = 1;
+// let d = 0;
+// let s = 0;
+// let a = 0;
+// let w = 0;
+
+// while( i<=5){ 
+
+// if(i===1){
+//      console.log(i)
+// }
+// else if (i===2){
+//      while(d<2){
+//         console.log(i)
+//         d++
+//     }}
+//     else if (i===3){
+//          while(s<3){
+//         console.log(i)
+//         s++
+//     }}
+//     else if (i===4){
+//          while(a<4){
+//         console.log(i)
+//         a++
+//     }}
+//     else if (i===5){
+//          while(w<5){
+//         console.log(i)
+//         w++
+//     }}
+//     i++ 
+// };
+
+// // ninth one 9
+// let promlep3 = ''
+let password = prompt('enter your password to sign in');
+let r = 0;
+let numbers = [1,2,3,4,5,6,7,8,9,0];
+let srring = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','r','s','t','u','v','w','x','y','z'];
+let string = []
+let w = 0;
+let q = 0;
+do{
+  do{
+    do{
+        password.toLowerCase
+   if(password.includes(srring[w])&&password.includes(numbers[q])&&password.length>8){
+    console.log('your password is correct')
+    break
+}
+else{
+   console.log('your password is not correct') 
+   break
+}
+q++
+// number while end
+    }while(q<numbers.length)
+        // string while end     
+w++
+}while(w<srring.length)  
+r++
+}while(r<1)
+
+// // tenth one 10
+// let strings = "shikeba";
+// let lists = [];
+// let t = 0;
+// while(t<strings.length){
+//     lists.push(strings[t])
+//     t++
+// }
+// console.log(strings)
+// console.log(lists)
