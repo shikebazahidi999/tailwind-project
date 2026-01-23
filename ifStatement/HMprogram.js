@@ -809,4 +809,37 @@ let promlep3 = ''
 //   s++
 // }
 
-// thwelvth one 12;
+// // thwelvth one 12;
+// let adads = Math.random()*1000;
+// let z = 0;
+// do{
+//  if(adads>1&&adads<100){
+//   console.log("you are close to one")
+//  }
+//  else if (adads>100&&adads<200){
+//   console.log('you are a little far then one')
+//  }
+//  else if (adads>200&&adads<300){
+//   console.log('you are in the middel')
+//  }
+//  else if (adads>300&&adads<400){
+//   console.log('you are very far')
+//  }
+//  else if (adads>400&&adads<500){
+//   console.log('you are very very far')
+//  }
+//  else{
+//   console.log("we couildn't find your station")
+//  }
+// z++;
+// }while(z<adads)
+
+// // thirteenth one 13
+
+//   let d = 9
+//   while(d>=1){
+//     console.log(d)
+//     d--
+//   }
+
+// function program
