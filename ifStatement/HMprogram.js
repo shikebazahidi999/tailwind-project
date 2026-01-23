@@ -883,4 +883,34 @@ let promlep3 = ''
 // let allnum = numbers1(32);
 // console.log(allnum);
 
-// fivth one 5
+// // fivth one 5
+// function selcuse(celsius){
+//   return celsius * 9/5 +32;
+// }
+// let celsuseadad = selcuse(25);
+// console.log(celsuseadad);
+
+// // sixth one 6
+// let nums4 = 1;
+// function factoryals(mainnum){
+//   for(let i = 1 ; i<=mainnum; i++){
+//   nums4*=i;
+// }
+// return nums4;
+// }
+// let factoryal1 = factoryals(6);
+// console.log(factoryal1);
+
+// seventh one 7
+let reversdwordes = "";
+let reverslist = []
+let words = "hello"
+function reverse(){
+  for(let i = 0; i<words.length; i++){
+    reverslist.push(words[i]);
+  }
+  for(let m = 0;m<words.length; m++){
+    reversdwordes= reverslist.pop();
+  }
+  return reversdwordes;
+}
