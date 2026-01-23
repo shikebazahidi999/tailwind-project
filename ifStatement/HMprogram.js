@@ -852,14 +852,19 @@ let promlep3 = ''
 // let resuilt2 = squire
 // console.log("جزر مربع عدد وارد شده"+resuilt2);
 
-// secound one 2
-function gigger(num,num1){
-  if(num>num1){
-    return num
-  }
-  else{
-    return num1
-  }
+// // secound one 2
+// function gigger(num,num1){
+//   if(num>num1){
+//     return num;
+//   }
+//   else{
+//     return num1;
+//   }
+// }
+// let bigger1 = gigger(100,16);
+// console.log(`عدد بزرگتر`+bigger1);
+
+// third one 3
+function greating(name,lastName){
+  return name,lastName;
 }
-let bigger1 = gigger(12,16);
-console.log(`عدد بزرگتر`+bigger1)
