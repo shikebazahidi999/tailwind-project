@@ -882,3 +882,5 @@ let promlep3 = ''
 // }
 // let allnum = numbers1(32);
 // console.log(allnum);
+
+// fivth one 5
