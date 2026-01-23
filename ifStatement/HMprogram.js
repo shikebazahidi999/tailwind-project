@@ -843,3 +843,9 @@ let promlep3 = ''
 //   }
 
 // function program
+//  first one 1
+function squire(number){
+  for(let i = 0; i<number; number++){
+    
+  }
+}
