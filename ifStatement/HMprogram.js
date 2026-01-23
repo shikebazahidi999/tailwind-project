@@ -843,9 +843,11 @@ let promlep3 = ''
 //   }
 
 // function program
-//  first one 1
-function squire(num){
- return Math.sqrt(num)
-}
-let resuilt2 = Math.sqrt(num
-)
+
+// //  first one 1
+// function squire(num,num2){
+//  return Math.sqrt(num)
+// }
+
+// let resuilt2 = squire
+// console.log("جزر مربع عدد وارد شده"+resuilt2);
