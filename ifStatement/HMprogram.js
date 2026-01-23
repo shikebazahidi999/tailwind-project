@@ -866,5 +866,7 @@ let promlep3 = ''
 
 // third one 3
 function greating(name,lastName){
-  return name,lastName;
+  return name + lastName
 }
+let greating1 = greating("shikeba ","zahedi");
+console.log("hello MS."+greating1+", welcome to our company")
