@@ -847,7 +847,7 @@ let promlep3 = ''
 function squire(number){
   for(let i = 0; i<number; i++){
   if(number%i===0){
-    return number
+    return number;
   }
   else{
     console.log("this number doesn't have any squir number")
