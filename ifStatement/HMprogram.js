@@ -864,9 +864,21 @@ let promlep3 = ''
 // let bigger1 = gigger(100,16);
 // console.log(`عدد بزرگتر`+bigger1);
 
-// third one 3
-function greating(name,lastName){
-  return name + lastName
-}
-let greating1 = greating("shikeba ","zahedi");
-console.log("hello MS."+greating1+", welcome to our company")
+// // third one 3
+// function greating(name,lastName){
+//   return name + lastName;
+// }
+// let greating1 = greating("shikeba ","zahedi");
+// console.log("hello MS."+greating1+", welcome to our company");
+
+// // fourth one 4
+// function numbers1(number2){
+//   if(number2%2===0){
+//     return number2 +' is an even number'
+//   }
+//   else{
+//     return number2 + " is an odd number"
+//   }
+// }
+// let allnum = numbers1(32);
+// console.log(allnum);
