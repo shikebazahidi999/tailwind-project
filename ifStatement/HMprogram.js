@@ -975,6 +975,8 @@ let problem6 = ''
 
 // twelvth one 12
 
+
 // thirteenth one 13
+function
 
 // fourteenth  one 14
