@@ -977,6 +977,8 @@ let problem6 = ''
 
 
 // thirteenth one 13
-function
+function perfectnum(number){
+    
+}
 
 // fourteenth  one 14
