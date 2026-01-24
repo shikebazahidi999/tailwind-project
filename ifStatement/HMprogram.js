@@ -979,7 +979,7 @@ let problem6 = ''
 // thirteenth one 13
 function perfectnum(number){
    if(number%2===0&&number%3===0){
-    return number
+    return number + "this is a perfect number"
    } 
 }
 
