@@ -982,6 +982,7 @@ function perfectnum(number){
     return number + " is a perfect number";
    } 
 }
+let perfectnums = perfectnum(34);
 
 
 // fourteenth  one 14
