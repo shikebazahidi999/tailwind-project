@@ -639,16 +639,16 @@
 // };
 // third one 3
  let problem1 = ''
-// whith lenght 3
-let resuilt = ""
-let lenghts = 12356789
- lenghts = lenghts.toString
-let i = 0;
-while(i<=lenghts.length){
-  resuilt = i+'عدد وارد شده '+i+'رقم است';
-i++
-}
-console.log(resuilt)
+// // whith lenght 3
+// let resuilt = ""
+// let lenghts = 12356789
+//  lenghts = lenghts.toString
+// let i = 0;
+// while(i<=lenghts.length){
+//   resuilt = i+'عدد وارد شده '+i+'رقم است';
+// i++
+// }
+// console.log(resuilt)
 
 // // fourth one 4
 // let i = 0;
@@ -901,16 +901,80 @@ let promlep3 = ''
 // let factoryal1 = factoryals(6);
 // console.log(factoryal1);
 
-// seventh one 7
-let reversdwordes = "";
-let reverslist = []
-let words = "hello"
-function reverse(){
-  for(let i = 0; i<words.length; i++){
-    reverslist.push(words[i]);
-  }
-  for(let m = 0;m<words.length; m++){
-    reversdwordes= reverslist.pop();
-  }
-  return reversdwordes;
-}
+let problems = ''
+// // seventh one 7
+
+// let liststring = [];
+// let reversstring = "";
+// function revers(string="hello"){
+//   for(let i =0; i<string.length; i++){
+//    liststring= liststring.push(string[i]);
+//   };
+//   for(let m = 0; m<string.length; m++){
+//     reversstring = liststring.pop()
+//   };
+//   return reversstring
+// }
+// console.log(revers('hello'));
+
+// // eight one 8
+
+// function numbersSum(...allnums){
+//   return allnums.reduce((main,numbers)=>{
+// return main+numbers
+//   },0)
+// }
+// let resuiltnumber = numbersSum(4,7,2,9);
+// console.log(resuiltnumber);
+
+// // ninth one 9
+// let isprime = true;
+// function primenumber(number){
+//   if(number<1){
+//    return isprime = false;
+//   };
+// let num = 2;
+// for(let i = 2; i <= Math.sqrt(number); i++){
+// if(number%i===0){
+//  return isprime =number + " is not a prime numebr";
+//   break;
+// }
+// }
+// if(isprime){
+//   return number +'  is a prime number'
+// }
+
+// }
+// let resuiltnum = primenumber(13);
+// console.log(resuiltnum);
+
+let problem5 = ''
+// // tenth one 10
+// function anagram(first,secound){
+//   for(let i = 0; i<secound.length; i++){
+// if(first.length===secound.length&&first.includes(secound[i])){
+//  return  first+ ' is an anagram word with ' +secound
+// }
+// else{
+//   return first+ ' is not anagram word with ' + secound
+// }
+// } ;
+// for(let m = 0 ; m<first.length; m++){
+//   if(secound.length===first.length&&secound.includes(first[i])){
+//     return first+ ' is an anagram word with ' +secound
+//   }
+//   else{
+//     return first+ ' is not anagram word with ' + secound
+//   }
+// } 
+// }
+// let total = anagram("hello", "nallo");
+// console.log(total);
+let problem6 = ''
+// eleventh one 11
+
+// twelvth one 12
+
+// thirteenth one 13
+
+// fourteenth  one 14
