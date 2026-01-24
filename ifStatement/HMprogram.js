@@ -981,6 +981,9 @@ function perfectnum(number){
    if(number%2===0&&number%3===0){
     return number + " is a perfect number";
    } 
+   else{
+    return number + " is not a perfect number"
+   }
 }
 let perfectnums = perfectnum(34);
 console.log(perfectnums)
