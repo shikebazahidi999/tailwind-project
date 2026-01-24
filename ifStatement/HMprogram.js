@@ -983,6 +983,6 @@ function perfectnum(number){
    } 
 }
 let perfectnums = perfectnum(34);
-
+console.log(perfectnums)
 
 // fourteenth  one 14
