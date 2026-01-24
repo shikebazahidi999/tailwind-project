@@ -978,7 +978,7 @@ let problem6 = ''
 
 // thirteenth one 13
 function perfectnum(number){
-   if(number%2===0&&number%3) 
+   if(number%2===0&&number%3===0) 
 }
 
 // fourteenth  one 14
