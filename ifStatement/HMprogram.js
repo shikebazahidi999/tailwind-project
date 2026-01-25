@@ -846,7 +846,7 @@ let promlep3 = ''
 
 // //  first one 1
 // function squire(num,num2){
-//  return Math.sqrt(num)
+//  return Math.sqrt(num);
 // }
 
 // let resuilt2 = squire;
