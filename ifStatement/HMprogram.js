@@ -877,7 +877,7 @@ let promlep3 = ''
 //     return number2 +' is an even number'
 //   }
 //   else{
-//     return number2 + " is an odd number"
+//     return number2 + " is an odd number";
 //   }
 // }
 // let allnum = numbers1(32);
