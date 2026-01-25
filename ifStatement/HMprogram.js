@@ -836,7 +836,7 @@ let promlep3 = ''
 
 // // thirteenth one 13
 
-//   let d = 9
+//   let d = 9;
 //   while(d>=1){
 //     console.log(d);
 //     d--;
