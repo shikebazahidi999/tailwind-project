@@ -964,7 +964,7 @@ let problem5 = ''
 //     return first+ ' is an anagram word with ' +secound
 //   }
 //   else{
-//     return first+ ' is not anagram word with ' + secound
+//     return first+ ' is not anagram word with ' + secound;
 //   }
 // } 
 // }
