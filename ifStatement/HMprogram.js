@@ -832,7 +832,7 @@ let promlep3 = ''
 //   console.log("we couildn't find your station")
 //  }
 // z++;
-// }while(z<adads)
+// }while(z<adads);
 
 // // thirteenth one 13
 
