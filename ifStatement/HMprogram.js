@@ -982,7 +982,7 @@ let problem6 = ''
 //     return number + " is a perfect number";
 //    } 
 //    else{
-//     return number + " is not a perfect number"
+//     return number + " is not a perfect number";
 //    }
 // }
 // let perfectnums = perfectnum(6);
