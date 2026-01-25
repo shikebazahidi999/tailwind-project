@@ -961,7 +961,7 @@ let problem5 = ''
 // } ;
 // for(let m = 0 ; m<first.length; m++){
 //   if(secound.length===first.length&&secound.includes(first[i])){
-//     return first+ ' is an anagram word with ' +secound
+//     return first+ ' is an anagram word with ' +secound;
 //   }
 //   else{
 //     return first+ ' is not anagram word with ' + secound;
