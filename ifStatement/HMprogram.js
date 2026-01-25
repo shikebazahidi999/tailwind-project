@@ -911,7 +911,7 @@ let problems = ''
 //    liststring= liststring.push(string[i]);
 //   };
 //   for(let m = 0; m<string.length; m++){
-//     reversstring = liststring.pop()
+//     reversstring = liststring.pop();
 //   };
 //   return reversstring;
 // }
