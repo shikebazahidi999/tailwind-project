@@ -874,7 +874,7 @@ let promlep3 = ''
 // // fourth one 4
 // function numbers1(number2){
 //   if(number2%2===0){
-//     return number2 +' is an even number'
+//     return number2 +' is an even number';
 //   }
 //   else{
 //     return number2 + " is an odd number";
