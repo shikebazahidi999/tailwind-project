@@ -829,7 +829,7 @@ let promlep3 = ''
 //   console.log('you are very very far')
 //  }
 //  else{
-//   console.log("we couildn't find your station")
+//   console.log("we couildn't find your station");
 //  }
 // z++;
 // }while(z<adads);
