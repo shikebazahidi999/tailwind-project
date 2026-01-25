@@ -839,7 +839,7 @@ let promlep3 = ''
 //   let d = 9
 //   while(d>=1){
 //     console.log(d)
-//     d--
+//     d--;
 //   }
 
 // function program
