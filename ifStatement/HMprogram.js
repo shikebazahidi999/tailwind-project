@@ -921,7 +921,7 @@ let problems = ''
 
 // function numbersSum(...allnums){
 //   return allnums.reduce((main,numbers)=>{
-// return main+numbers
+// return main+numbers;
 //   },0)
 // }
 // let resuiltnumber = numbersSum(4,7,2,9);
