@@ -849,7 +849,7 @@ let promlep3 = ''
 //  return Math.sqrt(num)
 // }
 
-// let resuilt2 = squire
+// let resuilt2 = squire;
 // console.log("جزر مربع عدد وارد شده"+resuilt2);
 
 // // secound one 2
