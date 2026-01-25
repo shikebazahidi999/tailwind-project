@@ -941,7 +941,7 @@ let problems = ''
 // }
 // }
 // if(isprime){
-//   return number +'  is a prime number'
+//   return number +'  is a prime number';
 // }
 
 // }
@@ -953,7 +953,7 @@ let problem5 = ''
 // function anagram(first,secound){
 //   for(let i = 0; i<secound.length; i++){
 // if(first.length===secound.length&&first.includes(secound[i])){
-//  return  first+ ' is an anagram word with ' +secound
+//  return  first+ ' is an anagram word with ' +secound;
 // }
 // else{
 //   return first+ ' is not anagram word with ' + secound;
