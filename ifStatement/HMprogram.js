@@ -842,14 +842,14 @@ let promlep3 = ''
 //     d--;
 //   }
 
-// function program
+// function lab menual
 
 // //  first one 1
-// function squire(num,num2){
+// function squire(num){
 //  return Math.sqrt(num);
 // }
 
-// let resuilt2 = squire;
+// let resuilt2 = squire (6);
 // console.log("جزر مربع عدد وارد شده"+resuilt2);
 
 // // secound one 2
@@ -973,7 +973,7 @@ let problem5 = ''
 let problem6 = ''
 // eleventh one 11
 
-// twelvth one 12
+// twelvth one 12;
 
 
 // // thirteenth one 13
