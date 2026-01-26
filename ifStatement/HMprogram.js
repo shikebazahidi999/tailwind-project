@@ -917,7 +917,7 @@ let problems = ''
 // }
 // console.log(revers('hello'));
 
-// // eight one 8
+// // eight one 8;
 
 // function numbersSum(...allnums){
 //   return allnums.reduce((main,numbers)=>{
@@ -948,7 +948,7 @@ let problems = ''
 // let resuiltnum = primenumber(13);
 // console.log(resuiltnum);
 
-let problem5 = ''
+let problem5 = '';
 // // tenth one 10
 // function anagram(first,secound){
 //   for(let i = 0; i<secound.length; i++){
@@ -971,7 +971,7 @@ let problem5 = ''
 // let total = anagram("hello", "nallo");
 // console.log(total);
 let problem6 = ''
-// eleventh one 11
+// eleventh one 11;
 
 // twelvth one 12;
 
