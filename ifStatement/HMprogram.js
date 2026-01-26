@@ -864,7 +864,7 @@ let promlep3 = ''
 // let bigger1 = gigger(100,16);
 // console.log(`عدد بزرگتر`+bigger1);
 
-// // third one 3
+// // third one 3;
 // function greating(name,lastName){
 //   return name + lastName;
 // }
@@ -881,7 +881,7 @@ let promlep3 = ''
 //   }
 // }
 // let allnum = numbers1(32);
-// console.log(allnum);
+// console.log(allnum);;
 
 // // fivth one 5;
 // function selcuse(celsius){
