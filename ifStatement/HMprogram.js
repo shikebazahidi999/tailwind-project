@@ -901,7 +901,7 @@ let promlep3 = ''
 // let factoryal1 = factoryals(6);
 // console.log(factoryal1);
 
-let problems = ''
+let problems = '';
 // // seventh one 7;
 
 // let liststring = [];
