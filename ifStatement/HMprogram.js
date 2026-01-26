@@ -844,7 +844,7 @@ let promlep3 = ''
 
 // function lab menual
 
-// //  first one 1
+// //  first one 1;
 // function squire(num){
 //  return Math.sqrt(num);
 // }
