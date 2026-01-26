@@ -902,7 +902,7 @@ let promlep3 = ''
 // console.log(factoryal1);
 
 let problems = '';
-// // seventh one 7;
+// // seventh one 7;;
 
 // let liststring = [];
 // let reversstring = "";
