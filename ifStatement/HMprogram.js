@@ -927,7 +927,7 @@ let problems = ''
 // let resuiltnumber = numbersSum(4,7,2,9);
 // console.log(resuiltnumber);
 
-// // ninth one 9
+// // ninth one 9;
 // let isprime = true;
 // function primenumber(number){
 //   if(number<1){
