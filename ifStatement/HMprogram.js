@@ -890,13 +890,13 @@ let promlep3 = ''
 // let celsuseadad = selcuse(25);
 // console.log(celsuseadad);
 
-// // sixth one 6
+// // sixth one 6;
 // let nums4 = 1;
 // function factoryals(mainnum){
 //   for(let i = 1 ; i<=mainnum; i++){
 //   nums4*=i;
 // }
-// return nums4;
+// return nums4;;
 // }
 // let factoryal1 = factoryals(6);
 // console.log(factoryal1);
