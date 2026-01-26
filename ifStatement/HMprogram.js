@@ -883,7 +883,7 @@ let promlep3 = ''
 // let allnum = numbers1(32);
 // console.log(allnum);
 
-// // fivth one 5
+// // fivth one 5;
 // function selcuse(celsius){
 //   return celsius * 9/5 +32;
 // }
