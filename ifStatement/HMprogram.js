@@ -842,7 +842,7 @@ let promlep3 = ''
 //     d--;
 //   }
 
-// function lab menual;
+// function lab menual;;
 
 // //  first one 1;
 // function squire(num){
