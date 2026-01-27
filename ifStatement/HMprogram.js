@@ -823,7 +823,7 @@ let promlep3 = ''
 //   console.log('you are in the middel')
 //  }
 //  else if (adads>300&&adads<400){
-//   console.log('you are very far')
+//   console.log('you are very far');
 //  }
 //  else if (adads>400&&adads<500){
 //   console.log('you are very very far')
