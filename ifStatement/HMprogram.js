@@ -891,7 +891,7 @@ let promlep3 = ''
 // console.log(celsuseadad);;
 
 // // sixth one 6;
-// let nums4 = 1;
+// let nums4 = 1;;
 // function factoryals(mainnum){
 //   for(let i = 1 ; i<=mainnum; i++){
 //   nums4*=i;
