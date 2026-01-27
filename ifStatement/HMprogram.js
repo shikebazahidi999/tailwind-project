@@ -785,7 +785,7 @@ let promlep3 = ''
 //     }while(q<numbers.length);
 //         // string while end;     
 // w++
-// }while(w<srring.length) ; 
+// }while(w<srring.length) ; ;
 // r++
 // }while(r<1);
 
