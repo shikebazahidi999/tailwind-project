@@ -800,7 +800,7 @@ let promlep3 = ''
 // console.log(strings);
 // console.log(lists);
 
-// // eleventh one 11
+// // eleventh one 11;
 // let s = 0;
 // while(s<1000){
 //   if(s%2===0&&s%3===0){
