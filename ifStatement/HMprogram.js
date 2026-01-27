@@ -844,9 +844,9 @@ let promlep3 = ''
 
 // function lab menual;;
 
-// //  first one 1;;
+// //  first one 1;;-
 // function squire(num){
-//  return Math.sqrt(num);
+//  return num**2;
 // }
 
 // let resuilt2 = squire (6);
@@ -904,18 +904,17 @@ let promlep3 = ''
 let problems = '';
 // // seventh one 7;;
 
-// let liststring = [];
+
 // let reversstring = "";
-// function revers(string="hello"){
-//   for(let i =0; i<string.length; i++){
-//    liststring= liststring.push(string[i]);
+// function revers(string){
+//   for(let i =string.length-1; i>=0; i--){
+//    reversstring = reversstring+string[i];
 //   };
-//   for(let m = 0; m<string.length; m++){
-//     reversstring = liststring.pop();
-//   };
+  
 //   return reversstring;
 // }
-// console.log(revers('hello'));
+// let alltext = revers('hello');
+// console.log(alltext)
 
 // // eight one 8;
 
