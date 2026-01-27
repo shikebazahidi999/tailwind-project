@@ -826,7 +826,7 @@ let promlep3 = ''
 //   console.log('you are very far');
 //  }
 //  else if (adads>400&&adads<500){
-//   console.log('you are very very far')
+//   console.log('you are very very far');
 //  }
 //  else{
 //   console.log("we couildn't find your station");
