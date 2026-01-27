@@ -914,7 +914,7 @@ let problems = '';
 //   return reversstring;
 // }
 // let alltext = revers('hello');
-// console.log(alltext)
+// console.log(alltext);
 
 // // eight one 8;
 
