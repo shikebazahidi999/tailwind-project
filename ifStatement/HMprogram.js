@@ -814,7 +814,7 @@ let promlep3 = ''
 // let z = 0;
 // do{
 //  if(adads>1&&adads<100){
-//   console.log("you are close to one")
+//   console.log("you are close to one");
 //  }
 //  else if (adads>100&&adads<200){
 //   console.log('you are a little far then one')
