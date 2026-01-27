@@ -789,7 +789,7 @@ let promlep3 = ''
 // r++
 // }while(r<1);
 
-// // tenth one 10
+// // tenth one 10;
 // let strings = "shikeba";
 // let lists = [];
 // let t = 0;
