@@ -888,7 +888,7 @@ let promlep3 = ''
 //   return celsius * 9/5 +32;
 // }
 // let celsuseadad = selcuse(25);
-// console.log(celsuseadad);;
+// console.log(celsuseadad);;;
 
 // // sixth one 6;
 // let nums4 = 1;;
