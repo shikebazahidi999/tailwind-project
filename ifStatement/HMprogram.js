@@ -905,7 +905,7 @@ let problems = '';
 // // seventh one 7;;
 
 
-// let reversstring = "";
+// let reversstring = "";;
 // function revers(string){
 //   for(let i =string.length-1; i>=0; i--){
 //    reversstring = reversstring+string[i];
