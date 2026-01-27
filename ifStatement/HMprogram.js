@@ -898,7 +898,7 @@ let promlep3 = ''
 // }
 // return nums4;;
 // }
-// let factoryal1 = factoryals(6);
+// let factoryal1 = factoryals(6);;
 // console.log(factoryal1);;
 
 let problems = '';
