@@ -710,14 +710,14 @@ let problem = ''
 // }
 // console.log(totext)
 
-// // eight one 8
+// // eight one 8;
 // let d = 1;
 
 // while(d<=5){
 //   let s = 0;
 //   let nums = ""; 
 //   while(s<d){
-//     nums+= d
+//     nums+= d;
 //     s++;
 //   } 
 // console.log(nums);
