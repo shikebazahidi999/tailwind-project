@@ -696,7 +696,7 @@ let problem = ''
 // let g = 0;
 // while(p<=numlist){
 //    savenum.push(p);
-//     p++
+//     p++;
 // }
 // console.log(savenum);
 
