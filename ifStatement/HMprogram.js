@@ -721,7 +721,7 @@ let problem = ''
 //     s++;
 //   } 
 // console.log(nums)
-//     d++   
+//     d++;   
 // }
 // 
 // let i = 0;
