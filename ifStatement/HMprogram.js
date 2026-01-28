@@ -718,7 +718,7 @@ let problem = ''
 //   let nums = ""; 
 //   while(s<d){
 //     nums+= d
-//     s++
+//     s++;
 //   } 
 // console.log(nums)
 //     d++   
