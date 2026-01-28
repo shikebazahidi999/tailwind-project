@@ -708,7 +708,7 @@ let problem = ''
 //     totext += list1.shift()
 //     f++
 // }
-// console.log(totext)
+// console.log(totext);
 
 // // eight one 8;
 // let d = 1;
