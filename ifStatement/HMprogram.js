@@ -720,7 +720,7 @@ let problem = ''
 //     nums+= d
 //     s++;
 //   } 
-// console.log(nums)
+// console.log(nums);
 //     d++;   
 // }
 // 
