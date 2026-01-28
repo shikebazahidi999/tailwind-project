@@ -689,7 +689,7 @@ let problem = ''
 // }
 
 
-// // sixed one 6
+// // sixed one 6;
 // let numlist = 20;
 // let savenum = [];
 // let p = 0;
