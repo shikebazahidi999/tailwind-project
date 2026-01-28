@@ -705,8 +705,8 @@ let problem = ''
 // let totext = "";
 // let f = 0
 // while(f <10){
-//     totext += list1.shift()
-//     f++
+//     totext += list1.shift();
+//     f++;
 // }
 // console.log(totext);
 
