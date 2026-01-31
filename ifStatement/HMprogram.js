@@ -984,4 +984,6 @@ if(name.length>=4&&name>="a"&&name<="z"||(name>="A"&&name<="Z")){
     console.log(`your name ${name} is valid`);
 }else{
     console.log(`your name ${name} is not valid`);
-}
+};
+let litters = "ahmd,mohhamad,Ali ,sitayesh"
+let split = name.split("")
