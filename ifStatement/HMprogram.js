@@ -996,9 +996,12 @@ let promlep3 = ''
 // };
 // slice&& split && indexof && 
 function properties(text){
-   return text.split("").splice(1,3).indexOf("m");
-    
+   return text.indexOf("a");   
 }
 let resuilt = properties("mohammad");
-console.log(resuilt)
+console.log(resuilt);
+let text = "mohammad";
+console.log(text.slice(1,4));
+console.log(text.split(""))
+
 
