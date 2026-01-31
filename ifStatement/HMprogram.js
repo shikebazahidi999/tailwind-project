@@ -985,13 +985,14 @@ let promlep3 = ''
 // }else{
 //     console.log(`your name ${name} is not valid`);
 // };
-// split1 && includes2 && tolowercase2 && lenght2
-let litters = prompt("enter many names put (,) between names")
+// split1 && includes2 && tolowercase2 && lenght2 && trim
+let litters = prompt("enter many names put (,) between names").toLowerCase.trim();
 let names = ["ali","mohammad","mahdi","sohaila","amir","naqi"];
 for(let i = 0; i<names.length;i++){
     if(litters.includes(names[i])){
-        console.log(litters.split(","))
+        console.log(litters.split(","));
         break;   
     }
-}
+};
+// slice&& 
 
