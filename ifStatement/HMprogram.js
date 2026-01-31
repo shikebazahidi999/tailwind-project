@@ -991,7 +991,7 @@ let names = ["ali","mohammad","mahdi","sohaila","amir","naqi"];
 for(let i = 0; i<names.length;i++){
     if(litters.includes(names[i])){
         console.log(litters.split(","))
-        
+        break;   
     }
 }
 
