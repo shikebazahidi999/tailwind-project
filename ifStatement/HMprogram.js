@@ -976,7 +976,7 @@ let promlep3 = ''
 
 // fourteenth  one 14
 
-// length string && includes && trim && toupercase || lowercase
+// // length string && includes && trim && toupercase || lowercase
 // let enterName = prompt("enter name");
 // let name = enterName.toLowerCase().trim();
 
@@ -1002,7 +1002,22 @@ let promlep3 = ''
 // let resuilt = properties("mohammad");
 // console.log(resuilt);
 // let text = "mohammad";
-// console.log(text.slice(1,4));
+// console.log(text.slice(1,4).replace("oha","mar"));
 // console.log(text.split(""));
 
-
+// length
+let entertext = "samir"
+let text = "hello";
+// 1
+if(text.length>4){
+    console.log(text);
+};
+// 2
+for(let i = 0; i<text.length; i++){
+    console.log(text[i]);
+};
+// 3
+if(text.length===entertext.length){
+    console.log(`${text} ${entertext} has the same length`);
+};
+// 4
