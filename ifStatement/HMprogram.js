@@ -977,21 +977,21 @@ let promlep3 = ''
 // fourteenth  one 14
 
 // length string && includes && trim && toupercase || lowercase
-let enterName = prompt("enter name");
-let name = enterName.toLowerCase().trim();
+// let enterName = prompt("enter name");
+// let name = enterName.toLowerCase().trim();
 
-if(name.length>=4&&name>="a"&&name<="z"||(name>="A"&&name<="Z")&&name.includes("!","@","#","$","&","*")){
-    console.log(`your name ${name} is valid`);
-}else{
-    console.log(`your name ${name} is not valid`);
-};
+// if(name.length>=4&&name>="a"&&name<="z"||(name>="A"&&name<="Z")&&name.includes("!","@","#","$","&","*")){
+//     console.log(`your name ${name} is valid`);
+// }else{
+//     console.log(`your name ${name} is not valid`);
+// };
 // split1 && includes2 && tolowercase2 && lenght2
 let litters = prompt("enter many names put (,) between names")
 let names = ["ali","mohammad","mahdi","sohaila","amir","naqi"];
 for(let i = 0; i<names.length;i++){
     if(litters.includes(names[i])){
-        console.log(`you are one of our students`)
+        console.log(litters.split(","))
+        
     }
 }
-let split = litters.split(",");
-console.log(split)
+
