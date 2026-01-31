@@ -980,10 +980,13 @@ let promlep3 = ''
 let enterName = prompt("enter name");
 let name = enterName.toLowerCase().trim();
 
-if(name.length>=4&&name>="a"&&name<="z"||(name>="A"&&name<="Z")){
+if(name.length>=4&&name>="a"&&name<="z"||(name>="A"&&name<="Z")&&name.includes("!","@","#","$","&","*")){
     console.log(`your name ${name} is valid`);
 }else{
     console.log(`your name ${name} is not valid`);
 };
-let litters = "ahmd,mohhamad,Ali ,sitayesh"
-let split = name.split("")
+
+let litters = prompt("enter many names put (,) between names")
+let names = ["ali","mohammad","mahdi","sohaila","amir","naqi"]
+let split = litters.split(",");
+console.log(split)
