@@ -990,7 +990,7 @@ let litters = prompt("enter many names put (,) between names")
 let names = ["ali","mohammad","mahdi","sohaila","amir","naqi"];
 for(let i = 0; i<names.length;i++){
     if(litters.includes(names[i])){
-        console
+        console.log(`you are one of our students`)
     }
 }
 let split = litters.split(",");
