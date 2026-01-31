@@ -981,7 +981,7 @@ let enterName = prompt("enter name");
 let name = enterName.toLowerCase().trim();
 
 if(name.length>=4&&name>="a"&&name<="z"||(name>="A"&&name<="Z")){
-    console.log(`your name ${name} is valid`)
+    console.log(`your name ${name} is valid`);
 }else{
-    console.log(`your name ${name} is not valid`)
+    console.log(`your name ${name} is not valid`);
 }
