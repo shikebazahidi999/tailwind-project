@@ -994,14 +994,15 @@ let promlep3 = ''
 //         break;   
 //     }
 // };
-// slice&& split && indexof && 
-function properties(text){
-   return text.indexOf("a");   
-}
-let resuilt = properties("mohammad");
-console.log(resuilt);
-let text = "mohammad";
-console.log(text.slice(1,4));
-console.log(text.split(""))
+
+// // slice&& split && indexof && 
+// function properties(text){
+//    return text.indexOf("a");   
+// }
+// let resuilt = properties("mohammad");
+// console.log(resuilt);
+// let text = "mohammad";
+// console.log(text.slice(1,4));
+// console.log(text.split(""));
 
 
