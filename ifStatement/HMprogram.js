@@ -901,7 +901,7 @@ let promlep3 = ''
 // let factoryal1 = factoryals(6);;
 // console.log(factoryal1);;
 
-let problems = '';
+
 // // seventh one 7;;
 
 
@@ -947,29 +947,16 @@ let problems = '';
 // let resuiltnum = primenumber(13);
 // console.log(resuiltnum);
 
-let problem5 = '';
+
 // // tenth one 10
-// function anagram(first,secound){
-//   for(let i = 0; i<secound.length; i++){
-// if(first.length===secound.length&&first.includes(secound[i])){
-//  return  first+ ' is an anagram word with ' +secound;
+// function anagram(first="",secound){
+// let string1 = first.replace(/\s/,'').toLowerCase();
+// let string2 = secound.replace(/\s/,'').toLowerCase();
+// return string1.split("").sort().join("")===string2.split("").sort().join("")
 // }
-// else{
-//   return first+ ' is not anagram word with ' + secound;
-// }
-// } ;
-// for(let m = 0 ; m<first.length; m++){
-//   if(secound.length===first.length&&secound.includes(first[i])){
-//     return first+ ' is an anagram word with ' +secound;
-//   }
-//   else{
-//     return first+ ' is not anagram word with ' + secound;
-//   }
-// } 
-// }
-// let total = anagram("hello", "nallo");
-// console.log(total);
-let problem6 = ''
+// let resuilt = anagram('map','listen');
+// console.log(resuilt);
+
 // eleventh one 11;
 
 // twelvth one 12;
@@ -988,3 +975,13 @@ let problem6 = ''
 // console.log(perfectnums);
 
 // fourteenth  one 14
+
+// length string && includes && trim && toupercase || lowercase
+let enterName = prompt("enter name");
+let name = enterName.toLowerCase().trim();
+
+if(name.length>=4&&name>="a"&&name<="z"||(name>="A"&&name<="Z")){
+    console.log(`your name ${name} is valid`)
+}else{
+    console.log(`your name ${name} is not valid`)
+}
