@@ -985,8 +985,13 @@ if(name.length>=4&&name>="a"&&name<="z"||(name>="A"&&name<="Z")&&name.includes("
 }else{
     console.log(`your name ${name} is not valid`);
 };
-
+// split1 && includes2 && tolowercase2 && lenght2
 let litters = prompt("enter many names put (,) between names")
-let names = ["ali","mohammad","mahdi","sohaila","amir","naqi"]
+let names = ["ali","mohammad","mahdi","sohaila","amir","naqi"];
+for(let i = 0; i<names.length;i++){
+    if(litters.includes(names[i])){
+        console
+    }
+}
 let split = litters.split(",");
 console.log(split)
