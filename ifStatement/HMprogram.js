@@ -1009,9 +1009,9 @@ let promlep3 = ''
 let entertext = "samir"
 let text = "hello";
 // 1
-if(text.length>4){
-    console.log(text);
-};
+if(text.length<6){
+    console.log(`IT IS A WEEK PASSWOR`);
+}else{console.log(`srong password`)}
 // 2
 for(let i = 0; i<text.length; i++){
     console.log(text[i]);
@@ -1021,3 +1021,40 @@ if(text.length===entertext.length){
     console.log(`${text} ${entertext} has the same length`);
 };
 // 4
+if(text.length%2===0){  
+        console.log(`this text's length is even ${text.length}`)
+   
+}else{
+        console.log(`this text's length is odd ${text.length}`) 
+}
+// 5
+if(text.length<3){
+    text=""
+}
+else{console.log('this is a text')};
+
+// toLawerCase&& toupercase
+let text1 = "shikeba";
+let resuilt1 = text1.toLowerCase()
+// 1
+if(text1.length%2===0){
+    let resuilt= text1.toUpperCase()
+    console.log(resuilt)
+}
+else{
+    
+    console.log(resuilt1)
+};
+// 2
+let revers = text1.split("").reverse().join("").toUpperCase();
+console.log(revers);
+// 3
+ let toUpperCase =text1.slice(0,1).toUpperCase() + text1.slice(1);
+ console.log(toUpperCase);
+//  4
+let text2 = "Hello World I am Shakiba";
+for(let i =0 ; i<text2.length; i++){
+    if(text2[i]>="A"&&text2[i]<="Z"){
+        console.log(text2[i]);
+    }
+}
