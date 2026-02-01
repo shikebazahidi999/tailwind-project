@@ -1058,7 +1058,7 @@ if(text1.length%2===0){
 }
 else{
     
-    console.log(resuilt1)
+    console.log(resuilt1);
 };
 // 2
 let revers = text1.split("").reverse().join("").toUpperCase();
