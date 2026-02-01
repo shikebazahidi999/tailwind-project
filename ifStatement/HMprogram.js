@@ -1139,3 +1139,14 @@ if(carcode2.charAt(i)==="a"){
   
 }
 }
+// indexof && lastindexofs
+let indexof = "hello world";
+let index = 0;
+for(let i = 0; i<indexof.length; i++){
+if(indexof[i]==="l"){
+    index++
+    
+}
+}
+console.log(indexof.indexOf("l") + " " +index);
+console.log(indexof.lastIndexOf("l"))
