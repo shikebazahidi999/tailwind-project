@@ -1140,6 +1140,7 @@ if(carcode2.charAt(i)==="a"){
 }
 }
 // indexof && lastindexofs
+// 1
 let indexof = "hello world";
 let index = 0;
 for(let i = 0; i<indexof.length; i++){
@@ -1149,4 +1150,11 @@ if(indexof[i]==="l"){
 }
 }
 console.log(indexof.indexOf("l") + " " +index);
-console.log(indexof.lastIndexOf("l"))
+console.log(indexof.lastIndexOf("l"));
+// 2
+let texte = "zebra";
+for(let i = 0; i<texte.length;i++){
+    if(texte[i]==="z"){
+        console.log(` Z has exist here the number of index is ${texte.indexOf("z")}`)
+    }
+}
