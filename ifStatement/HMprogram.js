@@ -971,7 +971,7 @@ let promlep3 = ''
 //     }
 //     return {minemum: min, maximam: max}
 // }
-// let resuilt2 = getnumbers(1,3,4,7,9,0,8)
+// let resuilt2 = getnumbers(1,3,4,7,9,0,8);
 
 // twelvth one 12;
 
