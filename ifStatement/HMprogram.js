@@ -1044,7 +1044,7 @@ if(text.length%2===0){
 }
 // 5
 if(text.length<3){
-    text=""
+    text="";
 }
 else{console.log('this is a text')};
 
