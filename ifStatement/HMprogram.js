@@ -1073,10 +1073,10 @@ let text4 = "hello evryone";
 let trim = text4.trim();
 console.log(trim.length);
 // 2
-let text5 = prompt("enter a text").trim();
-if(text5===""){
-    console.log("input is empty");
-}else{console.log("valid input")};
+// let text5 = prompt("enter a text").trim();
+// if(text5===""){
+//     console.log("input is empty");
+// }else{console.log("valid input")};
 // 3
 let text6 = "    hello    ".trim();
 console.log(text6.toUpperCase());
@@ -1092,3 +1092,14 @@ if(text7.length===text8.length){
 else{
     console.log("they don't have the same length");
 };
+
+// charAt
+// 1
+let carat = "hello world";
+console.log(carat.charAt(0));
+console.log(carat.charAt(carat.length -2));
+// 2
+let text10 = "salam";
+for(let i = 0; i<text10.length; i++){
+    console.log(text10.charAt(i));
+}
