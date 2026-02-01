@@ -969,7 +969,7 @@ let promlep3 = ''
 //             min = numbers[i]
 //         }
 //     }
-//     return {minemum: min, maximam: max}
+//     return {minemum: min, maximam: max};
 // }
 // let resuilt2 = getnumbers(1,3,4,7,9,0,8);
 
