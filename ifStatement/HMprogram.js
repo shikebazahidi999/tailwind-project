@@ -1061,5 +1061,34 @@ for(let i =0 ; i<text2.length; i++){
 // 5
 let text3 = "HELLO";
 if(text3>"A"&&text3<"Z"){
-    console.log(text3.toLowerCase);
+    console.log(text3.toLowerCase());
 }
+else if(text3>"a"&&text3<"z"){
+console.log(text3.toUpperCase());
+};
+
+// trim
+let text4 = "hello evryone";
+// 1
+let trim = text4.trim();
+console.log(trim.length);
+// 2
+let text5 = prompt("enter a text").trim();
+if(text5===""){
+    console.log("input is empty");
+}else{console.log("valid input")};
+// 3
+let text6 = "    hello    ".trim();
+console.log(text6.toUpperCase());
+// 4
+let text7 = "hello";
+let text8 = "  hello  ";
+let text9 = text8.trim();
+if(text7.length===text8.length){
+    console.log(text6.length + " " + text7.length + " both has the same length");
+}else if(text7.length===text9.length){ 
+    console.log("they  have the same length") ;
+}
+else{
+    console.log("they don't have the same length");
+};
