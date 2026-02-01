@@ -958,6 +958,20 @@ let promlep3 = ''
 // console.log(resuilt);
 
 // eleventh one 11;
+// function getnumbers(...numbers){
+//     let max = numbers[0];
+//     let min = numbers[0];
+//     for(let i =0; i<numbers.length; i++){
+//         if(numbers[i]>max){
+//             max= numbers[i]
+//         }
+//        else if(numbers[i]<min){
+//             min = numbers[i]
+//         }
+//     }
+//     return {minemum: min, maximam: max}
+// }
+// let resuilt2 = getnumbers(1,3,4,7,9,0,8)
 
 // twelvth one 12;
 
@@ -1008,6 +1022,7 @@ let promlep3 = ''
 // length
 let entertext = "samir"
 let text = "hello";
+
 // 1
 if(text.length<6){
     console.log(`IT IS A WEEK PASSWOR`);
@@ -1152,9 +1167,100 @@ if(indexof[i]==="l"){
 console.log(indexof.indexOf("l") + " " +index);
 console.log(indexof.lastIndexOf("l"));
 // 2
-let texte = "zebra";
+let texte = "zebraz";
 for(let i = 0; i<texte.length;i++){
     if(texte[i]==="z"){
-        console.log(` Z has exist here the number of index is ${texte.indexOf("z")}`)
+        console.log(` Z has exist here the number of index is ${texte.indexOf("z")}`);
+        console.log(` Z has exist here the number of lastindex is ${texte.lastIndexOf("z")}`);
+        break;
     }
+    else{console.log('the litter z does not exists');}
+};
+// 3
+let finde = texte.indexOf("e");
+console.log(finde);
+
+// startwith && endwith
+// 1
+let start = "mother";
+if(start.startsWith("m")){
+    console.log('mother starts with M ');
+}else{console.log(`mother dosent start with ${start.charAt(0)}`)};
+// 2
+let end = "mom";
+if(start.startsWith('m')===end.endsWith("m")){
+    console.log(` the word mother's start ${start[0]} and the word mom ends with ${end[end.length -1]} are the same litter`)
+}else{console.log(` they are not the same`)};
+// 3
+let ends = "father";
+if(ends.endsWith("r")){
+    console.log(` the word${ends} ends with ${ends[ends.length -1]}`);
+};
+
+// substring
+// 1
+let sub = "hello world, this is shikeba";
+let subded = sub.substring(0,11);
+console.log(subded);
+// 2
+if(sub.length>15){
+    console.log(sub.substring(0,16))
+}else{console.log(sub)};
+// 3
+let names = "shikeba";
+if(names.length>20){
+    let subdedstring = names.substring(0,21);
+    console.log(`${subdedstring} your name was too long then we had cut your name it must not be more then 20`)
+}else{console.log("your name is apropriate")};
+
+// repeat
+// 1
+let repeat = "shikeba";
+for(let i =0; i<repeat.length; i++){
+    if(repeat[i]==="a"){
+        console.log(repeat[i].repeat(4));
+    }
+};
+// 2
+for(let i =0; i<5; i++){
+    console.log('hi'.repeat(i));
+};
+// 3
+for(let i = 5; i>0; i--){
+    console.log('\n')
+    console.log('hi'.repeat(i));
+};
+
+// contact
+// 1
+function contacts(name,fatherName){
+    console.log(name.concat( fatherName))
+}
+contacts("shikeba"," asadullah");
+// 2
+let concat = "samir";
+if(concat.includes("s")){
+   console.log( concat.concat(" ebrahimi"))
+}else{console.log('i think your has not S')};
+
+// lacalcampare
+// 1
+let compare =  "hello llo"
+console.log(compare.lastIndexOf(""))
+console.log (compare.localeCompare("samir"));
+// 2
+console.log(compare.localeCompare("hello"))
+
+// padStart && padend
+// 1
+let pads = "1";
+console.log(pads.padStart(4,"0"));
+// 2
+console.log(pads.padEnd(3,"g"));
+// 3
+let strings = "samirdsmnvadjl" 
+if(strings.length<10){
+    console.log(strings.padEnd(14," alizade"))
+}else{
+    console.log(strings.padStart(20," alizade"))
 }
