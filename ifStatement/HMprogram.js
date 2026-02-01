@@ -1139,7 +1139,7 @@ let tocarcode = carcode.charCodeAt(0)
 console.log(tocarcode);
 // 2
 for(let i =0; i<carcode.length; i++){
-    console.log(carcode.charCodeAt(i)+ " " + "the code of" +" "+ carcode[i])
+    console.log(carcode.charCodeAt(i)+ " " + "the code of" +" "+ carcode[i]);
 }
 // 3
 let carcode2 = "kabir";
@@ -1150,7 +1150,7 @@ let suma = 0;
 for(let i =0 ; i<carcode2.length; i++){
 if(carcode2.charAt(i)==="a"){
     suma++
-  console.log(carcode2[i].charCodeAt() + " " +suma)
+  console.log(carcode2[i].charCodeAt() + " " +suma);
   
 }
 }
