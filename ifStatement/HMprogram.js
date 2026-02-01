@@ -1102,4 +1102,36 @@ console.log(carat.charAt(carat.length -2));
 let text10 = "salam";
 for(let i = 0; i<text10.length; i++){
     console.log(text10.charAt(i));
+};
+// 3
+let i = "salam";
+let n = 0;
+for(let m = 0; m<i.length; m++){
+if(i.charAt(m)==="a"){
+   n++ 
+}
+}
+console.log(`the letter a has used ${n} time here`);
+// 4
+let upercase = "me";
+let conect = upercase.charAt(0).toUpperCase() +upercase.slice(1)
+console.log(conect);
+
+// carcodeat
+// 1
+let carcode = "shikeba";
+let tocarcode = carcode.charCodeAt(0)
+console.log(tocarcode);
+// 2
+for(let i =0; i<carcode.length; i++){
+    console.log(carcode.charCodeAt(i)+ " " + "the code of" +" "+ carcode[i])
+}
+// 3
+let carcode2 = "kabir";
+let carcode3 = carcode2.charCodeAt(0);
+console.log(carcode3);
+// 4
+let suma = '';
+for(let i =0 ; i<carcode2.length; i++){
+
 }
