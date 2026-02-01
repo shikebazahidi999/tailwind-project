@@ -1131,7 +1131,11 @@ let carcode2 = "kabir";
 let carcode3 = carcode2.charCodeAt(0);
 console.log(carcode3);
 // 4
-let suma = '';
+let suma = 0;
 for(let i =0 ; i<carcode2.length; i++){
-
+if(carcode2.charAt(i)==="a"){
+    suma++
+  console.log(carcode2[i].charCodeAt() + " " +suma)
+  
+}
 }
