@@ -963,10 +963,10 @@ let promlep3 = ''
 //     let min = numbers[0];
 //     for(let i =0; i<numbers.length; i++){
 //         if(numbers[i]>max){
-//             max= numbers[i]
+//             max= numbers[i];
 //         }
 //        else if(numbers[i]<min){
-//             min = numbers[i]
+//             min = numbers[i];
 //         }
 //     }
 //     return {minemum: min, maximam: max};
@@ -988,7 +988,7 @@ let promlep3 = ''
 // let perfectnums = perfectnum(6);
 // console.log(perfectnums);
 
-// fourteenth  one 14
+// fourteenth  one 14;
 
 // // length string && includes && trim && toupercase || lowercase
 // let enterName = prompt("enter name");
@@ -1037,7 +1037,7 @@ if(text.length===entertext.length){
 };
 // 4
 if(text.length%2===0){  
-        console.log(`this text's length is even ${text.length}`)
+        console.log(`this text's length is even ${text.length}`);
    
 }else{
         console.log(`this text's length is odd ${text.length}`) 
