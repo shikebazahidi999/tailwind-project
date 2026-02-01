@@ -1053,7 +1053,7 @@ let text1 = "shikeba";
 let resuilt1 = text1.toLowerCase();
 // 1
 if(text1.length%2===0){
-    let resuilt= text1.toUpperCase()
+    let resuilt= text1.toUpperCase();
     console.log(resuilt)
 }
 else{
