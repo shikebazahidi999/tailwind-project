@@ -1040,7 +1040,7 @@ if(text.length%2===0){
         console.log(`this text's length is even ${text.length}`);
    
 }else{
-        console.log(`this text's length is odd ${text.length}`) 
+        console.log(`this text's length is odd ${text.length}`);
 }
 // 5
 if(text.length<3){
