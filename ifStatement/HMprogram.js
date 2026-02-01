@@ -1204,7 +1204,7 @@ let subded = sub.substring(0,11);
 console.log(subded);
 // 2
 if(sub.length>15){
-    console.log(sub.substring(0,16))
+    console.log(sub.substring(0,16));
 }else{console.log(sub)};
 // 3
 let names = "shikeba";
