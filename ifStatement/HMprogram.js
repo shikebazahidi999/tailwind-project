@@ -1057,4 +1057,9 @@ for(let i =0 ; i<text2.length; i++){
     if(text2[i]>="A"&&text2[i]<="Z"){
         console.log(text2[i]);
     }
+};
+// 5
+let text3 = "HELLO";
+if(text3>"A"&&text3<"Z"){
+    console.log(text3.toLowerCase);
 }
