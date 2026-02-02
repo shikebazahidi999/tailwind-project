@@ -958,20 +958,21 @@ let promlep3 = ''
 // console.log(resuilt);
 
 // eleventh one 11;
-// function getnumbers(...numbers){
-//     let max = numbers[0];
-//     let min = numbers[0];
-//     for(let i =0; i<numbers.length; i++){
-//         if(numbers[i]>max){
-//             max= numbers[i];
-//         }
-//        else if(numbers[i]<min){
-//             min = numbers[i];
-//         }
-//     }
-//     return {minemum: min, maximam: max};
-// }
-// let resuilt2 = getnumbers(1,3,4,7,9,0,8);
+function getnumbers(...numbers){
+    let max = numbers[0];
+    let min = numbers[0];
+    for(let i =0; i<numbers.length; i++){
+        if(numbers[i]>max){
+            max= numbers[i];
+        }
+       else if(numbers[i]<min){
+            min = numbers[i];
+        }
+    }
+    return {minemum: min, maximam: max};
+}
+let resuilt2 = getnumbers(1,3,4,7,9,8);
+console.log(resuilt2);
 
 // twelvth one 12;
 
@@ -989,6 +990,7 @@ let promlep3 = ''
 // console.log(perfectnums);
 
 // fourteenth  one 14;
+
 
 // // length string && includes && trim && toupercase || lowercase
 // let enterName = prompt("enter name");
@@ -1019,248 +1021,248 @@ let promlep3 = ''
 // console.log(text.slice(1,4).replace("oha","mar"));
 // console.log(text.split(""));
 
-// length
-let entertext = "samir"
-let text = "hello";
+// // length
+// let entertext = "samir"
+// let text = "hello";
 
-// 1
-if(text.length<6){
-    console.log(`IT IS A WEEK PASSWOR`);
-}else{console.log(`srong password`)}
-// 2
-for(let i = 0; i<text.length; i++){
-    console.log(text[i]);
-};
-// 3
-if(text.length===entertext.length){
-    console.log(`${text} ${entertext} has the same length`);
-};
-// 4
-if(text.length%2===0){  
-        console.log(`this text's length is even ${text.length}`);
+// // 1
+// if(text.length<6){
+//     console.log(`IT IS A WEEK PASSWOR`);
+// }else{console.log(`srong password`)}
+// // 2
+// for(let i = 0; i<text.length; i++){
+//     console.log(text[i]);
+// };
+// // 3
+// if(text.length===entertext.length){
+//     console.log(`${text} ${entertext} has the same length`);
+// };
+// // 4
+// if(text.length%2===0){  
+//         console.log(`this text's length is even ${text.length}`);
    
-}else{
-        console.log(`this text's length is odd ${text.length}`);
-}
-// 5
-if(text.length<3){
-    text="";
-}
-else{console.log('this is a text')};
+// }else{
+//         console.log(`this text's length is odd ${text.length}`);
+// }
+// // 5
+// if(text.length<3){
+//     text="";
+// }
+// else{console.log('this is a text')};
 
-// toLawerCase&& toupercase
-let text1 = "shikeba";
-let resuilt1 = text1.toLowerCase();
-// 1
-if(text1.length%2===0){
-    let resuilt= text1.toUpperCase();
-    console.log(resuilt);
-}
-else{
+// // toLawerCase&& toupercase
+// let text1 = "shikeba";
+// let resuilt1 = text1.toLowerCase();
+// // 1
+// if(text1.length%2===0){
+//     let resuilt= text1.toUpperCase();
+//     console.log(resuilt);
+// }
+// else{
     
-    console.log(resuilt1);
-};
-// 2
-let revers = text1.split("").reverse().join("").toUpperCase();
-console.log(revers);
-// 3
- let toUpperCase =text1.slice(0,1).toUpperCase() + text1.slice(1);
- console.log(toUpperCase);
-//  4
-let text2 = "Hello World I am Shakiba";
-for(let i =0 ; i<text2.length; i++){
-    if(text2[i]>="A"&&text2[i]<="Z"){
-        console.log(text2[i]);
-    }
-};
-// 5
-let text3 = "HELLO";
-if(text3>"A"&&text3<"Z"){
-    console.log(text3.toLowerCase());
-}
-else if(text3>"a"&&text3<"z"){
-console.log(text3.toUpperCase());
-};
+//     console.log(resuilt1);
+// };
+// // 2
+// let revers = text1.split("").reverse().join("").toUpperCase();
+// console.log(revers);
+// // 3
+//  let toUpperCase =text1.slice(0,1).toUpperCase() + text1.slice(1);
+//  console.log(toUpperCase);
+// //  4
+// let text2 = "Hello World I am Shakiba";
+// for(let i =0 ; i<text2.length; i++){
+//     if(text2[i]>="A"&&text2[i]<="Z"){
+//         console.log(text2[i]);
+//     }
+// };
+// // 5
+// let text3 = "HELLO";
+// if(text3>"A"&&text3<"Z"){
+//     console.log(text3.toLowerCase());
+// }
+// else if(text3>"a"&&text3<"z"){
+// console.log(text3.toUpperCase());
+// };
 
-// trim
-let text4 = "hello evryone";
-// 1
-let trim = text4.trim();
-console.log(trim.length);
-// 2
-// let text5 = prompt("enter a text").trim();
-// if(text5===""){
-//     console.log("input is empty");
-// }else{console.log("valid input")};
-// 3
-let text6 = "    hello    ".trim();
-console.log(text6.toUpperCase());
-// 4
-let text7 = "hello";
-let text8 = "  hello  ";
-let text9 = text8.trim();
-if(text7.length===text8.length){
-    console.log(text6.length + " " + text7.length + " both has the same length");
-}else if(text7.length===text9.length){ 
-    console.log("they  have the same length") ;
-}
-else{
-    console.log("they don't have the same length");
-};
+// // trim
+// let text4 = "hello evryone";
+// // 1
+// let trim = text4.trim();
+// console.log(trim.length);
+// // 2
+// // let text5 = prompt("enter a text").trim();
+// // if(text5===""){
+// //     console.log("input is empty");
+// // }else{console.log("valid input")};
+// // 3
+// let text6 = "    hello    ".trim();
+// console.log(text6.toUpperCase());
+// // 4
+// let text7 = "hello";
+// let text8 = "  hello  ";
+// let text9 = text8.trim();
+// if(text7.length===text8.length){
+//     console.log(text6.length + " " + text7.length + " both has the same length");
+// }else if(text7.length===text9.length){ 
+//     console.log("they  have the same length") ;
+// }
+// else{
+//     console.log("they don't have the same length");
+// };
 
-// charAt
-// 1
-let carat = "hello world";
-console.log(carat.charAt(0));
-console.log(carat.charAt(carat.length -2));
-// 2
-let text10 = "salam";
-for(let i = 0; i<text10.length; i++){
-    console.log(text10.charAt(i));
-};
-// 3
-let i = "salam";
-let n = 0;
-for(let m = 0; m<i.length; m++){
-if(i.charAt(m)==="a"){
-   n++ 
-}
-}
-console.log(`the letter a has used ${n} time here`);
-// 4
-let upercase = "me";
-let conect = upercase.charAt(0).toUpperCase() +upercase.slice(1)
-console.log(conect);
+// // charAt
+// // 1
+// let carat = "hello world";
+// console.log(carat.charAt(0));
+// console.log(carat.charAt(carat.length -2));
+// // 2
+// let text10 = "salam";
+// for(let i = 0; i<text10.length; i++){
+//     console.log(text10.charAt(i));
+// };
+// // 3
+// let i = "salam";
+// let n = 0;
+// for(let m = 0; m<i.length; m++){
+// if(i.charAt(m)==="a"){
+//    n++ 
+// }
+// }
+// console.log(`the letter a has used ${n} time here`);
+// // 4
+// let upercase = "me";
+// let conect = upercase.charAt(0).toUpperCase() +upercase.slice(1)
+// console.log(conect);
 
-// carcodeat
-// 1
-let carcode = "shikeba";
-let tocarcode = carcode.charCodeAt(0)
-console.log(tocarcode);
-// 2
-for(let i =0; i<carcode.length; i++){
-    console.log(carcode.charCodeAt(i)+ " " + "the code of" +" "+ carcode[i]);
-}
-// 3
-let carcode2 = "kabir";
-let carcode3 = carcode2.charCodeAt(0);
-console.log(carcode3);
-// 4
-let suma = 0;
-for(let i =0 ; i<carcode2.length; i++){
-if(carcode2.charAt(i)==="a"){
-    suma++
-  console.log(carcode2[i].charCodeAt() + " " +suma);
+// // carcodeat
+// // 1
+// let carcode = "shikeba";
+// let tocarcode = carcode.charCodeAt(0)
+// console.log(tocarcode);
+// // 2
+// for(let i =0; i<carcode.length; i++){
+//     console.log(carcode.charCodeAt(i)+ " " + "the code of" +" "+ carcode[i]);
+// }
+// // 3
+// let carcode2 = "kabir";
+// let carcode3 = carcode2.charCodeAt(0);
+// console.log(carcode3);
+// // 4
+// let suma = 0;
+// for(let i =0 ; i<carcode2.length; i++){
+// if(carcode2.charAt(i)==="a"){
+//     suma++
+//   console.log(carcode2[i].charCodeAt() + " " +suma);
   
-}
-}
-// indexof && lastindexofs
-// 1
-let indexof = "hello world";
-let index = 0;
-for(let i = 0; i<indexof.length; i++){
-if(indexof[i]==="l"){
-    index++
+// }
+// }
+// // indexof && lastindexofs
+// // 1
+// let indexof = "hello world";
+// let index = 0;
+// for(let i = 0; i<indexof.length; i++){
+// if(indexof[i]==="l"){
+//     index++
     
-}
-}
-console.log(indexof.indexOf("l") + " " +index);
-console.log(indexof.lastIndexOf("l"));
-// 2
-let texte = "zebraz";
-for(let i = 0; i<texte.length;i++){
-    if(texte[i]==="z"){
-        console.log(` Z has exist here the number of index is ${texte.indexOf("z")}`);
-        console.log(` Z has exist here the number of lastindex is ${texte.lastIndexOf("z")}`);
-        break;
-    }
-    else{console.log('the litter z does not exists');}
-};
-// 3
-let finde = texte.indexOf("e");
-console.log(finde);
+// }
+// }
+// console.log(indexof.indexOf("l") + " " +index);
+// console.log(indexof.lastIndexOf("l"));
+// // 2
+// let texte = "zebraz";
+// for(let i = 0; i<texte.length;i++){
+//     if(texte[i]==="z"){
+//         console.log(` Z has exist here the number of index is ${texte.indexOf("z")}`);
+//         console.log(` Z has exist here the number of lastindex is ${texte.lastIndexOf("z")}`);
+//         break;
+//     }
+//     else{console.log('the litter z does not exists');}
+// };
+// // 3
+// let finde = texte.indexOf("e");
+// console.log(finde);
 
-// startwith && endwith
-// 1
-let start = "mother";
-if(start.startsWith("m")){
-    console.log('mother starts with M ');
-}else{console.log(`mother dosent start with ${start.charAt(0)}`)};
-// 2
-let end = "mom";
-if(start.startsWith('m')===end.endsWith("m")){
-    console.log(` the word mother's start ${start[0]} and the word mom ends with ${end[end.length -1]} are the same litter`)
-}else{console.log(` they are not the same`)};
-// 3
-let ends = "father";
-if(ends.endsWith("r")){
-    console.log(` the word${ends} ends with ${ends[ends.length -1]}`);
-};
+// // startwith && endwith
+// // 1
+// let start = "mother";
+// if(start.startsWith("m")){
+//     console.log('mother starts with M ');
+// }else{console.log(`mother dosent start with ${start.charAt(0)}`)};
+// // 2
+// let end = "mom";
+// if(start.startsWith('m')===end.endsWith("m")){
+//     console.log(` the word mother's start ${start[0]} and the word mom ends with ${end[end.length -1]} are the same litter`)
+// }else{console.log(` they are not the same`)};
+// // 3
+// let ends = "father";
+// if(ends.endsWith("r")){
+//     console.log(` the word${ends} ends with ${ends[ends.length -1]}`);
+// };
 
-// substring
-// 1
-let sub = "hello world, this is shikeba";
-let subded = sub.substring(0,11);
-console.log(subded);
-// 2
-if(sub.length>15){
-    console.log(sub.substring(0,16));
-}else{console.log(sub)};
-// 3
-let names = "shikeba";
-if(names.length>20){
-    let subdedstring = names.substring(0,21);
-    console.log(`${subdedstring} your name was too long then we had cut your name it must not be more then 20`)
-}else{console.log("your name is apropriate")};
+// // substring
+// // 1
+// let sub = "hello world, this is shikeba";
+// let subded = sub.substring(0,11);
+// console.log(subded);
+// // 2
+// if(sub.length>15){
+//     console.log(sub.substring(0,16));
+// }else{console.log(sub)};
+// // 3
+// let names = "shikeba";
+// if(names.length>20){
+//     let subdedstring = names.substring(0,21);
+//     console.log(`${subdedstring} your name was too long then we had cut your name it must not be more then 20`)
+// }else{console.log("your name is apropriate")};
 
-// repeat
-// 1
-let repeat = "shikeba";
-for(let i =0; i<repeat.length; i++){
-    if(repeat[i]==="a"){
-        console.log(repeat[i].repeat(4));
-    }
-};
-// 2
-for(let i =0; i<5; i++){
-    console.log('hi'.repeat(i));
-};
-// 3
-for(let i = 5; i>0; i--){
-    console.log('\n')
-    console.log('hi'.repeat(i));
-};
+// // repeat
+// // 1
+// let repeat = "shikeba";
+// for(let i =0; i<repeat.length; i++){
+//     if(repeat[i]==="a"){
+//         console.log(repeat[i].repeat(4));
+//     }
+// };
+// // 2
+// for(let i =0; i<5; i++){
+//     console.log('hi'.repeat(i));
+// };
+// // 3
+// for(let i = 5; i>0; i--){
+//     console.log('\n')
+//     console.log('hi'.repeat(i));
+// };
 
-// contact
-// 1
-function contacts(name,fatherName){
-    console.log(name.concat( fatherName))
-}
-contacts("shikeba"," asadullah");
-// 2
-let concat = "samir";
-if(concat.includes("s")){
-   console.log( concat.concat(" ebrahimi"))
-}else{console.log('i think your has not S')};
+// // contact
+// // 1
+// function contacts(name,fatherName){
+//     console.log(name.concat( fatherName))
+// }
+// contacts("shikeba"," asadullah");
+// // 2
+// let concat = "samir";
+// if(concat.includes("s")){
+//    console.log( concat.concat(" ebrahimi"))
+// }else{console.log('i think your has not S')};
 
-// lacalcampare
-// 1
-let compare =  "hello llo"
-console.log(compare.lastIndexOf(""))
-console.log (compare.localeCompare("samir"));
-// 2
-console.log(compare.localeCompare("hello"))
+// // lacalcampare
+// // 1
+// let compare =  "hello llo"
+// console.log(compare.lastIndexOf(""))
+// console.log (compare.localeCompare("samir"));
+// // 2
+// console.log(compare.localeCompare("hello"))
 
-// padStart && padend
-// 1
-let pads = "1";
-console.log(pads.padStart(4,"0"));
-// 2
-console.log(pads.padEnd(3,"g"));
-// 3
-let strings = "samirdsmnvadjl" 
-if(strings.length<10){
-    console.log(strings.padEnd(14," alizade"))
-}else{
-    console.log(strings.padStart(20," alizade"))
-}
+// // padStart && padend
+// // 1
+// let pads = "1";
+// console.log(pads.padStart(4,"0"));
+// // 2
+// console.log(pads.padEnd(3,"g"));
+// // 3
+// let strings = "samirdsmnvadjl" 
+// if(strings.length<10){
+//     console.log(strings.padEnd(14," alizade"))
+// }else{
+//     console.log(strings.padStart(20," alizade"))
+// }
