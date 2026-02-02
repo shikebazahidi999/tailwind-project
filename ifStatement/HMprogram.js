@@ -1372,4 +1372,17 @@ let problem2 = ''
 // return litter + savelitter
 
 // }let ltterresuilt = littertime("javascript");
-// console.log(ltterresuilt)
+// console.log(ltterresuilt);
+
+// eight ona 8
+function fasela(text){
+    let newtext = "";
+    for(let i =0; i<text.length; i++){
+        if(text[i]!==" "){
+            newtext+= text[i]
+        }
+    }
+    return newtext
+}
+let resuilt = fasela("hello   world");
+console.log(resuilt);
