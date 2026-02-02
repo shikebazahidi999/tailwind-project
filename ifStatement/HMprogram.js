@@ -1390,7 +1390,14 @@ console.log(resuilt);
 // ninth one 9
 function uppercase(sectence){
     let split = sectence.split(" ");
-  let upper =split.map(word => word.split("").carAt(0).toUpperrCase().join(""));
+  let upper =split.map(word => word.charAt(0).toUpperCase()+word.slice(1)).join(" ");
   return upper
 }
-let resuilt1 =uppercase("hello world i'm shikeba")
+let resuilt1 =uppercase("hello world i'm shikeba");
+console.log(resuilt1);
+
+// tenth one 10
+function matn(text){
+    let alltext = text.split(",");
+    return alltext;
+}
