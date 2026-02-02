@@ -1288,13 +1288,29 @@ let promlep3 = ''
 
 // strings lab menual
 
-// first one 
+// first one 1
 function onlystring(text){
     let strings = ""
     for(let i = 0; i<text.length; i++){
         if((text[i]>="a"&&text[i]<="z")||text[i]<="A"&&text[i]>="Z"){
             strings+= text[i];
         }
-
     }
+    return strings
+}
+let string = onlystring("hel7lo world 123");
+console.log(string);
+
+// secound one 2
+function lowercase (text){
+    let kochak = "";
+    for(let i =0; i<text.length; i++){
+        if(text[i]>="A"&&text[i]<="Z"){
+            kochak+= '_'+text[i].toLowerCase()
+        }
+        else{
+            kochak+=text[i]
+        }
+    }
+return kochak
 }
