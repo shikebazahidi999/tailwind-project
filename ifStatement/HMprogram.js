@@ -1401,3 +1401,21 @@ function matn(text){
     let alltext = text.split(",");
     return alltext;
 }
+console.log(matn("hello,iam,shikeba"));
+
+// elewenth one 11
+function twines(first,secound){
+     return first.split("").sort().join("")===secound.split("").sort().join("")
+}
+let showtwines = twines("listen","silent");
+console.log(showtwines);
+
+// twelvth one 12
+
+function join(...text){
+    let string =""
+    for(let i =0; i<text.length; i++){
+       string+=text[i]
+    }
+    return string;
+}
