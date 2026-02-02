@@ -975,6 +975,21 @@ let resuilt2 = getnumbers(1,3,4,7,9,8);
 console.log(resuilt2);
 
 // twelvth one 12;
+function repetedtext (text){
+    let liters = {};
+    for(let i = 0 ; i<text.length; i++){
+        const repeted = text[i];
+        if(liters[repeted]){
+            liters[repeted]++;
+        }
+        else{
+            liters[repeted]=1
+        }
+    }
+    return liters
+}
+let g = repetedtext("hello world");
+console.log(g);
 
 
 // // thirteenth one 13
