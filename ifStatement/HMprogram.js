@@ -1413,7 +1413,7 @@ console.log(showtwines);
 // twelvth one 12
 
 function join(...text){
-    let string = text.join(" ")
+    let string = text.join(" ");
     // for(let i =0; i<text.length; i++){
     //    string+=text[i];
     // }
@@ -1425,7 +1425,7 @@ console.log(resuiltjoin);
 // thirteenth one 13
 function repeat (text){
     for(let i = 0; i<2;i++){
-       return text.repeat(3)
+       return text.repeat(3);
     }
 }
 console.log(repeat(" hello"));
@@ -1437,4 +1437,4 @@ function startwith (text){
    return "your condition is true";
    }
 }
-console.log(startwith("hello and good by"))
+console.log(startwith("hello and good by"));
