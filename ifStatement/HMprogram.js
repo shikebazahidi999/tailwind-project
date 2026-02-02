@@ -1357,8 +1357,19 @@ for(let i =0; i<text.length;i++){
 console.log(litterlength);
 
 // seventh one 7
-let littertime = "javascript";
-let savelitter = "";
-for(let i = 0; i<littertime.length; i++){
+let problem2 = ''
+// function littertime(litter){
+//     let savelitter = {};
+// for(let i = 0; i<litter.length; i++){
+//     let litters = litter[i]
+//     if(savelitter[litter]==="a"){
+//         savelitter[litter]++
+//     }
+//     else{
+//     savelitter[litter]=1
+//     }
+// }
+// return litter + savelitter
 
-}
+// }let ltterresuilt = littertime("javascript");
+// console.log(ltterresuilt)
