@@ -1386,3 +1386,11 @@ function fasela(text){
 }
 let resuilt = fasela("hello   world");
 console.log(resuilt);
+
+// ninth one 9
+function uppercase(sectence){
+    let split = sectence.split(" ");
+  let upper =split.map(word => word.split("").carAt(0).toUpperrCase().join(""));
+  return upper
+}
+let resuilt1 =uppercase("hello world i'm shikeba")
