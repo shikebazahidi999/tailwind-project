@@ -1413,9 +1413,28 @@ console.log(showtwines);
 // twelvth one 12
 
 function join(...text){
-    let string =""
-    for(let i =0; i<text.length; i++){
-       string+=text[i]
-    }
+    let string = text.join(" ")
+    // for(let i =0; i<text.length; i++){
+    //    string+=text[i];
+    // }
     return string;
+};
+let resuiltjoin = join("hello","evryone");
+console.log(resuiltjoin);
+
+// thirteenth one 13
+function repeat (text){
+    for(let i = 0; i<2;i++){
+       return text.repeat(3)
+    }
 }
+console.log(repeat(" hello"));
+
+// fourteenth one 14
+let t = " hello"
+function startwith (text){
+   if (text.startsWith("hello")&&text.endsWith("good by")){
+   return "your condition is true";
+   }
+}
+console.log(startwith("hello and good by"))
