@@ -1314,3 +1314,11 @@ function lowercase (text){
     }
 return kochak
 }
+let lower = lowercase("myName");
+console.log(lower);
+
+// third one 3
+function shorttext(text){
+    let short = "";
+    
+}
