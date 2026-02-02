@@ -1341,3 +1341,24 @@ let reverses = revers.split(" ");
 let reversed = reverses.map(word => word.split("").reverse().join("")).join(" ")
 
   console.log(reversed);
+
+// sixed one 6
+let text = "aAABBb";
+let litterlength = {};
+for(let i =0; i<text.length;i++){
+    let litter = text[i]
+   if(litterlength[litter]){
+    litterlength[litter]++
+   }
+   else{
+    litterlength[litter]=1
+   }
+}
+console.log(litterlength);
+
+// seventh one 7
+let littertime = "javascript";
+let savelitter = "";
+for(let i = 0; i<littertime.length; i++){
+
+}
