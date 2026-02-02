@@ -1320,5 +1320,24 @@ console.log(lower);
 // third one 3
 function shorttext(text){
     let short = "";
-    
+    for(let i = 0; i<text.length; i++){
+    if(text[i]!==text[i -1]){
+        short+= text[i]
+    }
+    }
+    return short
 }
+let shorted = shorttext("bookkeper");
+console.log(shorted);
+
+// fourht one 4
+let trime = " hello world ";
+let trimed =trime.replace(/^\s+|\s+$/g,"");
+console.log(trimed);
+
+// fivth one 5
+let revers = "hello world i'm what i am"
+let reverses = revers.split(" ");
+let reversed = reverses.map(word => word.split("").reverse().join("")).join(" ")
+
+  console.log(reversed);
