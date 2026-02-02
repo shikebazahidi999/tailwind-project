@@ -957,52 +957,56 @@ let promlep3 = ''
 // let resuilt = anagram('map','listen');
 // console.log(resuilt);
 
-// eleventh one 11;
-function getnumbers(...numbers){
-    let max = numbers[0];
-    let min = numbers[0];
-    for(let i =0; i<numbers.length; i++){
-        if(numbers[i]>max){
-            max= numbers[i];
-        }
-       else if(numbers[i]<min){
-            min = numbers[i];
-        }
-    }
-    return {minemum: min, maximam: max};
-}
-let resuilt2 = getnumbers(1,3,4,7,9,8);
-console.log(resuilt2);
+// // eleventh one 11;
+// function getnumbers(...numbers){
+//     let max = numbers[0];
+//     let min = numbers[0];
+//     for(let i =0; i<numbers.length; i++){
+//         if(numbers[i]>max){
+//             max= numbers[i];
+//         }
+//        else if(numbers[i]<min){
+//             min = numbers[i];
+//         }
+//     }
+//     return {minemum: min, maximam: max};
+// }
+// let resuilt2 = getnumbers(1,3,4,7,9,8);
+// console.log(resuilt2);
 
-// twelvth one 12;
-function repetedtext (text){
-    let liters = {};
-    for(let i = 0 ; i<text.length; i++){
-        const repeted = text[i];
-        if(liters[repeted]){
-            liters[repeted]++;
-        }
-        else{
-            liters[repeted]=1
-        }
-    }
-    return liters
-}
-let g = repetedtext("hello world");
-console.log(g);
+// // twelvth one 12;
+// function repetedtext (text){
+//     let liters = {};
+//     for(let i = 0 ; i<text.length; i++){
+//         const repeted = text[i];
+//         if(liters[repeted]){
+//             liters[repeted]++;
+//         }
+//         else{
+//             liters[repeted]=1
+//         }
+//     }
+//     return liters
+// }
+// let g = repetedtext("hello world");
+// console.log(g);
 
 
 // // thirteenth one 13
-// function perfectnum(number){
-//    if(number%2===0&&number%3===0){
-//     return number + " is a perfect number";
-//    } 
-//    else{
-//     return number + " is not a perfect number";
-//    }
+
+// function  getevarge (...nums){
+//     let sum = 0;
+//     let total = 0;
+//     for(let i = 0; i<nums.length; i++){
+//         if(nums[i>0]){
+//             sum++;
+//             total +=nums[i];
+//         }
+//     }
+//     return total/sum
 // }
-// let perfectnums = perfectnum(6);
-// console.log(perfectnums);
+// let f = getevarge(28);
+// console.log(f)
 
 // fourteenth  one 14;
 
@@ -1281,3 +1285,16 @@ console.log(g);
 // }else{
 //     console.log(strings.padStart(20," alizade"))
 // }
+
+// strings lab menual
+
+// first one 
+function onlystring(text){
+    let strings = ""
+    for(let i = 0; i<text.length; i++){
+        if((text[i]>="a"&&text[i]<="z")||text[i]<="A"&&text[i]>="Z"){
+            strings+= text[i];
+        }
+
+    }
+}
