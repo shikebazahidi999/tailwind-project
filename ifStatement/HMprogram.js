@@ -1361,7 +1361,7 @@ let problem2 = ''
 // function littertime(litter){
 //     let savelitter = {};
 // for(let i = 0; i<litter.length; i++){
-//     let litters = litter[i]
+//     let litters = litter[i];
 //     if(savelitter[litter]==="a"){
 //         savelitter[litter]++;
 //     }
