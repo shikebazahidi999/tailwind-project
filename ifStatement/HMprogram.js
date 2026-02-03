@@ -1403,7 +1403,7 @@ function matn(text){
 }
 console.log(matn("hello,iam,shikeba"));
 
-// elewenth one 11
+// elewenth one 11;
 function twines(first,secound){
      return first.split("").sort().join("")===secound.split("").sort().join("")
 }
