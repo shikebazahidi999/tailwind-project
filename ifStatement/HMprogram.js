@@ -1374,12 +1374,12 @@ let problem2 = ''
 // }let ltterresuilt = littertime("javascript");
 // console.log(ltterresuilt);
 
-// eight ona 8;
+// eight ona 8;git in
 function fasela(text){
     let newtext = "";
     for(let i =0; i<text.length; i++){
         if(text[i]!==" "){
-            newtext+= text[i]
+            newtext+= text[i];
         }
     }
     return newtext
