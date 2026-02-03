@@ -1309,7 +1309,7 @@ function lowercase (text){
             kochak+= '_'+text[i].toLowerCase()
         }
         else{
-            kochak+=text[i]
+            kochak+=text[i];
         }
     }
 return kochak;
