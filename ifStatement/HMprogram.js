@@ -1346,9 +1346,9 @@ let reversed = reverses.map(word => word.split("").reverse().join("")).join(" ")
 let text = "aAABBb";
 let litterlength = {};
 for(let i =0; i<text.length;i++){
-    let litter = text[i]
+    let litter = text[i];
    if(litterlength[litter]){
-    litterlength[litter]++
+    litterlength[litter]++;
    }
    else{
     litterlength[litter]=1;
