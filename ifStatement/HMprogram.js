@@ -1312,7 +1312,7 @@ function lowercase (text){
             kochak+=text[i]
         }
     }
-return kochak
+return kochak;
 }
 let lower = lowercase("myName");
 console.log(lower);
