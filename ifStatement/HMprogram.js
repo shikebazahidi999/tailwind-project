@@ -1325,7 +1325,7 @@ function shorttext(text){
         short+= text[i]
     }
     }
-    return short
+    return short;
 }
 let shorted = shorttext("bookkeper");
 console.log(shorted);
@@ -1336,7 +1336,7 @@ let trimed =trime.replace(/^\s+|\s+$/g,"");
 console.log(trimed);
 
 // fivth one 5
-let revers = "hello world i'm what i am"
+let revers = "hello world i'm what i am";
 let reverses = revers.split(" ");
 let reversed = reverses.map(word => word.split("").reverse().join("")).join(" ")
 
