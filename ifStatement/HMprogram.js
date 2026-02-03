@@ -1342,7 +1342,7 @@ let reversed = reverses.map(word => word.split("").reverse().join("")).join(" ")
 
   console.log(reversed);
 
-// sixed one 6
+// sixed one 6;
 let text = "aAABBb";
 let litterlength = {};
 for(let i =0; i<text.length;i++){
