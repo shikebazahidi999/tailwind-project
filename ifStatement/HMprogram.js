@@ -1391,7 +1391,7 @@ console.log(resuilt);
 function uppercase(sectence){
     let split = sectence.split(" ");
   let upper =split.map(word => word.charAt(0).toUpperCase()+word.slice(1)).join(" ");
-  return upper
+  return upper;
 }
 let resuilt1 =uppercase("hello world i'm shikeba");
 console.log(resuilt1);
