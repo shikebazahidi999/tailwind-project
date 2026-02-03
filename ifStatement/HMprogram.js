@@ -1366,7 +1366,7 @@ let problem2 = ''
 //         savelitter[litter]++
 //     }
 //     else{
-//     savelitter[litter]=1
+//     savelitter[litter]=1;
 //     }
 // }
 // return litter + savelitter;
