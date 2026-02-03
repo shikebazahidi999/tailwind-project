@@ -1396,7 +1396,7 @@ function uppercase(sectence){
 let resuilt1 =uppercase("hello world i'm shikeba");
 console.log(resuilt1);
 
-// tenth one 10
+// tenth one 10;
 function matn(text){
     let alltext = text.split(",");
     return alltext;
