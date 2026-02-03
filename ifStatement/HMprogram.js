@@ -1430,7 +1430,7 @@ function repeat (text){
 }
 console.log(repeat(" hello"));
 
-// fourteenth one 14
+// fourteenth one 14;
 let t = " hello"
 function startwith (text){
    if (text.startsWith("hello")&&text.endsWith("good by")){
