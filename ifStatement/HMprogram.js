@@ -1422,7 +1422,7 @@ function join(...text){
 let resuiltjoin = join("hello","evryone");
 console.log(resuiltjoin);
 
-// thirteenth one 13
+// thirteenth one 13;
 function repeat (text){
     for(let i = 0; i<2;i++){
        return text.repeat(3);
