@@ -1363,7 +1363,7 @@ let problem2 = ''
 // for(let i = 0; i<litter.length; i++){
 //     let litters = litter[i]
 //     if(savelitter[litter]==="a"){
-//         savelitter[litter]++
+//         savelitter[litter]++;
 //     }
 //     else{
 //     savelitter[litter]=1;
