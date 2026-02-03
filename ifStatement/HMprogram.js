@@ -1351,7 +1351,7 @@ for(let i =0; i<text.length;i++){
     litterlength[litter]++
    }
    else{
-    litterlength[litter]=1
+    litterlength[litter]=1;
    }
 }
 console.log(litterlength);
