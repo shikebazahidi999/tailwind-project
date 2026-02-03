@@ -1382,7 +1382,7 @@ function fasela(text){
             newtext+= text[i];
         }
     }
-    return newtext
+    return newtext;
 }
 let resuilt = fasela("hello   world");
 console.log(resuilt);
