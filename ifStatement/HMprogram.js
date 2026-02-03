@@ -1369,7 +1369,7 @@ let problem2 = ''
 //     savelitter[litter]=1
 //     }
 // }
-// return litter + savelitter
+// return litter + savelitter;
 
 // }let ltterresuilt = littertime("javascript");
 // console.log(ltterresuilt);
