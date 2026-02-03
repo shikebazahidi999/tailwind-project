@@ -1410,7 +1410,7 @@ function twines(first,secound){
 let showtwines = twines("listen","silent");
 console.log(showtwines);
 
-// twelvth one 12
+// twelvth one 12;
 
 function join(...text){
     let string = text.join(" ");
