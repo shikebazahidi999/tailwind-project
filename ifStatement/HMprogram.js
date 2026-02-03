@@ -1306,7 +1306,7 @@ function lowercase (text){
     let kochak = "";
     for(let i =0; i<text.length; i++){
         if(text[i]>="A"&&text[i]<="Z"){
-            kochak+= '_'+text[i].toLowerCase()
+            kochak+= '_'+text[i].toLowerCase();
         }
         else{
             kochak+=text[i];
