@@ -1457,19 +1457,24 @@ console.log(texts);
 // };
 // console.log(getpop);
 
-// third one shift
-let shift = ["hello","my","name","is","Shikeba"];
-let shifted = "";
-while(shift.length>0){
-    shifted+= " "+shift.shift();
-}console.log(shifted);
+// // third one shift
+// let shift = ["hello","my","name","is","Shikeba"];
+// let shifted = "";
+// while(shift.length>0){
+//     shifted+= " "+shift.shift();
+// }console.log(shifted);
 
-// fourth one unshift
-let string = " hello girl";
-let list = [];
-for(let i =string.length ; i>=0; i--){
-  list.unshift(string[i]);
-}console.log(list);
+// // fourth one unshift
+// let string = " hello girl";
+// let list = [];
+// for(let i =string.length ; i>=0; i--){
+//   list.unshift(string[i]);
+// }console.log(list);
 
 // fifth one splice
 let splice = "hello every one today we are going to have a fun ";
+if(splice>="a"&&splice<="z"){
+    let splited = splice.split(" ");splited.splice(1,3,"dear ","classmates");
+    let joined = splited.join(" ");
+    console.log(joined);
+}
