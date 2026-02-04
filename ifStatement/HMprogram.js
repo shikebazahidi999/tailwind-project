@@ -1450,17 +1450,18 @@ texts.push(text[i]);
 console.log(texts);
 
 // secound one pop
-let pops = ["hello","i am","a","good","devloper"];
-let getpop = ""
-for(let i =pops.length; i>0;i--){
-   getpop+= "_"+pops.pop(i);
-};
-console.log(getpop);
+// let pops = ["hello","i am","a","good","devloper"];
+// let getpop = ""
+// for(let i =pops.length; i>0;i--){
+//    getpop+= "_"+pops.pop(i);
+// };
+// console.log(getpop);
 
 // third one shift
 let i =0;
 let shift = ["hello","my","name","is","Shikeba"];
 let shifted = "";
-while(i<shift.length){
-    i++;
+for(let i= 0; i<shift.length;i++){
+    shifted+=" "+ shift.pop(i);
+    console.log(shifted)
 }
