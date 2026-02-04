@@ -1296,7 +1296,7 @@ function onlystring(text){
             strings+= text[i];
         }
     }
-    return strings
+    return strings;
 }
 let string = onlystring("hel7lo world 123");
 console.log(string);
@@ -1356,7 +1356,7 @@ for(let i =0; i<text.length;i++){
 }
 console.log(litterlength);
 
-// seventh one 7
+// seventh one 7;
 let problem2 = '';
 // function littertime(litter){
 //     let savelitter = {};
