@@ -1450,3 +1450,8 @@ texts.push(text[i]);
 console.log(texts);
 // secound one pop
 let pops = ["hello","i am","a","good","devloper"];
+let getpop = ""
+for(let i =0; i<pops.length;i++){
+   getpop+= "_"+pops[i] ;
+};
+console.log(getpop);
