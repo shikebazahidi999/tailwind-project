@@ -1445,5 +1445,8 @@ let promlep3 = ''
 let text = "hello world";
 let texts = []
 for(let i = 0; i<text.length; i++){
-
+texts.push(text[i]);
 }
+console.log(texts);
+// secound one pop
+let pops = ["hello","i am","a","good","devloper"];
