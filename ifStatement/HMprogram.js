@@ -1450,31 +1450,46 @@ texts.push(text[i]);
 console.log(texts);
 
 // secound one pop
-// let pops = ["hello","i am","a","good","devloper"];
-// let getpop = ""
-// for(let i =pops.length; i>0;i--){
-//    getpop+= "_"+pops.pop(i);
-// };
-// console.log(getpop);
+let pops = ["hello","i am","a","good","devloper"];
+let getpop = ""
+for(let i =pops.length; i>0;i--){
+   getpop+= "_"+pops.pop(i);
+};
+console.log(getpop);
 
 // // third one shift
-// let shift = ["hello","my","name","is","Shikeba"];
-// let shifted = "";
-// while(shift.length>0){
-//     shifted+= " "+shift.shift();
-// }console.log(shifted);
+let shift = ["hello","my","name","is","Shikeba"];
+let shifted = "";
+while(shift.length>0){
+    shifted+= " "+shift.shift();
+}console.log(shifted);
 
 // // fourth one unshift
-// let string = " hello girl";
-// let list = [];
-// for(let i =string.length ; i>=0; i--){
-//   list.unshift(string[i]);
-// }console.log(list);
+let string = " hello girl";
+let list = [];
+for(let i =string.length ; i>=0; i--){
+  list.unshift(string[i]);
+}console.log(list);
 
-// fifth one splice
+// fifth one splice && join
 let splice = "hello every one today we are going to have a fun ";
 if(splice>="a"&&splice<="z"){
     let splited = splice.split(" ");splited.splice(1,3,"dear ","classmates");
     let joined = splited.join(" ");
     console.log(joined);
-}
+};
+
+// sixed one slice && join
+let adadlist = ["12","14","43","72"];
+let newlist = adadlist.slice(1,).join(" ");
+console.log(newlist);
+
+// seventh one concat && join
+let text8 = ["hello evrery one"];
+let text9 = ["i hope you feel great"];
+    for(let i =0; i<text.length; i++){
+       if(text8[i]>="a"&&text8[i]<="z"){
+          let all=  text8.concat(text9).join(" ");
+           console.log(all)
+       }
+    } 
