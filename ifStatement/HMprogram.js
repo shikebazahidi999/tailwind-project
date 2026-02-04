@@ -1463,4 +1463,13 @@ let shifted = "";
 while(shift.length>0){
     shifted+= " "+shift.shift();
 }console.log(shifted);
+
 // fourth one unshift
+let string = " hello girl";
+let list = [];
+for(let i =string.length ; i>=0; i--){
+  list.unshift(string[i]);
+}console.log(list);
+
+// fifth one splice
+let splice = "hello every one today we are going to have a fun ";
