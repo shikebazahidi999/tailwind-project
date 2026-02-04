@@ -1487,9 +1487,8 @@ console.log(newlist);
 // seventh one concat && join
 let text8 = ["hello evrery one"];
 let text9 = ["i hope you feel great"];
-    for(let i =0; i<text.length; i++){
-       if(text8[i]>="a"&&text8[i]<="z"){
-          let all=  text8.concat(text9).join(" ");
-           console.log(all)
-       }
-    } 
+for(let i =0; i<text.length; i++){
+    if(text8[i]>="a"&&text8[i]<="z"){
+       let all=  text8.concat(text9).join(" ");
+           console.log(all);
+       } }; 
