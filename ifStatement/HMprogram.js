@@ -1439,3 +1439,6 @@ let promlep3 = ''
 // }
 // console.log(startwith("hello and good by"));
 
+// Array functions
+
+// first one push()
