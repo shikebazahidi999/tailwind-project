@@ -1288,153 +1288,154 @@ let promlep3 = ''
 
 // strings lab menual
 
-// first one 1
-function onlystring(text){
-    let strings = ""
-    for(let i = 0; i<text.length; i++){
-        if((text[i]>="a"&&text[i]<="z")||text[i]<="A"&&text[i]>="Z"){
-            strings+= text[i];
-        }
-    }
-    return strings;
-}
-let string = onlystring("hel7lo world 123");
-console.log(string);
-
-// secound one 2
-function lowercase (text){
-    let kochak = "";
-    for(let i =0; i<text.length; i++){
-        if(text[i]>="A"&&text[i]<="Z"){
-            kochak+= '_'+text[i].toLowerCase();
-        }
-        else{
-            kochak+=text[i];
-        }
-    }
-return kochak;
-}
-let lower = lowercase("myName");
-console.log(lower);
-
-// third one 3
-function shorttext(text){
-    let short = "";
-    for(let i = 0; i<text.length; i++){
-    if(text[i]!==text[i -1]){
-        short+= text[i];
-    }
-    }
-    return short;
-}
-let shorted = shorttext("bookkeper");
-console.log(shorted);
-
-// fourht one 4
-let trime = " hello world ";
-let trimed =trime.replace(/^\s+|\s+$/g,"");
-console.log(trimed);
-
-// fivth one 5
-let revers = "hello world i'm what i am";
-let reverses = revers.split(" ");
-let reversed = reverses.map(word => word.split("").reverse().join("")).join(" ")
-
-  console.log(reversed);
-
-// sixed one 6;
-let text = "aAABBb";
-let litterlength = {};
-for(let i =0; i<text.length;i++){
-    let litter = text[i];
-   if(litterlength[litter]){
-    litterlength[litter]++;
-   }
-   else{
-    litterlength[litter]=1;
-   }
-}
-console.log(litterlength);
-
-// seventh one 7;
-let problem2 = '';
-// function littertime(litter){
-//     let savelitter = {};
-// for(let i = 0; i<litter.length; i++){
-//     let litters = litter[i];
-//     if(savelitter[litter]==="a"){
-//         savelitter[litter]++;
+// // first one 1
+// function onlystring(text){
+//     let strings = ""
+//     for(let i = 0; i<text.length; i++){
+//         if((text[i]>="a"&&text[i]<="z")||text[i]<="A"&&text[i]>="Z"){
+//             strings+= text[i];
+//         }
 //     }
-//     else{
-//     savelitter[litter]=1;
+//     return strings;
+// }
+// let string = onlystring("hel7lo world 123");
+// console.log(string);
+
+// // secound one 2
+// function lowercase (text){
+//     let kochak = "";
+//     for(let i =0; i<text.length; i++){
+//         if(text[i]>="A"&&text[i]<="Z"){
+//             kochak+= '_'+text[i].toLowerCase();
+//         }
+//         else{
+//             kochak+=text[i];
+//         }
+//     }
+// return kochak;
+// }
+// let lower = lowercase("myName");
+// console.log(lower);
+
+// // third one 3
+// function shorttext(text){
+//     let short = "";
+//     for(let i = 0; i<text.length; i++){
+//     if(text[i]!==text[i -1]){
+//         short+= text[i];
+//     }
+//     }
+//     return short;
+// }
+// let shorted = shorttext("bookkeper");
+// console.log(shorted);
+
+// // fourht one 4
+// let trime = " hello world ";
+// let trimed =trime.replace(/^\s+|\s+$/g,"");
+// console.log(trimed);
+
+// // fivth one 5
+// let revers = "hello world i'm what i am";
+// let reverses = revers.split(" ");
+// let reversed = reverses.map(word => word.split("").reverse().join("")).join(" ")
+
+//   console.log(reversed);
+
+// // sixed one 6;
+// let text = "aAABBb";
+// let litterlength = {};
+// for(let i =0; i<text.length;i++){
+//     let litter = text[i];
+//    if(litterlength[litter]){
+//     litterlength[litter]++;
+//    }
+//    else{
+//     litterlength[litter]=1;
+//    }
+// }
+// console.log(litterlength);
+
+// // seventh one 7;
+// let problem2 = '';
+// // function littertime(litter){
+// //     let savelitter = {};
+// // for(let i = 0; i<litter.length; i++){
+// //     let litters = litter[i];
+// //     if(savelitter[litter]==="a"){
+// //         savelitter[litter]++;
+// //     }
+// //     else{
+// //     savelitter[litter]=1;
+// //     }
+// // }
+// // return litter + savelitter;
+
+// // }let ltterresuilt = littertime("javascript");
+// // console.log(ltterresuilt);
+
+// // eight ona 8;git in
+// function fasela(text){
+//     let newtext = "";
+//     for(let i =0; i<text.length; i++){
+//         if(text[i]!==" "){
+//             newtext+= text[i];
+//         }
+//     }
+//     return newtext;
+// }
+// let resuilt = fasela("hello   world");
+// console.log(resuilt);
+
+// // ninth one 9;
+// function uppercase(sectence){
+//     let split = sectence.split(" ");
+//   let upper =split.map(word => word.charAt(0).toUpperCase()+word.slice(1)).join(" ");
+//   return upper;
+// }
+// let resuilt1 =uppercase("hello world i'm shikeba");
+// console.log(resuilt1);
+
+// // tenth one 10;
+// function matn(text){
+//     let alltext = text.split(",");
+//     return alltext;
+// }
+// console.log(matn("hello,iam,shikeba"));
+
+// // elewenth one 11;
+// function twines(first,secound){
+//      return first.split("").sort().join("")===secound.split("").sort().join("")
+// }
+// let showtwines = twines("listen","silent");
+// console.log(showtwines);
+
+// // twelvth one 12;
+
+// function join(...text){
+//     let string = text.join(" ");
+//     // for(let i =0; i<text.length; i++){
+//     //    string+=text[i];
+//     // }
+//     return string;
+// };
+// let resuiltjoin = join("hello","evryone");
+// console.log(resuiltjoin);
+
+// // thirteenth one 13;
+// function repeat (text){
+//     for(let i = 0; i<2;i++){
+//        return text.repeat(3);
 //     }
 // }
-// return litter + savelitter;
+// console.log(repeat(" hello"));
 
-// }let ltterresuilt = littertime("javascript");
-// console.log(ltterresuilt);
+// // fourteenth one 14;
+// let t = " hello"
+// function startwith (text){
+//    if (text.startsWith("hello")&&text.endsWith("good by")){
+//    return "your condition is true";
+//    }
+// }
+// console.log(startwith("hello and good by"));
 
-// eight ona 8;git in
-function fasela(text){
-    let newtext = "";
-    for(let i =0; i<text.length; i++){
-        if(text[i]!==" "){
-            newtext+= text[i];
-        }
-    }
-    return newtext;
-}
-let resuilt = fasela("hello   world");
-console.log(resuilt);
-
-// ninth one 9;
-function uppercase(sectence){
-    let split = sectence.split(" ");
-  let upper =split.map(word => word.charAt(0).toUpperCase()+word.slice(1)).join(" ");
-  return upper;
-}
-let resuilt1 =uppercase("hello world i'm shikeba");
-console.log(resuilt1);
-
-// tenth one 10;
-function matn(text){
-    let alltext = text.split(",");
-    return alltext;
-}
-console.log(matn("hello,iam,shikeba"));
-
-// elewenth one 11;
-function twines(first,secound){
-     return first.split("").sort().join("")===secound.split("").sort().join("")
-}
-let showtwines = twines("listen","silent");
-console.log(showtwines);
-
-// twelvth one 12;
-
-function join(...text){
-    let string = text.join(" ");
-    // for(let i =0; i<text.length; i++){
-    //    string+=text[i];
-    // }
-    return string;
-};
-let resuiltjoin = join("hello","evryone");
-console.log(resuiltjoin);
-
-// thirteenth one 13;
-function repeat (text){
-    for(let i = 0; i<2;i++){
-       return text.repeat(3);
-    }
-}
-console.log(repeat(" hello"));
-
-// fourteenth one 14;
-let t = " hello"
-function startwith (text){
-   if (text.startsWith("hello")&&text.endsWith("good by")){
-   return "your condition is true";
-   }
-}
-console.log(startwith("hello and good by"));
