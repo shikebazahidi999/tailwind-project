@@ -1458,10 +1458,9 @@ console.log(texts);
 // console.log(getpop);
 
 // third one shift
-let i =0;
 let shift = ["hello","my","name","is","Shikeba"];
 let shifted = "";
-for(let i= 0; i<shift.length;i++){
-    shifted+=" "+ shift.pop(i);
-    console.log(shifted)
-}
+while(shift.length>0){
+    shifted+= " "+shift.shift();
+}console.log(shifted);
+// fourth one unshift
