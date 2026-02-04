@@ -1442,3 +1442,8 @@ let promlep3 = ''
 // Array functions
 
 // first one push()
+let text = "hello world";
+let texts = []
+for(let i = 0; i<text.length; i++){
+
+}
