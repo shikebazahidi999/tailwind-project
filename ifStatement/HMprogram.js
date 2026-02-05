@@ -1484,7 +1484,7 @@ let adadlist = ["12","14","43","72"];
 let newlist = adadlist.slice(1,).join(" ");
 console.log(newlist);
 
-// seventh one concat && join
+// seventh one concat && join;
 let text8 = ["hello evrery one"];
 let text9 = ["i hope you feel great"];
 for(let i =0; i<text.length; i++){
