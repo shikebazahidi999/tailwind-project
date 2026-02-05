@@ -1457,7 +1457,7 @@ for(let i =pops.length; i>0;i--){
 };
 console.log(getpop);
 
-// // third one shift
+// // third one shift;
 let shift = ["hello","my","name","is","Shikeba"];
 let shifted = "";
 while(shift.length>0){
