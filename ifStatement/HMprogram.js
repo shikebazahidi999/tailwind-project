@@ -1439,9 +1439,9 @@ let promlep3 = ''
 // }
 // console.log(startwith("hello and good by"));
 
-// Array functions
+// Array functions;
 
-// first one push()
+// first one push();
 let text = "hello world";
 let texts = []
 for(let i = 0; i<text.length; i++){
