@@ -1431,7 +1431,7 @@ let promlep3 = ''
 // console.log(repeat(" hello"));
 
 // // fourteenth one 14;
-// let t = " hello"
+// let t = " hello";
 // function startwith (text){
 //    if (text.startsWith("hello")&&text.endsWith("good by")){
 //    return "your condition is true";
