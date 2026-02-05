@@ -1449,7 +1449,7 @@ texts.push(text[i]);
 }
 console.log(texts);
 
-// secound one pop
+// secound one pop;
 let pops = ["hello","i am","a","good","devloper"];
 let getpop = ""
 for(let i =pops.length; i>0;i--){
