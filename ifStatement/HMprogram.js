@@ -1387,7 +1387,7 @@ let promlep3 = ''
 // let resuilt = fasela("hello   world");
 // console.log(resuilt);
 
-// // ninth one 9;
+// // ninth one 9;;
 // function uppercase(sectence){
 //     let split = sectence.split(" ");
 //   let upper =split.map(word => word.charAt(0).toUpperCase()+word.slice(1)).join(" ");
