@@ -1479,7 +1479,7 @@ if(splice>="a"&&splice<="z"){
     console.log(joined);
 };
 
-// sixed one slice && join
+// sixed one slice && join;
 let adadlist = ["12","14","43","72"];
 let newlist = adadlist.slice(1,).join(" ");
 console.log(newlist);
