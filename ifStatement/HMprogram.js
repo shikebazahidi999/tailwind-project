@@ -1507,4 +1507,4 @@ let newitems = items.map(items =>{
 console.log(newitems);
 
 // tenth one ;
-let otherlist = ["mahdi","samir",]
+let otherlist = ["mahdi","samir","shaikba"]
