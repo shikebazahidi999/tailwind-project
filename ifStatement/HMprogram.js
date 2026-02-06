@@ -1498,10 +1498,13 @@ let lists = [23,34,75];
  let newlisst =lists.forEach(items =>{
     console.log(items + 2);
 });
-// seventh one map
+// ninth one map
 let items = [224,799,334,566];
 let newitems = items.map(items =>{
     return items*2;
 
 });
-console.log(newitems)
+console.log(newitems);
+
+// tenth one ;
+let otherlist = ["mahdi","samir",]
