@@ -1493,4 +1493,4 @@ for(let i =0; i<text.length; i++){
            console.log(all);
 } };
 
-// eight one foreach
+// eight one foreach;
