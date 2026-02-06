@@ -1491,4 +1491,6 @@ for(let i =0; i<text.length; i++){
     if(text8[i]>="a"&&text8[i]<="z"){
        let all=  text8.concat(text9).join(" ");
            console.log(all);
-       } }; 
+} };
+
+// eight one foreach
