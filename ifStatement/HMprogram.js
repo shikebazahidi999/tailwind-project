@@ -1514,5 +1514,9 @@ let newitem = otherlist.filter(item=>{
 console.log(newitem);
 
 function litters (litter){
-    return litter;
+
 }
+let mainlist = otherlist.filter(litters=>{
+    return litters.includes("s");
+});
+console.log(mainlist);
