@@ -1495,3 +1495,4 @@ for(let i =0; i<text.length; i++){
 
 // eight one foreach;
 let lists = [23,34,75];
+lists.forEach()
