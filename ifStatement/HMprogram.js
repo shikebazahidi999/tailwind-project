@@ -1508,4 +1508,4 @@ console.log(newitems);
 
 // tenth one ;
 let otherlist = ["mahdi","samir","shaikba","fariba"];
-let newitem = 
+let newitem = otherlist.filter
