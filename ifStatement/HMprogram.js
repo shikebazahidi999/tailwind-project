@@ -1504,5 +1504,4 @@ let newitems = items.map(items =>{
     return items*2;
 
 });
-let additems = newitems;
-console.log(additems);
+console.log(newitems)
