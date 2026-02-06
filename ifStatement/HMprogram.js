@@ -1508,4 +1508,11 @@ console.log(newitems);
 
 // tenth one ;
 let otherlist = ["mahdi","samir","shaikba","fariba"];
-let newitem = otherlist.filter
+let newitem = otherlist.filter(item=>{
+    return item.includes("h");
+});
+console.log(newitem);
+
+function litters (litter){
+    return litter;
+}
