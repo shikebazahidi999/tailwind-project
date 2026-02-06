@@ -1495,7 +1495,13 @@ for(let i =0; i<text.length; i++){
 
 // eight one foreach;
 let lists = [23,34,75];
-lists.forEach(items =>{
-    items +2;
-    console.log(lists)
-})
+ let newlisst =lists.forEach(items =>{
+    console.log(items + 2);
+});
+// seventh one map
+let items = [224,799,334,566];
+let newitems = items.map(items =>{
+    return items*items;
+
+});
+let addi
