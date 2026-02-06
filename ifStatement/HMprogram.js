@@ -1501,7 +1501,8 @@ let lists = [23,34,75];
 // seventh one map
 let items = [224,799,334,566];
 let newitems = items.map(items =>{
-    return items*items;
+    return items*2;
 
 });
-let addi
+let additems = newitems;
+console.log(additems);
