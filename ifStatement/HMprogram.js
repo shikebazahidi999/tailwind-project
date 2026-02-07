@@ -1506,7 +1506,7 @@ let newitems = items.map(items =>{
 });
 console.log(newitems);
 
-// tenth one ;
+// tenth one filter;
 let otherlist = ["mahdi","samir","shaikba","fariba"];
 let newitem = otherlist.filter(item=>{
     return item.includes("h");
