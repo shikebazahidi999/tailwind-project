@@ -1521,3 +1521,9 @@ let mainlist = otherlist.filter(litters=>{
 });
 console.log(mainlist);
 // find
+let finde = ["moosa","ahmad","nargis","shafiq"];
+function find(item){
+    return item.includes("m")
+}
+let findresuilt = finde.find();
+console.log(findresuilt)
