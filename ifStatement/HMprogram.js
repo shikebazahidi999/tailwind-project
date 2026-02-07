@@ -1534,4 +1534,6 @@ function mosoul(index){
     return index%2===0;
 };
 let findedindex = findindex.findIndex(mosoul);
-console.log(findedindex)
+console.log(findedindex);
+// some
+let som = ["ab"]
