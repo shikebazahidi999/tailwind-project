@@ -1529,8 +1529,9 @@ let findresuilt = finde.find(find);
 console.log(findresuilt);
 
 // findindex
-let findindex = [2,7,8,9,10];
+let findindex = [3,7,8,9,10];
 function mosoul(index){
     return index%2===0;
 };
 let findedindex = findindex.findIndex(mosoul);
+console.log(findedindex)
