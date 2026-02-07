@@ -1536,4 +1536,9 @@ function mosoul(index){
 let findedindex = findindex.findIndex(mosoul);
 console.log(findedindex);
 // some
-let som = ["abdul","habib","morteza","mahboba"]
+let som = ["abdul","habib","morteza","mahboba"];
+function finding (find){
+    return find.includes("j");
+}
+let resuilt = som.some(finding);
+console.log(resuilt)
