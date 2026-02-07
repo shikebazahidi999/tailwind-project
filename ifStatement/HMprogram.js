@@ -1526,4 +1526,4 @@ function find(item){
     return item.includes("m")
 }
 let findresuilt = finde.find();
-console.log(findresuilt)
+console.log(findresuilt);
