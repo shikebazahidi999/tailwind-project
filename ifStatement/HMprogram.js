@@ -1520,3 +1520,4 @@ let mainlist = otherlist.filter(litters=>{
     return litters.includes("s");
 });
 console.log(mainlist);
+// find
