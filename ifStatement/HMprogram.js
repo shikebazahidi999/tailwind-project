@@ -1545,5 +1545,6 @@ console.log(resuilt);
 
 // sort
 let numbers = [90,80,34,56,1,245];
-let sortednums = numbers.sort();
+let sortednums = numbers.sort((smallnum,bignum)=> smallnum - bignum);
 console.log(sortednums);
+let strings = ["zahra","alimohammad","wahida","morteza"]
