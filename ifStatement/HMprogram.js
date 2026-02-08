@@ -1542,3 +1542,5 @@ function finding (find){
 }
 let resuilt = som.some(finding);
 console.log(resuilt);
+
+// sort
