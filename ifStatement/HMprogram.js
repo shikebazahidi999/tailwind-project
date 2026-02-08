@@ -1542,6 +1542,11 @@ function finding (find){
 }
 let resuilt = som.some(finding);
 console.log(resuilt);
+// every
+let items1 = ["ali","mohammad","samira","alidad"];
+let evryitem = items1.every( items =>{
+    return items.includes("a")
+})
 
 // sort
 let numbers = [90,80,34,56,1,245];
@@ -1557,4 +1562,5 @@ let reversednum = revres.reverse();
 console.log(reversednum);
 // for string;
 let reversstring = ["ali","mohammad",12,"shikeba",54];
-let revrsedstring = reversstring.reverse()
+let revrsedstring = reversstring.reverse();
+console.log(revrsedstring);
