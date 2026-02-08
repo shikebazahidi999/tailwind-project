@@ -1549,4 +1549,5 @@ let sortednums = numbers.sort((smallnum,bignum)=> smallnum - bignum);
 console.log(sortednums);
 let strings = ["zahra","alimohammad","wahida","morteza","bahara"];
 let sortedstring = strings.sort();
-console.log(sortedstring)
+console.log(sortedstring);
+// revers 
