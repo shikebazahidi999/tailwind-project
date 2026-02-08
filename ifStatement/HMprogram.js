@@ -1543,10 +1543,17 @@ function finding (find){
 let resuilt = som.some(finding);
 console.log(resuilt);
 // every
-let items1 = ["ali","mohammad","samira","alidad"];
+let items1 = ["eli","mohammad","samira","alidad"];
 let evryitem = items1.every( items =>{
     return items.includes("a")
-})
+});
+
+// rediuse 
+let rediose = ["ali","mohammad","alisena"];
+let rediosed = rediose.reduce((newList,items)=>{
+    return newList+" "+items
+},"");
+console.log(rediosed)
 
 // sort
 let numbers = [90,80,34,56,1,245];
