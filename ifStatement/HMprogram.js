@@ -1553,7 +1553,20 @@ let rediose = ["ali","mohammad","alisena"];
 let rediosed = rediose.reduce((newList,items)=>{
     return newList+" "+items
 },"");
-console.log(rediosed)
+console.log(rediosed);
+// function decleration
+let problem5 = ''
+// let reducenum = [12,34,6,7];
+// function reduces (newitem,arritems){
+//     if(newitem>arritems){
+//         return newitem;
+//     }
+//     else{
+//         return arritems
+//     }
+// };
+// let newlists = reducenum.reduce(reduces);
+// console.log(newlists)
 
 // sort
 let numbers = [90,80,34,56,1,245];
