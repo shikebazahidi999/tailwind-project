@@ -1547,6 +1547,6 @@ console.log(resuilt);
 let numbers = [90,80,34,56,1,245];
 let sortednums = numbers.sort((smallnum,bignum)=> smallnum - bignum);
 console.log(sortednums);
-let strings = ["zahra","alimohammad","wahida","morteza"];
+let strings = ["zahra","alimohammad","wahida","morteza","bahara"];
 let sortedstring = strings.sort();
-console
+console.log(sortedstring)
