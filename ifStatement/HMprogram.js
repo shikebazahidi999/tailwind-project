@@ -1544,3 +1544,6 @@ let resuilt = som.some(finding);
 console.log(resuilt);
 
 // sort
+let numbers = [90,80,34,56,1,245];
+let sortednums = numbers.sort();
+console.log(sortednums)
