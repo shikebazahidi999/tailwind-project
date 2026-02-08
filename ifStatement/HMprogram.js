@@ -1547,7 +1547,14 @@ console.log(resuilt);
 let numbers = [90,80,34,56,1,245];
 let sortednums = numbers.sort((smallnum,bignum)=> smallnum - bignum);
 console.log(sortednums);
+// for string
 let strings = ["zahra","alimohammad","wahida","morteza","bahara"];
 let sortedstring = strings.sort();
 console.log(sortedstring);
 // revers 
+let revres = [1,2,3,4,5,90,100,3556];
+let reversednum = revres.reverse();
+console.log(reversednum);
+// for string;
+let reversstring = ["ali","mohammad",12,"shikeba",54];
+let revrsedstring = reversstring.reverse()
