@@ -1541,4 +1541,4 @@ function finding (find){
     return find.includes("j");
 }
 let resuilt = som.some(finding);
-console.log(resuilt)
+console.log(resuilt);
