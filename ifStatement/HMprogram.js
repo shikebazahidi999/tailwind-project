@@ -1439,150 +1439,156 @@ let promlep3 = ''
 // }
 // console.log(startwith("hello and good by"));
 
-// Array functions;
+// // Array functions;
 
-// first one push();
-let text = "hello world";
-let texts = []
-for(let i = 0; i<text.length; i++){
-texts.push(text[i]);
-}
-console.log(texts);
+// // first one push();
+// let text = "hello world";
+// let texts = []
+// for(let i = 0; i<text.length; i++){
+// texts.push(text[i]);
+// }
+// console.log(texts);
 
-// secound one pop;
-let pops = ["hello","i am","a","good","devloper"];
-let getpop = ""
-for(let i =pops.length; i>0;i--){
-   getpop+= "_"+pops.pop(i);
-};
-console.log(getpop);
-
-// // third one shift;
-let shift = ["hello","my","name","is","Shikeba"];
-let shifted = "";
-while(shift.length>0){
-    shifted+= " "+shift.shift();
-}console.log(shifted);
-
-// // fourth one unshift;
-let string = " hello girl";
-let list = [];
-for(let i =string.length ; i>=0; i--){
-  list.unshift(string[i]);
-}console.log(list);
-
-// fifth one splice && join;
-let splice = "hello every one today we are going to have a fun ";
-if(splice>="a"&&splice<="z"){
-    let splited = splice.split(" ");splited.splice(1,3,"dear ","classmates");
-    let joined = splited.join(" ");
-    console.log(joined);
-};
-
-// sixed one slice && join;
-let adadlist = ["12","14","43","72"];
-let newlist = adadlist.slice(1,).join(" ");
-console.log(newlist);
-
-// seventh one concat && join;
-let text8 = ["hello evrery one"];
-let text9 = ["i hope you feel great"];
-for(let i =0; i<text.length; i++){
-    if(text8[i]>="a"&&text8[i]<="z"){
-       let all=  text8.concat(text9).join(" ");
-           console.log(all);
-} };
-
-// eight one foreach;
-let lists = [23,34,75];
- let newlisst =lists.forEach(items =>{
-    console.log(items + 2);
-});
-// ninth one map;
-let items = [224,799,334,566];
-let newitems = items.map(items =>{
-    return items*2;
-
-});
-console.log(newitems);
-
-// tenth one filter;
-let otherlist = ["mahdi","samir","shaikba","fariba"];
-let newitem = otherlist.filter(item=>{
-    return item.includes("h");
-});
-console.log(newitem);
-
-function litters (litter){
-
-}
-let mainlist = otherlist.filter(litters=>{
-    return litters.includes("s");
-});
-console.log(mainlist);
-// find
-let finde = ["moosa","ahmad","nargis","shafiq"];
-function find(item){
-    return item.includes("m")
-}
-let findresuilt = finde.find(find);
-console.log(findresuilt);
-
-// findindex
-let findindex = [3,7,8,9,10];
-function mosoul(index){
-    return index%2===0;
-};
-let findedindex = findindex.findIndex(mosoul);
-console.log(findedindex);
-// some;
-let som = ["abdul","habib","morteza","mahboba"];
-function finding (find){
-    return find.includes("j");
-}
-let resuilt = som.some(finding);
-console.log(resuilt);
-// every
-let items1 = ["eli","mohammad","samira","alidad"];
-let evryitem = items1.every( items =>{
-    return items.includes("a")
-});
-
-// rediuse 
-let rediose = ["ali","mohammad","alisena"];
-let rediosed = rediose.reduce((newList,items)=>{
-    return newList+" "+items
-},"");
-console.log(rediosed);
-// function decleration
-let problem5 = ''
-// let reducenum = [12,34,6,7];
-// function reduces (newitem,arritems){
-//     if(newitem>arritems){
-//         return newitem;
-//     }
-//     else{
-//         return arritems
-//     }
+// // secound one pop;
+// let pops = ["hello","i am","a","good","devloper"];
+// let getpop = ""
+// for(let i =pops.length; i>0;i--){
+//    getpop+= "_"+pops.pop(i);
 // };
-// let newlists = reducenum.reduce(reduces);
-// console.log(newlists)
+// console.log(getpop);
 
-// sort
-let numbers = [90,80,34,56,1,245];
-let sortednums = numbers.sort((smallnum,bignum)=> smallnum - bignum);
-console.log(sortednums);
-// for string
-let strings = ["zahra","alimohammad","wahida","morteza","bahara"];
-let sortedstring = strings.sort();
-console.log(sortedstring);
-// revers 
-let revres = [1,2,3,4,5,90,100,3556];
-let reversednum = revres.reverse();
-console.log(reversednum);
-// for string;
-let reversstring = ["ali","mohammad",12,"shikeba",54];
-let revrsedstring = reversstring.reverse();
-console.log(revrsedstring);
+// // // third one shift;
+// let shift = ["hello","my","name","is","Shikeba"];
+// let shifted = "";
+// while(shift.length>0){
+//     shifted+= " "+shift.shift();
+// }console.log(shifted);
+
+// // // fourth one unshift;
+// let string = " hello girl";
+// let list = [];
+// for(let i =string.length ; i>=0; i--){
+//   list.unshift(string[i]);
+// }console.log(list);
+
+// // fifth one splice && join;
+// let splice = "hello every one today we are going to have a fun ";
+// if(splice>="a"&&splice<="z"){
+//     let splited = splice.split(" ");splited.splice(1,3,"dear ","classmates");
+//     let joined = splited.join(" ");
+//     console.log(joined);
+// };
+
+// // sixed one slice && join;
+// let adadlist = ["12","14","43","72"];
+// let newlist = adadlist.slice(1,).join(" ");
+// console.log(newlist);
+
+// // seventh one concat && join;
+// let text8 = ["hello evrery one"];
+// let text9 = ["i hope you feel great"];
+// for(let i =0; i<text.length; i++){
+//     if(text8[i]>="a"&&text8[i]<="z"){
+//        let all=  text8.concat(text9).join(" ");
+//            console.log(all);
+// } };
+
+// // eight one foreach;
+// let lists = [23,34,75];
+//  let newlisst =lists.forEach(items =>{
+//     console.log(items + 2);
+// });
+// // ninth one map;
+// let items = [224,799,334,566];
+// let newitems = items.map(items =>{
+//     return items*2;
+
+// });
+// console.log(newitems);
+
+// // tenth one filter;
+// let otherlist = ["mahdi","samir","shaikba","fariba"];
+// let newitem = otherlist.filter(item=>{
+//     return item.includes("h");
+// });
+// console.log(newitem);
+
+// function litters (litter){
+
+// }
+// let mainlist = otherlist.filter(litters=>{
+//     return litters.includes("s");
+// });
+// console.log(mainlist);
+// // find
+// let finde = ["moosa","ahmad","nargis","shafiq"];
+// function find(item){
+//     return item.includes("m")
+// }
+// let findresuilt = finde.find(find);
+// console.log(findresuilt);
+
+// // findindex
+// let findindex = [3,7,8,9,10];
+// function mosoul(index){
+//     return index%2===0;
+// };
+// let findedindex = findindex.findIndex(mosoul);
+// console.log(findedindex);
+// // some;
+// let som = ["abdul","habib","morteza","mahboba"];
+// function finding (find){
+//     return find.includes("j");
+// }
+// let resuilt = som.some(finding);
+// console.log(resuilt);
+// // every
+// let items1 = ["eli","mohammad","samira","alidad"];
+// let evryitem = items1.every( items =>{
+//     return items.includes("a")
+// });
+
+// // rediuse 
+// let rediose = ["ali","mohammad","alisena"];
+// let rediosed = rediose.reduce((newList,items)=>{
+//     return newList+" "+items
+// },"");
+// console.log(rediosed);
+// // function decleration
+// let problem5 = ''
+// // let reducenum = [12,34,6,7];
+// // function reduces (newitem,arritems){
+// //     if(newitem>arritems){
+// //         return newitem;
+// //     }
+// //     else{
+// //         return arritems
+// //     }
+// // };
+// // let newlists = reducenum.reduce(reduces);
+// // console.log(newlists)
+
+// // sort
+// let numbers = [90,80,34,56,1,245];
+// let sortednums = numbers.sort((smallnum,bignum)=> smallnum - bignum);
+// console.log(sortednums);
+// // for string
+// let strings = ["zahra","alimohammad","wahida","morteza","bahara"];
+// let sortedstring = strings.sort();
+// console.log(sortedstring);
+// // revers 
+// let revres = [1,2,3,4,5,90,100,3556];
+// let reversednum = revres.reverse();
+// console.log(reversednum);
+// // for string;
+// let reversstring = ["ali","mohammad",12,"shikeba",54];
+// let revrsedstring = reversstring.reverse();
+// console.log(revrsedstring);
 
 // object functions
+let objectarr = [{name:"ali",lastname:"qorbani",age: 23},{name:"mohammad",lastname:"mohammadi",age: 34},{name:"mahdi",lastname:"zahedi",age: 34}];
+let resuiltofarr = objectarr.map( (object)=>{
+    if(object.name==="ali"){
+        return object.score= 89;
+    }
+})
