@@ -1586,10 +1586,13 @@ let promlep3 = ''
 // console.log(revrsedstring);
 
 // object functions
+// adding new value
 let objectarr = [{name:"ali",lastname:"qorbani",age: 23},{name:"mohammad",lastname:"mohammadi",age: 34},{name:"mahdi",lastname:"zahedi",age: 34}];
 let resuiltofarr = objectarr.map( (object)=>{
     if(object.name==="ali"){
-        return object.score= 89;
-    }
+        object["score"]= 89;
+        return object
+    };
+    
 });
-console.log(resuiltofarr)
+console.log(resuiltofarr);
