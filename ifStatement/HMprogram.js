@@ -1615,9 +1615,10 @@ let objectmap = objectfun.map(items =>{
         return items.aliinfo
     }
     else if(items.name==="mohammad"){
-        return items.mahdiinfo
+        return items.mohammadinfo
     }
     else{
-        return
+        return items.mahdiinfo
     }
-})
+});
+console.log(objectmap);
