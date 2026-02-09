@@ -1591,7 +1591,7 @@ let objectarr = [{name:"ali",lastname:"qorbani",age: 23},{name:"mohammad",lastna
 let resuiltofarr = objectarr.map( (object)=>{
     if(object.name==="ali"){
         object["score"]= 89;
-        return object
+        return object;
     };
     
 });
