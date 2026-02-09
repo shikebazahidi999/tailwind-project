@@ -1618,6 +1618,6 @@ let objectmap = objectfun.map(items =>{
         return items.mahdiinfo
     }
     else{
-        r
+        return
     }
 })
