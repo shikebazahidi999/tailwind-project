@@ -1562,7 +1562,7 @@ let promlep3 = ''
 // //         return newitem;
 // //     }
 // //     else{
-// //         return arritems
+// //         return arritems;
 // //     }
 // // };
 // // let newlists = reducenum.reduce(reduces);
