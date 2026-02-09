@@ -1591,4 +1591,5 @@ let resuiltofarr = objectarr.map( (object)=>{
     if(object.name==="ali"){
         return object.score= 89;
     }
-})
+});
+console.log(resuiltofarr)
