@@ -1603,7 +1603,7 @@ let resuiltdeletvalue = deletvalue.map( objects=>{
     if(objects.class==="a"){
         return objects
     }else{
-        delete objects.class
+        delete objects.class;
     }
 });
 console.log(resuiltdeletvalue);
