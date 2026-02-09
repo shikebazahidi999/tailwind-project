@@ -1601,7 +1601,7 @@ console.log(resuiltofarr);
 let deletvalue = [{name:"ali",lastname:"qorbani",age: 23,class: "a"},{name:"mohammad",lastname:"mohammadi",age: 34,class:"a"},{name:"mahdi",lastname:"zahedi",age: 34,class:"b"}];
 let resuiltdeletvalue = deletvalue.map( objects=>{
     if(objects.class==="a"){
-        return objects
+        return objects;
     }else{
         delete objects.class;
     }
