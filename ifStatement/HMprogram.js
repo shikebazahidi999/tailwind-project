@@ -1555,7 +1555,7 @@ let promlep3 = ''
 // },"");
 // console.log(rediosed);
 // // function decleration
-// let problem5 = ''
+// let problem5 = '';
 // // let reducenum = [12,34,6,7];
 // // function reduces (newitem,arritems){
 // //     if(newitem>arritems){
