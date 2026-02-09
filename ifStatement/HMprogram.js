@@ -1606,4 +1606,7 @@ let resuiltdeletvalue = deletvalue.map( objects=>{
         delete objects.class
     }
 });
-console.log(resuiltdeletvalue)
+console.log(resuiltdeletvalue);
+
+// function in object;
+let 
