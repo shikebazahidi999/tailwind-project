@@ -1584,3 +1584,5 @@ console.log(reversednum);
 let reversstring = ["ali","mohammad",12,"shikeba",54];
 let revrsedstring = reversstring.reverse();
 console.log(revrsedstring);
+
+// object functions
