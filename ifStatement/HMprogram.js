@@ -1624,4 +1624,5 @@ let objectmap = objectfun.map(items =>{
 console.log(objectmap);
 
 // object keys
-let aliInfo = 
+let aliInfo = {name:"ali",lastname:"zahedi",class:"a"};
+let resuiltofinfo = Object.keys(aliInfo)
