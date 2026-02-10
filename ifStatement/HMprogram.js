@@ -1629,4 +1629,4 @@ let resuiltofinfo = Object.keys(aliInfo);
 console.log(resuiltofinfo);
 // object values
 let valueofaliinfo = Object.values(aliInfo);
-console.log(valueofaliinfo)
+console.log(valueofaliinfo);
