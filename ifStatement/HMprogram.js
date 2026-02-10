@@ -1625,4 +1625,8 @@ console.log(objectmap);
 
 // object keys
 let aliInfo = {name:"ali",lastname:"zahedi",class:"a"};
-let resuiltofinfo = Object.keys(aliInfo)
+let resuiltofinfo = Object.keys(aliInfo);
+console.log(resuiltofinfo);
+// object values
+let valueofaliinfo = Object.values(aliInfo);
+console.log(valueofaliinfo)
