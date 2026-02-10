@@ -1631,4 +1631,5 @@ console.log(resuiltofinfo);
 let valueofaliinfo = Object.values(aliInfo);
 console.log(valueofaliinfo);
 // object entries
-let entriesinfo = Object.entries(aliInfo)
+let entriesinfo = Object.entries(aliInfo);
+console.log(entriesinfo)
