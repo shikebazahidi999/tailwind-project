@@ -1630,7 +1630,7 @@ console.log(resuiltofinfo);
 // object values
 let valueofaliinfo = Object.values(aliInfo);
 console.log(valueofaliinfo);
-// object entries
+// object entries;
 let entriesinfo = Object.entries(aliInfo);
 console.log(entriesinfo);
 // from entries;
