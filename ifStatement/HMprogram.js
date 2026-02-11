@@ -1580,7 +1580,7 @@ let promlep3 = ''
 // let revres = [1,2,3,4,5,90,100,3556];
 // let reversednum = revres.reverse();
 // console.log(reversednum);
-// // for string;
+// // for string;;
 // let reversstring = ["ali","mohammad",12,"shikeba",54];
 // let revrsedstring = reversstring.reverse();
 // console.log(revrsedstring);
