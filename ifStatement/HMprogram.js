@@ -1633,6 +1633,6 @@ console.log(valueofaliinfo);
 // object entries
 let entriesinfo = Object.entries(aliInfo);
 console.log(entriesinfo);
-// from entries
+// from entries;
 let fromentris = Object.fromEntries(entriesinfo);
 console.log(fromentris);
