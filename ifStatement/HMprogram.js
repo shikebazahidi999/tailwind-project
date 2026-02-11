@@ -1623,7 +1623,7 @@ let objectmap = objectfun.map(items =>{
 });
 console.log(objectmap);
 
-// object keys
+// object keys;
 let aliInfo = {name:"ali",lastname:"zahedi",class:"a"};
 let resuiltofinfo = Object.keys(aliInfo);
 console.log(resuiltofinfo);
