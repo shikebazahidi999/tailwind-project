@@ -1542,7 +1542,7 @@ let promlep3 = ''
 // }
 // let resuilt = som.some(finding);
 // console.log(resuilt);
-// // every
+// // every;
 // let items1 = ["eli","mohammad","samira","alidad"];
 // let evryitem = items1.every( items =>{
 //     return items.includes("a");
