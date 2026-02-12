@@ -1566,7 +1566,7 @@ let promlep3 = ''
 // //     }
 // // };
 // // let newlists = reducenum.reduce(reduces);
-// // console.log(newlists)
+// // console.log(newlists);
 
 // // sort;
 // let numbers = [90,80,34,56,1,245];
