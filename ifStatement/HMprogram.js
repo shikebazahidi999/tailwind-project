@@ -1576,7 +1576,7 @@ let promlep3 = ''
 // let strings = ["zahra","alimohammad","wahida","morteza","bahara"];
 // let sortedstring = strings.sort();
 // console.log(sortedstring);
-// // revers 
+// // revers ;
 // let revres = [1,2,3,4,5,90,100,3556];
 // let reversednum = revres.reverse();
 // console.log(reversednum);
