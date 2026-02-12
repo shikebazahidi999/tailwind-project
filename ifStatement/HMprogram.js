@@ -1528,7 +1528,7 @@ let promlep3 = ''
 // let findresuilt = finde.find(find);
 // console.log(findresuilt);
 
-// // findindex
+// // findindex;
 // let findindex = [3,7,8,9,10];
 // function mosoul(index){
 //     return index%2===0;
