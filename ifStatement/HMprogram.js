@@ -1554,7 +1554,7 @@ let promlep3 = ''
 //     return newList+" "+items
 // },"");
 // console.log(rediosed);
-// // function decleration
+// // function decleration;
 // let problem5 = '';
 // // let reducenum = [12,34,6,7];
 // // function reduces (newitem,arritems){
