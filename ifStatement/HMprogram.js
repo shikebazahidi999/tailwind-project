@@ -1523,7 +1523,7 @@ let promlep3 = ''
 // // find
 // let finde = ["moosa","ahmad","nargis","shafiq"];
 // function find(item){
-//     return item.includes("m")
+//     return item.includes("m");
 // }
 // let findresuilt = finde.find(find);
 // console.log(findresuilt);
