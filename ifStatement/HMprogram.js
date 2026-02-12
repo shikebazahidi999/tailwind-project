@@ -1520,7 +1520,7 @@ let promlep3 = ''
 //     return litters.includes("s");
 // });
 // console.log(mainlist);
-// // find
+// // find;
 // let finde = ["moosa","ahmad","nargis","shafiq"];
 // function find(item){
 //     return item.includes("m");
