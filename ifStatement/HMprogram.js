@@ -1548,7 +1548,7 @@ let promlep3 = ''
 //     return items.includes("a")
 // });
 
-// // rediuse 
+// // rediuse ;
 // let rediose = ["ali","mohammad","alisena"];
 // let rediosed = rediose.reduce((newList,items)=>{
 //     return newList+" "+items
