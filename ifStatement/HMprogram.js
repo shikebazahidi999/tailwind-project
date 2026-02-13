@@ -1471,7 +1471,7 @@ let promlep3 = ''
 //   list.unshift(string[i]);
 // }console.log(list);
 
-// // fifth one splice && join;
+// // fifth one splice && join;;
 // let splice = "hello every one today we are going to have a fun ";
 // if(splice>="a"&&splice<="z"){
 //     let splited = splice.split(" ");splited.splice(1,3,"dear ","classmates");
