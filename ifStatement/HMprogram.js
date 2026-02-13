@@ -1457,7 +1457,7 @@ let promlep3 = ''
 // };
 // console.log(getpop);
 
-// // // third one shift;;
+// // // third one shift;;;
 // let shift = ["hello","my","name","is","Shikeba"];
 // let shifted = "";
 // while(shift.length>0){
