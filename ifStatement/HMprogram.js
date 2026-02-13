@@ -1484,7 +1484,7 @@ let promlep3 = ''
 // let newlist = adadlist.slice(1,).join(" ");
 // console.log(newlist);
 
-// // seventh one concat && join;
+// // seventh one concat && join;;
 // let text8 = ["hello evrery one"];
 // let text9 = ["i hope you feel great"];
 // for(let i =0; i<text.length; i++){
@@ -1493,7 +1493,7 @@ let promlep3 = ''
 //            console.log(all);
 // } };
 
-// // eight one foreach;
+// // eight one foreach;;
 // let lists = [23,34,75];
 //  let newlisst =lists.forEach(items =>{
 //     console.log(items + 2);
