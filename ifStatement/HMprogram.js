@@ -1439,7 +1439,7 @@ let promlep3 = ''
 // }
 // console.log(startwith("hello and good by"));
 
-// // Array functions;
+// // Array functions;;
 
 // // first one push();
 // let text = "hello world";
