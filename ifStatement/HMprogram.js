@@ -1457,14 +1457,14 @@ let promlep3 = ''
 // };
 // console.log(getpop);
 
-// // // third one shift;
+// // // third one shift;;
 // let shift = ["hello","my","name","is","Shikeba"];
 // let shifted = "";
 // while(shift.length>0){
 //     shifted+= " "+shift.shift();
 // }console.log(shifted);
 
-// // // fourth one unshift;
+// // // fourth one unshift;;
 // let string = " hello girl";
 // let list = [];
 // for(let i =string.length ; i>=0; i--){
