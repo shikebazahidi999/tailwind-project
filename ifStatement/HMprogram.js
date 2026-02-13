@@ -1476,7 +1476,7 @@ let promlep3 = ''
 // if(splice>="a"&&splice<="z"){
 //     let splited = splice.split(" ");splited.splice(1,3,"dear ","classmates");
 //     let joined = splited.join(" ");
-//     console.log(joined);
+//     console.log(joined);;
 // };
 
 // // sixed one slice && join;;;
