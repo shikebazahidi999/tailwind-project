@@ -1464,7 +1464,7 @@ let promlep3 = ''
 //     shifted+= " "+shift.shift();
 // }console.log(shifted);
 
-// // // fourth one unshift;;
+// // // fourth one unshift;;;
 // let string = " hello girl";
 // let list = [];
 // for(let i =string.length ; i>=0; i--){
