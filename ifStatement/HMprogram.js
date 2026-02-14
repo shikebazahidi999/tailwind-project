@@ -1586,53 +1586,53 @@ let promlep3 = ''
 // console.log(revrsedstring);;
 
 // object functions;;;
-// adding new value;;;;
-let objectarr = [{name:"ali",lastname:"qorbani",age: 23},{name:"mohammad",lastname:"mohammadi",age: 34},{name:"mahdi",lastname:"zahedi",age: 34}];
-let resuiltofarr = objectarr.map( (object)=>{
-    if(object.name==="ali"){
-        object["score"]= 89;
-        return object;
-    };
+// // adding new value;;;;
+// let objectarr = [{name:"ali",lastname:"qorbani",age: 23},{name:"mohammad",lastname:"mohammadi",age: 34},{name:"mahdi",lastname:"zahedi",age: 34}];
+// let resuiltofarr = objectarr.map( (object)=>{
+//     if(object.name==="ali"){
+//         object["score"]= 89;
+//         return object;
+//     };
     
-});
-console.log(resuiltofarr);
+// });
+// console.log(resuiltofarr);
 
-// removing a value;;
-let deletvalue = [{name:"ali",lastname:"qorbani",age: 23,class: "a"},{name:"mohammad",lastname:"mohammadi",age: 34,class:"a"},{name:"mahdi",lastname:"zahedi",age: 34,class:"b"}];
-let resuiltdeletvalue = deletvalue.map( objects=>{
-    if(objects.class==="a"){
-        return objects;
-    }else{
-        delete objects.class;
-    }
-});
-console.log(resuiltdeletvalue);
+// // removing a value;;
+// let deletvalue = [{name:"ali",lastname:"qorbani",age: 23,class: "a"},{name:"mohammad",lastname:"mohammadi",age: 34,class:"a"},{name:"mahdi",lastname:"zahedi",age: 34,class:"b"}];
+// let resuiltdeletvalue = deletvalue.map( objects=>{
+//     if(objects.class==="a"){
+//         return objects;
+//     }else{
+//         delete objects.class;
+//     }
+// });
+// console.log(resuiltdeletvalue);
 
-// function in object;
-let objectfun = [{name:"ali",lastname:"qorbani",age: 23,class: "a",aliinfo:function (){ return ` hello MR.${this.name} ${this.lastname} you are ${this.age} years old and you are in class ${this.class}`}},{name:"mohammad",lastname:"mohammadi",age: 34,class:"a",mohammadinfo:function (){ return ` hello MR.${this.name} ${this.lastname} you are ${this.age} years old and you are in class ${this.class}`}},{name:"mahdi",lastname:"zahedi",age: 34,class:"b",mahdiinfo:function (){ return ` hello MR.${this.name} ${this.lastname} you are ${this.age} years old and you are in class ${this.class}`}}];
-let objectmap = objectfun.map(items =>{
-    if(items.name==="ali"){
-        return items.aliinfo();
-    }
-    else if(items.name==="mohammad"){
-        return items.mohammadinfo();
-    }
-    else{
-        return  items.mahdiinfo();
-    }
-});
-console.log(objectmap);
+// // function in object;
+// let objectfun = [{name:"ali",lastname:"qorbani",age: 23,class: "a",aliinfo:function (){ return ` hello MR.${this.name} ${this.lastname} you are ${this.age} years old and you are in class ${this.class}`}},{name:"mohammad",lastname:"mohammadi",age: 34,class:"a",mohammadinfo:function (){ return ` hello MR.${this.name} ${this.lastname} you are ${this.age} years old and you are in class ${this.class}`}},{name:"mahdi",lastname:"zahedi",age: 34,class:"b",mahdiinfo:function (){ return ` hello MR.${this.name} ${this.lastname} you are ${this.age} years old and you are in class ${this.class}`}}];
+// let objectmap = objectfun.map(items =>{
+//     if(items.name==="ali"){
+//         return items.aliinfo();
+//     }
+//     else if(items.name==="mohammad"){
+//         return items.mohammadinfo();
+//     }
+//     else{
+//         return  items.mahdiinfo();
+//     }
+// });
+// console.log(objectmap);
 
-// object keys;
-let aliInfo = {name:"ali",lastname:"zahedi",class:"a"};
-let resuiltofinfo = Object.keys(aliInfo);
-console.log(resuiltofinfo);
-// object values;
-let valueofaliinfo = Object.values(aliInfo);
-console.log(valueofaliinfo);
-// object entries;
-let entriesinfo = Object.entries(aliInfo);
-console.log(entriesinfo);
-// from entries;;
-let fromentris = Object.fromEntries(entriesinfo);
-console.log(fromentris);
+// // object keys;
+// let aliInfo = {name:"ali",lastname:"zahedi",class:"a"};
+// let resuiltofinfo = Object.keys(aliInfo);
+// console.log(resuiltofinfo);
+// // object values;
+// let valueofaliinfo = Object.values(aliInfo);
+// console.log(valueofaliinfo);
+// // object entries;
+// let entriesinfo = Object.entries(aliInfo);
+// console.log(entriesinfo);
+// // from entries;;
+// let fromentris = Object.fromEntries(entriesinfo);
+// console.log(fromentris);
