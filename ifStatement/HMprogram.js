@@ -1608,7 +1608,7 @@ let promlep3 = ''
 // });
 // console.log(resuiltdeletvalue);
 
-// // function in object;
+// // function in object;;
 // let objectfun = [{name:"ali",lastname:"qorbani",age: 23,class: "a",aliinfo:function (){ return ` hello MR.${this.name} ${this.lastname} you are ${this.age} years old and you are in class ${this.class}`}},{name:"mohammad",lastname:"mohammadi",age: 34,class:"a",mohammadinfo:function (){ return ` hello MR.${this.name} ${this.lastname} you are ${this.age} years old and you are in class ${this.class}`}},{name:"mahdi",lastname:"zahedi",age: 34,class:"b",mahdiinfo:function (){ return ` hello MR.${this.name} ${this.lastname} you are ${this.age} years old and you are in class ${this.class}`}}];
 // let objectmap = objectfun.map(items =>{
 //     if(items.name==="ali"){
