@@ -43,7 +43,7 @@
 
 // }
 // else{
-//     consol.log("you didn't enter the write number")
+//     consol.log("you didn't enter the write number");
 // }
 
 
