@@ -69,9 +69,9 @@
 //     for(let number2 = 0; number2<number.length ; number2++){
 //         mainNumber = mainNumber+ number[number2]
 //     }
-//     console.log(mainNumber)
+//     console.log(mainNumber);
 // }
-// adding(2,45,1,12,13,14)
+// adding(2,45,1,12,13,14);
 
 // // method push
 
