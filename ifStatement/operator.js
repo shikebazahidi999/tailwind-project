@@ -52,7 +52,7 @@
 //     return a+b+c
 // }
 // const resuilt= number1(12,45.54)
-// console.log(resuilt)
+// console.log(resuilt);
 
 // // defuilt argument
 
