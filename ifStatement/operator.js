@@ -54,7 +54,7 @@
 // const resuilt= number1(12,45.54);
 // console.log(resuilt);
 
-// // defuilt argument
+// // defuilt argument;
 
 // function multiply(name="mohammad", lastname="mohammadi"){
 //     return name+lastname;
