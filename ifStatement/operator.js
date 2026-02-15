@@ -85,7 +85,7 @@
 // console.log(AllNumbers);
 // };
 
-// // method pop
+// // method pop;
 // const numberget = "array numbers"
 // const popNumbr = [12,45,2,45,677,78,78,64,87,87];
 // if(numberget==="array numbers"){
