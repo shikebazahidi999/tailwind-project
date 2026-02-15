@@ -47,7 +47,7 @@
 // }
 
 
-// // anonymous function or arrow function
+// // anonymous function or arrow function;
 // const number1 = (a,b,c)=>{
 //     return a+b+c
 // }
