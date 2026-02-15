@@ -62,7 +62,7 @@
 // const total = multiply("masoma ","mosawi");
 // console.log(total);
 
-// // spread opretors
+// // spread opretors;
 
 // const adding = (...number)=>{
 //     let mainNumber = 0;
