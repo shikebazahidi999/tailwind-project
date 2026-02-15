@@ -90,7 +90,7 @@
 // const popNumbr = [12,45,2,45,677,78,78,64,87,87];
 // if(numberget==="array numbers"){
 //      popNumbr.pop();
-//     console.log(popNumbr)
+//     console.log(popNumbr);
 // }
 // // array method SLICE and FINDs
 // const listStudents = ["fatima","fahima","ferishta","shikeba","amir","mohammad","simir"];
