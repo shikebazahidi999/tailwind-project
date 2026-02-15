@@ -49,7 +49,7 @@
 
 // // anonymous function or arrow function;
 // const number1 = (a,b,c)=>{
-//     return a+b+c
+//     return a+b+c;
 // }
 // const resuilt= number1(12,45.54);
 // console.log(resuilt);
