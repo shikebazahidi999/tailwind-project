@@ -73,7 +73,7 @@
 // }
 // adding(2,45,1,12,13,14);
 
-// // method push
+// // method push;
 
 // const mainNumber =[12,45,32];
 // const interNumber = Number(prompt("enter a number that you eant to collect togrther"));
