@@ -52,7 +52,7 @@ const div1 = document.createElement("div");
 div1.classList.add("div");
 div1.style.marginLeft= "500px"
 body.appendChild(div1);
-// button3
+// button3;
 const btn3 = document.createElement("button");
 btn3.innerText= "Hide Shadow";
 btn3.classList.add("btnStyle");
