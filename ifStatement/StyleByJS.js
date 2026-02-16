@@ -47,7 +47,7 @@ btn2.addEventListener("click",()=>{
 div.append(image,h1,p1);
 
 
-// secound div/////////////////////////////////////////////
+// secound div;
 const div1 = document.createElement("div");
 div1.classList.add("div");
 div1.style.marginLeft= "500px"
