@@ -42,7 +42,7 @@ btn2.addEventListener("click",()=>{
     div.classList.remove("remove");
     image.classList.remove("remove");
     btn.classList.remove("hide");
-    btn2.classList.add("hide")
+    btn2.classList.add("hide");
 })
 div.append(image,h1,p1);
 
