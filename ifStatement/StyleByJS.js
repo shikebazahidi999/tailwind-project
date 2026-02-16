@@ -36,7 +36,7 @@ btn.addEventListener("click",()=>{
     div.classList.add("remove");
     image.classList.add("remove");
     btn.classList.add("hide");
-    btn2.classList.remove("hide")
+    btn2.classList.remove("hide");
 });
 btn2.addEventListener("click",()=>{
     div.classList.remove("remove");
