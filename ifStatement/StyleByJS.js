@@ -58,7 +58,7 @@ btn3.innerText= "Hide Shadow";
 btn3.classList.add("btnStyle");
 btn3.style.marginLeft = "500px";
 body.appendChild(btn3);
-// image2
+// image2;
 const image2 = document.createElement("img");
 image2.setAttribute("src","../imgs/Screenshot_20250724_234201.jpg");
 image2.setAttribute("alt","your intertent has promlem");
