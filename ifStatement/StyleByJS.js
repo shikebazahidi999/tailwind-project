@@ -82,7 +82,7 @@ btn4.style.marginLeft = "500px";
 
 body.appendChild(btn4);
 
-// btn condition
+// btn condition;
 btn3.addEventListener("click",()=>{
     div1.classList.add("remove");
     image2.classList.add("remove");
