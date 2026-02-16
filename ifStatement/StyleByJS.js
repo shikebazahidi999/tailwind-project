@@ -93,7 +93,7 @@ btn4.addEventListener("click",()=>{
     div1.classList.remove("remove");
     image2.classList.remove("remove");
     btn3.classList.remove("hide");
-    btn4.classList.add("hide")
+    btn4.classList.add("hide");
 })
 div1.append(image2,h12,p2);
 
