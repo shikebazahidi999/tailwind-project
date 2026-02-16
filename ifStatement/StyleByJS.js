@@ -64,7 +64,7 @@ image2.setAttribute("src","../imgs/Screenshot_20250724_234201.jpg");
 image2.setAttribute("alt","your intertent has promlem");
 image2.classList.add("imageStyle");
 
-// h12
+// h12;
 const h12 = document.createElement("h1");
 h12.innerHTML = "FC BARCELONA";
 h12.classList.add("h1Style");
