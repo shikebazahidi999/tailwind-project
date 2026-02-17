@@ -1,4 +1,4 @@
-// // function whit argument and parametr
+// // function whit argument and parametr;
 // let info = "my name is Shikeba ";
 // let info2 = "my father's name is Asadullah";
 // function AllInfo(name,fatherName){
