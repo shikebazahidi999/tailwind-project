@@ -21,7 +21,7 @@
 //     return  name+name2;         
 // }
 // const resuilt = returnInfo("Shikeba ", "Zahedi");
-// console.log(resuilt)
+// console.log(resuilt);
 
 // // templet litral;
 // const Me = "Shikeba";
