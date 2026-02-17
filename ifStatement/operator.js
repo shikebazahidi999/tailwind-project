@@ -23,7 +23,7 @@
 // const resuilt = returnInfo("Shikeba ", "Zahedi");
 // console.log(resuilt)
 
-// // templet litral
+// // templet litral;
 // const Me = "Shikeba";
 // const You = "Zahra";
 // const us = `Hello i am ${Me} And today i'll itrouduce you my freind ${You}`;
