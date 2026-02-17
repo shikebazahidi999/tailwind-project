@@ -9,7 +9,7 @@
 // AllInfo("Hello everyone " ,"how are you");
 
 // // function without argument and parametr
-// // hoisting
+// // hoisting;
 //  number();
 // function number(){
 //      console.log("Hello everyone");
