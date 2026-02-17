@@ -28,7 +28,7 @@
 // const You = "Zahra";
 // const us = `Hello i am ${Me} And today i'll itrouduce you my freind ${You}`;
 // console.log(us);
-// // ternary operator
+// // ternary operator;
 // const HomePrice = "$4500";
 // const homepricesForYou = HomePrice==="$4500"? `The home with ${HomePrice} price is a really beuti full hous that we suggest for you`:HomePrice==="$455"? "there are many houses that you can by with a good price":"we don't have any suggestion for you";
 // console.log(homepricesForYou);
