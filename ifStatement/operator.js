@@ -8,7 +8,7 @@
 // AllInfo(34,78);
 // AllInfo("Hello everyone " ,"how are you");
 
-// // function without argument and parametr
+// // function without argument and parametr;
 // // hoisting;
 //  number();
 // function number(){
