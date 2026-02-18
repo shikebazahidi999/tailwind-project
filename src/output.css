@@ -297,6 +297,9 @@
   .z-50 {
     z-index: 50;
   }
+  .float-end {
+    float: inline-end;
+  }
   .float-start {
     float: inline-start;
   }
@@ -404,6 +407,9 @@
   }
   .ml-12 {
     margin-left: calc(var(--spacing) * 12);
+  }
+  .ml-36 {
+    margin-left: calc(var(--spacing) * 36);
   }
   .ml-40 {
     margin-left: calc(var(--spacing) * 40);
