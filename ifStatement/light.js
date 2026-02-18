@@ -9,4 +9,7 @@ button.addEventListener("click",()=>{
         button2.classList.remove("hidden");
         button2.classList.add("block");
     }
+});
+button2.addEventListener("click",()=>{
+    
 })
