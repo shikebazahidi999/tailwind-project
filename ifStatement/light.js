@@ -1,7 +1,7 @@
 let button = document.getElementById("button");
 let light = document.getElementById("light");
 let button2 = document.getElementById("button2");
-// 
+// but
 button.addEventListener("click",()=>{
     
     if(button.classList.contains("block")){
