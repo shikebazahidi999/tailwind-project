@@ -11,7 +11,7 @@ button.addEventListener("click",()=>{
         light.classList.add("light");
     }
 });
-// but
+// butt
 button2.addEventListener("click",()=>{
             button.classList.remove("hidden");
         button.classList.add("block");
