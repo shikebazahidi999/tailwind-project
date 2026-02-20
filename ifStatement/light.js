@@ -27,4 +27,4 @@ h1.textContent ="this is "
 div.style.cssText= "border:2px solid white; wight:fix-content; padding:20px; margin:20px"
 let body = document.getElementById("div1");
 body.appendChild(div);
-body.appendChild(h1);
+div.appendChild(h1);
