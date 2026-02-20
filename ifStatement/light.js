@@ -24,7 +24,7 @@ button2.addEventListener("click",()=>{
 let div = document.createElement("div");
 let h1 = document.createElement("h1");
 h1.textContent ="this is a text wich is added by dom"
-div.style.cssText= "border:2px solid white; wight:fix-content; padding:20px; margin:20px"
+div.style.cssText= "border:2px solid white; wight:fix-content; padding:20px; margin:18px"
 let body = document.getElementById("div1");
 body.appendChild(div);
 div.appendChild(h1);
