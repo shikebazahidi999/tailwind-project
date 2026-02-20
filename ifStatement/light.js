@@ -22,5 +22,9 @@ button2.addEventListener("click",()=>{
 });
 // secound div part
 let div = document.createElement("div");
-div.style.cssText= "border:4px solid white; wight:fix-content; padding:4px"
-let body = document.body("body")
+let h1 = document.createElement("h1");
+h1.textContent ="this is "
+div.style.cssText= "border:2px solid white; wight:fix-content; padding:20px; margin:20px"
+let body = document.getElementById("div1");
+body.appendChild(div);
+body.appendChild(h1)
