@@ -23,7 +23,7 @@ button2.addEventListener("click",()=>{
 // secound div part
 let div = document.createElement("div");
 let h1 = document.createElement("h1");
-h1.textContent ="this is a text "
+h1.textContent ="this is a text wich is addad "
 div.style.cssText= "border:2px solid white; wight:fix-content; padding:20px; margin:20px"
 let body = document.getElementById("div1");
 body.appendChild(div);
