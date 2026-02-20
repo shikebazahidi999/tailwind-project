@@ -22,5 +22,6 @@ button2.addEventListener("click",()=>{
 });
 // secound div part
 let div = document.createElement("div");
+div.style.cssText= "border:4px solid white; wight:fix-content; padding:4px"
 let div1 = document.getElementById("div1");
 div1.nextSibling(div1);
