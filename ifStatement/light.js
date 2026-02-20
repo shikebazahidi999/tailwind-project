@@ -21,4 +21,5 @@ button2.addEventListener("click",()=>{
         light.classList.remove("light");
 });
 // secound div part
-let div = document.createElement("div")
+let div = document.createElement("div");
+let div1 = document.getElementById("div1")
