@@ -22,4 +22,5 @@ button2.addEventListener("click",()=>{
 });
 // secound div part
 let div = document.createElement("div");
-let div1 = document.getElementById("div1")
+let div1 = document.getElementById("div1");
+div1.nextSibling(div1);
