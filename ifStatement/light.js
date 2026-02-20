@@ -19,4 +19,5 @@ button2.addEventListener("click",()=>{
         button2.classList.remove("block");
         button2.classList.add("hidden");
         light.classList.remove("light");
-})
+});
+// secound div part
