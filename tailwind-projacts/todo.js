@@ -17,3 +17,7 @@ else{
     showtodo.textContent = "Hide Todo"
 }
 });
+addbtn.addEventListener("click",(refresh)=>{
+    refresh.preventDefault()
+
+})
