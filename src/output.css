@@ -1538,6 +1538,13 @@
       }
     }
   }
+  .hover\:text-black {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-black);
+      }
+    }
+  }
   .hover\:text-green-300 {
     &:hover {
       @media (hover: hover) {
