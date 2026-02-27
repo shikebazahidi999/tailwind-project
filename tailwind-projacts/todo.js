@@ -18,6 +18,6 @@ else{
 }
 });
 addbtn.addEventListener("click",(refresh)=>{
-    refresh.preventDefault()
+    refresh.preventDefault();
 
 })
