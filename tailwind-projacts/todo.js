@@ -5,5 +5,8 @@ let addbtn = document.getElementById("addbtn");
 let showtodo = document.getElementById("showtodo");
 
 showtodo.addEventListener("click",()=>{
-
+if(addDiv.classList.contains("flex")){
+    addDiv.classList.remove("flex");
+    addDiv.classList.add("hidden")
+}
 })
