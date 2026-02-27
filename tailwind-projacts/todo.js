@@ -1,8 +1,9 @@
 let addDiv = document.getElementById("addDiv");
-let input = document.getElementById("input");
+let input = document.getElementById("input").value ="";
 let importance = document.getElementById("importance");
 let addbtn = document.getElementById("addbtn");
 let showtodo = document.getElementById("showtodo");
+let todolist = [];
 // event listner for showing todo div
 showtodo.addEventListener("click",()=>{
 if(addDiv.classList.contains("flex")){
@@ -15,4 +16,4 @@ else{
     addDiv.classList.add("flex");
     showtodo.textContent = "Hide Todo"
 }
-})
+});
