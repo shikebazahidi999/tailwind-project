@@ -6,10 +6,23 @@
     <link rel="stylesheet" href="../src/output.css">
 </head>
 <body>
-    
+    <!-- navbar div -->
     <div class="w-full h-20 bg-orange-800 flex items-center justify-between fixed top-0 left-0">
         <h1 class="text-3xl font-bold flex text-white pl-3">Todo App</h1>
         <button class="bg-white p-2 px-3 mr-4 hover:rounded-2xl hover:border-2 hover:border-orange-950 transition-all duration-200 hover:bg-orange-200">Add Todo</button>
+
+    </div>
+    <!-- todo div -->
+    <div>
+        <div>
+            <h1>Add Todo</h1>
+            <input type="text">
+            <select  id="importance">
+                <option value="important">Important</option>
+                <option value="normal">Normal</option>
+                <option value="optional">Optional</option>
+            </select>
+        </div>
 
     </div>
 </body>
