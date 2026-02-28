@@ -15,3 +15,4 @@ let ages = prompt("enter your age");
 let genders = prompt("enter your gender");
 let countrys = prompt("enetr your country");
 let studentsInfos = new studentsInfo(names,lastnames,fathernames,ages,genders,countrys);
+console.log(studentsInfos)
