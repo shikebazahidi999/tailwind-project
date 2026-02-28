@@ -4,6 +4,7 @@ class studentsInfo {
         lastname:lastname;
         fathername:fathername;
         age:age;
-        gender:gender
+        gender:gender;
+        country:country;
     }
 }
