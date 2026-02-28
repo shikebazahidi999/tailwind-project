@@ -7,4 +7,6 @@ class studentsInfo {
         gender:gender;
         country:country;
     }
-}
+};
+let names = prompt("enter your name");
+let lastnames = prompt("enter your lastname");
