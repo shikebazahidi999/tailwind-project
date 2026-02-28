@@ -14,4 +14,4 @@ let fathernames = prompt("enter your father's name");
 let ages = prompt("enter your age");
 let genders = prompt("enter your gender");
 let countrys = prompt("enetr your country");
-let studentsInfos = new studentsInfo(names,lastnames,fathernames,ages,genders,count)
+let studentsInfos = new studentsInfo(names,lastnames,fathernames,ages,genders,countr)
