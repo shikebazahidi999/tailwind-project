@@ -1,11 +1,11 @@
 class studentsInfo {
     constructor(name,fathername,lastname,age,gender,country){
-        name:name;
-        lastname:lastname;
-        fathername:fathername;
-        age:age;
-        gender:gender;
-        country:country;
+        this.name =name;
+        this.lastname =lastname;
+        this.fathername =fathername;
+        this.age =age;
+        this.gender =gender;
+        this.country =country;
     }
 };
 let names = prompt("enter your name");
@@ -14,3 +14,4 @@ let fathernames = prompt("enter your father's name");
 let ages = prompt("enter your age");
 let genders = prompt("enter your gender");
 let countrys = prompt("enetr your country");
+let studentsInfos = studentsInfo
