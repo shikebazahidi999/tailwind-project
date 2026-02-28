@@ -10,3 +10,4 @@ class studentsInfo {
 };
 let names = prompt("enter your name");
 let lastnames = prompt("enter your lastname");
+let fathernames = prompt("enter your father's name");
