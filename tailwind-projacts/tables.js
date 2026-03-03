@@ -1,7 +1,7 @@
 class studentsInfo {
     name;
     lastname;
-    fathername
+    fathername;
     constructor(name,fathername,lastname,age,gender,country){
         this.name =name;
         this.lastname =lastname;
