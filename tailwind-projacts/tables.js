@@ -1,4 +1,5 @@
 class studentsInfo {
+    name;
     constructor(name,fathername,lastname,age,gender,country){
         this.name =name;
         this.lastname =lastname;
