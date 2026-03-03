@@ -3,7 +3,7 @@ class studentsInfo {
     lastname;
     fathername;
     age;
-    gen
+    gennd
     constructor(name,fathername,lastname,age,gender,country){
         this.name =name;
         this.lastname =lastname;
