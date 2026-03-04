@@ -18,7 +18,17 @@ button.addEventListener("click",()=>{
         familybtn.classList.add("hidden")
     }
 });
-
+familybtn.addEventListener("click",()=>{
+    if(familyinfo.classList.contains("hidden")){
+        familyinfo.classList.remove("hidden");
+        familyinfo.classList.add("flex");
+         mainDiv.classList.add("hidden");
+        mainDiv.classList.remove("block");
+    }
+    else{
+        
+    }
+})
 
 // const h1 = document.createElement("h1");
 // mainDiv.appendChild(h1);
