@@ -18,8 +18,8 @@ button.addEventListener("click",()=>{
         familybtn.classList.add("hidden")
     }
     if(familyinfo.classList.contains("flex")){
-                mainDiv.classList.add("hidden");
-        mainDiv.classList.remove("block");
+        familyinfo.classList.remove("inline-block");
+        familyinfo.classList.add("hidden");
     }
 });
 familybtn.addEventListener("click",()=>{
@@ -30,8 +30,8 @@ familybtn.addEventListener("click",()=>{
         mainDiv.classList.remove("block");
     }
     else{
-        familybtn.classList.remove("inline-block");
-        familybtn.classList.add("hidden")
+        familyinfo.classList.remove("inline-block");
+        familyinfo.classList.add("hidden")
     }
 })
 
