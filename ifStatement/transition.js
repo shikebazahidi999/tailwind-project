@@ -17,6 +17,10 @@ button.addEventListener("click",()=>{
         familybtn.classList.remove("inline-block");
         familybtn.classList.add("hidden")
     }
+    if(familyinfo.classList.contains("flex")){
+                mainDiv.classList.add("hidden");
+        mainDiv.classList.remove("block");
+    }
 });
 familybtn.addEventListener("click",()=>{
     if(familyinfo.classList.contains("hidden")){
@@ -26,7 +30,8 @@ familybtn.addEventListener("click",()=>{
         mainDiv.classList.remove("block");
     }
     else{
-        
+        familybtn.classList.remove("inline-block");
+        familybtn.classList.add("hidden")
     }
 })
 
