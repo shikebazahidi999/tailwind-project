@@ -1,13 +1,19 @@
 const button = document.getElementById("btn");
 const mainDiv = document.getElementById("allDiv");
+let familybtn = document.getElementById("familybtn");
+
 button.addEventListener("click",()=>{
     if(mainDiv.classList.contains("hidden")){
         mainDiv.classList.remove("hidden");
         mainDiv.classList.add("block");
+        familybtn.classList.remove("hidden");
+        familybtn.classList.add("inline-block")
     }
     else{
         mainDiv.classList.add("hidden");
         mainDiv.classList.remove("block");
+        familybtn.classList.remove("inline-block");
+        familybtn.classList.add("hidden")
     }
 });
 
@@ -30,8 +36,3 @@ h1.classList.add("mt-12");
 // another divs will add by map function
 
 
-const divsBymap = document.getElementsByClassName("a")
-// for(let i = 0; i<)
-for(let i= 0 ; i< divsBymap.length; i++){
-    divsBymap[i].classList.add("styles")
-}
