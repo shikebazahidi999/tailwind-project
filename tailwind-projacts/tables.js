@@ -42,7 +42,10 @@ class MyInfo{
     };
     setEmail(email){
         if(email.includes("@")&&email.includes(".")){
-            return this.email = "email "+email
+            return this.email = "email "+email;
+        }
+        else{
+            console.log("your email is not valid")
         }
     }
 }
