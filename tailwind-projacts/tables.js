@@ -39,5 +39,10 @@ class MyInfo{
         else{
             console.log("your age is invalid or you are too old");
         }
+    };
+    setEmail(email){
+        if(email.includes("@")&&email.includes(".")){
+            return this.email = "email "+email
+        }
     }
 }
