@@ -25,8 +25,8 @@
 
 class MyInfo{
     setName(name){
-        if(isNaN(name)&&name>=3){
-             this.name= "name " +name;
+        if(isNaN(name)){
+             this.names= name;
         }
         else{
             console.log("your name is invalid");
@@ -34,7 +34,7 @@ class MyInfo{
 
     };
     getname(){
-        return this.name;
+        return this.names;
     }
     setAge(age){
         if((!isNaN(age))&&age<100&&age>=1){
@@ -58,9 +58,11 @@ class MyInfo{
     getemail(){
         return this.email;
     }
-}
-let getnamess = prompt("enter your name");
+};
 let Me =  new MyInfo();
- console.log(Me.setName );
+let getnames = prompt("enter your name");
+Me.setName(getnames)
+ console.log(Me.getname() );
+ 
 let getage = prompt("enter your age");
 console.log(Me.setAge = getage) 
