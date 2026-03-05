@@ -29,7 +29,15 @@ class MyInfo{
             return this.name= name;
         }
         else{
-            console.log("your name is invalid")
+            console.log("your name is invalid");
+        }
+    };
+    setAge(age){
+        if((!isNaN(age))&&age<100){
+            return this.age = age;
+        }
+        else{
+            console.log("your age is invalid or you are too old")
         }
     }
 }
