@@ -63,6 +63,7 @@ let Me =  new MyInfo();
 let getnames = prompt("enter your name");
 Me.setName(getnames)
  console.log(Me.getname() );
- 
-let getage = prompt("enter your age");
-console.log(Me.setAge = getage) 
+
+let getages = prompt("enter your age");
+Me.setAge(getages)
+console.log(Me.getage()) 
