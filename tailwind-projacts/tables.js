@@ -44,6 +44,9 @@ class MyInfo{
             console.log("your age is invalid or you are too old");
         }
     };
+    getage(){
+        return this.age;
+    }
     setEmail(email){
         if(email.includes("@")&&email.includes(".")){
              this.email = "email "+email;
