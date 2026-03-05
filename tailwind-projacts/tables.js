@@ -31,7 +31,11 @@ class MyInfo{
         else{
             console.log("your name is invalid");
         }
+
     };
+    getname(){
+        return this.name;
+    }
     setAge(age){
         if((!isNaN(age))&&age<100&&age>=1){
             this.age = "age "+age;
@@ -49,7 +53,7 @@ class MyInfo{
         }
     }
 }
-let getname = prompt("enter your name");
+let getnamess = prompt("enter your name");
 let Me =  new MyInfo();
  console.log(Me.setName );
 let getage = prompt("enter your age");
