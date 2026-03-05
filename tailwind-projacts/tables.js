@@ -26,7 +26,10 @@
 class MyInfo{
     setName(name){
         if(isNaN(name)&&name>=3){
-            
+            return this.name= name;
+        }
+        else{
+            console.log("your name is invalid")
         }
     }
 }
