@@ -31,7 +31,6 @@ class MyInfo{
         else{
             console.log("your name is invalid");
         }
-
     };
     getname(){
         return this.names;
