@@ -55,6 +55,9 @@ class MyInfo{
             console.log("your email is not valid");
         }
     }
+    getemail(){
+        return this.email;
+    }
 }
 let getnamess = prompt("enter your name");
 let Me =  new MyInfo();
