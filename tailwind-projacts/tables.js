@@ -26,18 +26,18 @@
 class MyInfo{
     setName(name){
         if(isNaN(name)&&name>=3){
-            return this.name= name;
+            return this.name= "name " +name;
         }
         else{
             console.log("your name is invalid");
         }
     };
     setAge(age){
-        if((!isNaN(age))&&age<100){
-            return this.age = age;
+        if((!isNaN(age))&&age<100&&age>=1){
+            return this.age = "age "+age;
         }
         else{
-            console.log("your age is invalid or you are too old")
+            console.log("your age is invalid or you are too old");
         }
     }
 }
