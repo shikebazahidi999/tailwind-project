@@ -24,5 +24,9 @@
 // console.log(studentsInfos);
 
 class MyInfo{
-    
+    setName(name){
+        if(isNaN(name)&&name>=3){
+            
+        }
+    }
 }
