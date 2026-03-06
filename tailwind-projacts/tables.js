@@ -71,9 +71,9 @@ Teacher1.age(getages);
 let getemails = prompt("enter your email");
 Teacher1.email(getemails);
 let salary = prompt("enetr your salary how much is thit");
-Teacher1.salary = salary;
+console.log(Teacher1.salary = salary)
 let phoneNumber = prompt("enter your phone number");
-Teacher1.phoneNumber = phoneNumber;
+console.log(Teacher1.phoneNumber = phoneNumber)
 // let Me =  new MyInfo();
 // let getnames = prompt("enter your name");
 // Me.setName(getnames)
