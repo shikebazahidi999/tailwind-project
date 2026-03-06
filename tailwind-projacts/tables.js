@@ -63,7 +63,9 @@ class Teacher extends MyInfo{
     salary;
     phoneNumber;
 };
-let Teacher1 = new Teacher
+let Teacher1 = new Teacher();
+let getnames = prompt("enter your name");
+Teacher1.names(getnames)
 // let Me =  new MyInfo();
 // let getnames = prompt("enter your name");
 // Me.setName(getnames)
