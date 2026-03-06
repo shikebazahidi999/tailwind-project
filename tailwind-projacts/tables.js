@@ -23,50 +23,51 @@
 // let studentsInfos = new studentsInfo(names,lastnames,fathernames,ages,genders,countrys);
 // console.log(studentsInfos);
 
-// class MyInfo{
-//     setName(name){
-//         if(isNaN(name)){
-//              this.names= name;
-//         }
-//         else{
-//             console.log("your name is invalid");
-//         }
-//     };
-//     getname(){
-//         return this.names;
-//     }
-//     setAge(age){
-//         if((!isNaN(age))&&age<100&&age>=1){
-//             this.age = "age "+age;
-//         }
-//         else{
-//             console.log("your age is invalid or you are too old");
-//         }
-//     };
-//     getage(){
-//         return this.age;
-//     }
-//     setEmail(email){
-//         if(email.includes("@")&&email.includes(".")){
-//              this.email = "email "+email;
-//         }
-//         else{
-//             console.log("your email is not valid");
-//         }
-//     }
-//     getemail(){
-//         return this.email;
-//     }
-// };
-// let Me =  new MyInfo();
-// let getnames = prompt("enter your name");
-// Me.setName(getnames)
-//  console.log(Me.getname() );
+class MyInfo{
+    setName(name){
+        if(isNaN(name)){
+             this.names= name;
+        }
+        else{
+            console.log("your name is invalid");
+        }
+    };
+    getname(){
+        return this.names;
+    }
+    setAge(age){
+        if((!isNaN(age))&&age<100&&age>=1){
+            this.age = "age "+age;
+        }
+        else{
+            console.log("your age is invalid or you are too old");
+        }
+    };
+    getage(){
+        return this.age;
+    }
+    setEmail(email){
+        if(email.includes("@")&&email.includes(".")){
+             this.email = "email "+email;
+        }
+        else{
+            console.log("your email is not valid");
+        }
+    }
+    getemail(){
+        return this.email;
+    }
+};
+let Me =  new MyInfo();
+let getnames = prompt("enter your name");
+Me.setName(getnames)
+ console.log(Me.getname() );
 
-// let getages = prompt("enter your age");
-// Me.setAge(getages)
-// console.log(Me.getage()) ;
+let getages = prompt("enter your age");
+Me.setAge(getages)
+console.log(Me.getage()) ;
 
-// let getemails = prompt("enter your email");
-// Me.setEmail(getemails);
-// console.log(Me.getemail());
+let getemails = prompt("enter your email");
+Me.setEmail(getemails);
+console.log(Me.getemail());
+
