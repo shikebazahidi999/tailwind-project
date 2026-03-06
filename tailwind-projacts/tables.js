@@ -69,6 +69,7 @@ Teacher1.names(getnames);
 let getages = prompt("enter your age");
 Teacher1.age(getages);
 let getemails = prompt("enter your email");
+Teacher1.email(getemails)
 // let Me =  new MyInfo();
 // let getnames = prompt("enter your name");
 // Me.setName(getnames)
