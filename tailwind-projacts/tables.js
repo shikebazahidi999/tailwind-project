@@ -59,7 +59,7 @@ class MyInfo{
     }
 };
 
-class
+class Teacher extends MyInfo
 // let Me =  new MyInfo();
 // let getnames = prompt("enter your name");
 // Me.setName(getnames)
