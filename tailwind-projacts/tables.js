@@ -62,6 +62,10 @@ class MyInfo{
 class Teacher extends MyInfo{
     salary;
     phoneNumber;
+   static workTime(){
+    console.log(`my work starts at 12am to 6pm`)
+
+    }
 };
 let Teacher1 = new Teacher();
 let getnames = prompt("enter your name");
