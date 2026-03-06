@@ -58,16 +58,16 @@ class MyInfo{
         return this.email;
     }
 };
-let Me =  new MyInfo();
-let getnames = prompt("enter your name");
-Me.setName(getnames)
- console.log(Me.getname() );
+// let Me =  new MyInfo();
+// let getnames = prompt("enter your name");
+// Me.setName(getnames)
+//  console.log(Me.getname() );
 
-let getages = prompt("enter your age");
-Me.setAge(getages)
-console.log(Me.getage()) ;
+// let getages = prompt("enter your age");
+// Me.setAge(getages)
+// console.log(Me.getage()) ;
 
-let getemails = prompt("enter your email");
-Me.setEmail(getemails);
-console.log(Me.getemail());
+// let getemails = prompt("enter your email");
+// Me.setEmail(getemails);
+// console.log(Me.getemail());
 
