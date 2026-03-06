@@ -58,6 +58,8 @@ class MyInfo{
         return this.email;
     }
 };
+
+class
 // let Me =  new MyInfo();
 // let getnames = prompt("enter your name");
 // Me.setName(getnames)
