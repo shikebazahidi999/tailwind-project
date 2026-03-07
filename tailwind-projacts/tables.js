@@ -69,15 +69,16 @@ class Teacher extends MyInfo{
 };
 let Teacher1 = new Teacher();
 let getnames = prompt("enter your name");
-Teacher1.names(getnames);
+Teacher1.setName(getnames);
 let getages = prompt("enter your age");
-Teacher1.age(getages);
+Teacher1.setAge(getages);
 let getemails = prompt("enter your email");
-Teacher1.email(getemails);
+Teacher1.setEmail(getemails);
 let salary = prompt("enetr your salary how much is thit");
 console.log(Teacher1.salary = salary)
 let phoneNumber = prompt("enter your phone number");
-console.log(Teacher1.phoneNumber = phoneNumber)
+console.log(Teacher1.phoneNumber = phoneNumber);
+Teacher.workTime()
 // let Me =  new MyInfo();
 // let getnames = prompt("enter your name");
 // Me.setName(getnames)
@@ -89,5 +90,5 @@ console.log(Teacher1.phoneNumber = phoneNumber)
 
 // let getemails = prompt("enter your email");
 // Me.setEmail(getemails);
-// console.log(Me.getemail());
+console.log(Me.getemail());
 
