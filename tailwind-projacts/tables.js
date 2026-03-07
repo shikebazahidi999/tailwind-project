@@ -88,7 +88,7 @@ Teacher.workTime()
 // Me.setAge(getages)
 // console.log(Me.getage()) ;
 
-let getemails = prompt("enter your email");
+// let getemails = prompt("enter your email");
 Me.setEmail(getemails);
 console.log(Me.getemail());
 
