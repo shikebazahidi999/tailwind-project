@@ -84,7 +84,7 @@ Teacher.workTime()
 // Me.setName(getnames)
 //  console.log(Me.getname() );
 
-// let getages = prompt("enter your age");
+let getages = prompt("enter your age");
 Me.setAge(getages);
 console.log(Me.getage()) ;
 
