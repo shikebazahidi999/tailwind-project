@@ -79,7 +79,7 @@ console.log(Teacher1.salary = salary)
 let phoneNumber = prompt("enter your phone number");
 console.log(Teacher1.phoneNumber = phoneNumber);
 Teacher.workTime()
-// let Me =  new MyInfo();
+let Me =  new MyInfo();
 // let getnames = prompt("enter your name");
 Me.setName(getnames);
  console.log(Me.getname() );
