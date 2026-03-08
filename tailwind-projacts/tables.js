@@ -90,5 +90,5 @@ console.log(Me.getage()) ;
 
 // let getemails = prompt("enter your email");
 Me.setEmail(getemails);
-console.log(Me.getemail());
+// console.log(Me.getemail());
 
