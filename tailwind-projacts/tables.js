@@ -85,7 +85,7 @@ Me.setName(getnames);
  console.log(Me.getname() );
 
 // let getages = prompt("enter your age");
-Me.setAge(getages);
+// Me.setAge(getages);
 // console.log(Me.getage()) ;
 
 // let getemails = prompt("enter your email");
